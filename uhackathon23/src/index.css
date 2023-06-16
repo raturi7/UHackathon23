@@ -10,9 +10,74 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  background-color: black;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.ellipse1{
+  
+position: absolute;
+width: 384px;
+height: 384px;
+left: 0px;
+top: -51px;
+
+background: #6C1F93;
+filter: blur(200.5px);
+}
+
+.ellipse2{
+  position: absolute;
+width: 554px;
+height: 554px;
+left: 1277px;
+top: 485px;
+
+background: #360498;
+filter: blur(200.5px);
+}
+.ellipse3{
+  position: absolute;
+width: 316px;
+height: 316px;
+left: -163px;
+top: 1645px;
+
+background: #00CCFF;
+filter: blur(290.5px);
+}
+.ellipse4{
+  position: absolute;
+  width: 384px;
+  height: 384px;
+  left: 1197px;
+  top: 2378px;
+  
+  background: #6C1F93;
+  filter: blur(200.5px);
+}
+.ellipse5{
+  position: absolute;
+  width: 592px;
+  height: 592px;
+  left: -332px;
+  top: 3501px;
+  
+  background: #360498;
+  filter: blur(200.5px);
+}
+.ellipse6{
+  position: absolute;
+width: 416px;
+height: 416px;
+left: 1243px;
+top: 4719px;
+
+background: #00CCFF;
+filter: blur(290.5px);
 }
