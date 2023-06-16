@@ -1,0 +1,14 @@
+nav .navbar-nav .join-btn{
+    background-color: #FF5A05;
+    color: white;
+    border-radius: 5px;
+}
+nav .navbar-nav{
+    gap: 1rem;
+}
+nav .navbar-nav .nav-link{
+    padding-left:25px !important;
+    padding-right: 25px !important;
+    font-size: 18px;
+    font-weight: 600;
+}

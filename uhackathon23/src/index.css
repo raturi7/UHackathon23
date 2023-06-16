@@ -1,13 +1,16 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=League+Spartan&display=swap');
 
-
+*{
+  font-family: 'Lato', sans-serif !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
@@ -19,13 +22,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.ellipse1,.ellipse2,.ellipse3,.ellipse4,.ellipse5,.ellipse6{
+  z-index: -100 !important;
+}
 .ellipse1{
   
 position: absolute;
-width: 384px;
-height: 384px;
-left: 0px;
-top: -51px;
+width: 484px;
+height: 484px;
+left: -50px;
+top: -101px;
 
 background: #6C1F93;
 filter: blur(200.5px);
@@ -33,9 +39,9 @@ filter: blur(200.5px);
 
 .ellipse2{
   position: absolute;
-width: 554px;
-height: 554px;
-left: 1277px;
+width: 654px;
+height: 654px;
+left: 1177px;
 top: 485px;
 
 background: #360498;
@@ -53,8 +59,8 @@ filter: blur(290.5px);
 }
 .ellipse4{
   position: absolute;
-  width: 384px;
-  height: 384px;
+  width: 484px;
+  height: 484px;
   left: 1197px;
   top: 2378px;
   
