@@ -9,7 +9,7 @@ import Sponsor from "./Components/Sponsor/Sponsor";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App" style={{position:"relative",overflow:"hidden"}}>
         <Navbar />
 
         <div className="ellipses-container">
@@ -27,11 +27,9 @@ function App() {
             <Route path="/about" element={<About />} />
           </Routes>
         </div>
-      </div>
-      <Sponsor/>
-      <div>
+        <Sponsor/>
         <Footer/>
-        </div>
+      </div>
     </Router>
   );
 }

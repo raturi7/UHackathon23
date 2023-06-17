@@ -19,7 +19,6 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale;
-  position: relative;
   overflow-x: hidden;
   background-color: black;
   height: 100vh;
@@ -122,6 +121,15 @@ filter: blur(220px);
   }
   .ellipse1{
     left: -10%;
-    top: -10%;
+    top: -25%;
   }
+}
+.navbar-toggler{
+  border: none;
+  background-color: transparent;
+  outline: none !important;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+  outline: none;
 }
