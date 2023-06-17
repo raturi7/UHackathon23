@@ -65,12 +65,13 @@ const Hero = () => {
           </h4>
           <h5 style={{ letterSpacing: "0.1rem" }} className="h5">PRESENTS</h5>
           <h1 className="title my-3">
-            UHackathon 4.0 <br />
+            
             <motion.span
               variants={textVariants}
               initial="hidden"
               animate="visible"
             >
+              UHackathon 4.0 <br />
               Meta Edition
             </motion.span>
           </h1>

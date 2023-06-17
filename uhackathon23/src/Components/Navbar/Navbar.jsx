@@ -35,9 +35,9 @@ const Navbar = () => {
     <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
       <div className="navbar-nav" >
         <a className="nav-link active" aria-current="page" href="/" style={{color:color}}>Home</a>
-        <a className="nav-link" href="/" style={{color:color}}>About</a>
-        <a className="nav-link" href="/" style={{color:color}}>Gallery</a>
-        <a className="nav-link" href="/" style={{color:color}}>Contact</a>
+        <a className="nav-link" href="/About" style={{color:color}}>About</a>
+        <a className="nav-link" href="/Gallery" style={{color:color}}>Gallery</a>
+        <a className="nav-link" href="/Contact" style={{color:color}}>Contact</a>
         <button className='nav-link join-btn'>Join Us</button>
       </div>
     </div>
