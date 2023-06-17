@@ -1,10 +1,66 @@
 import React from 'react'
+import './Sponsor.css'
+import img1 from './Images/90a2c3b80d4b7a7599788bfeb9b848ce-removebg-preview 1.png'
+import img2 from './Images/539f3ffbecad044276726c01-removebg-preview 1.png'
+import img3 from './Images/google-1-removebg-preview 1.png'
+import img4 from './Images/image25.png'
+import img5 from './Images/image27.png'
+import img6 from './Images/kisspng-logo-brand-walmart-desktop-wallpaper-image-walmart-to-offer-low-cost-checking-accounts-5b63eaa32fa612 1.png'
+import img7 from './Images/new-Microsoft-logo-removebg-preview 1.png'
+import Heading from '../Heading/Heading'
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
+const imgaes=[img1,img2,img3,img4,img5,img6,img7];
+function sponsorCard(img){
+  return <div class="card"><img class="card-img" src={img} alt="" /></div>
+}
+const settings = {
+  dots: false,
+  arrows:false,
+  infinite: true,
+  slidesToShow: 2,
+  swipeToSlide: true,
+  slidesToScroll: 1,
+  autoplay: true,
+  speed: 2000,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 525,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }
+  ]
+};
 const Sponsor = () => {
   return (
-    <div>
-      
+    <>
+    <div className='container d-flex align-items-center justify-content-center flex-row flex-wrap sponsor-container two-margin-top pc-container'>
+      <Heading text="Meet Our Sponsors" position="center" />
+         {
+        imgaes.map((element)=>{
+          return sponsorCard(element)
+        })
+         }
     </div>
+   <div className="container mobile-container sponsor-container mobile-margin">
+
+   <Heading text="Meet Our Sponsors" position="center" />
+   <div className="container">
+   <Slider {...settings}>
+   {
+        imgaes.map((element)=>{
+          return sponsorCard(element)
+        })
+         }
+        </Slider>
+        </div>
+   </div>
+    </>
   )
 }
 
