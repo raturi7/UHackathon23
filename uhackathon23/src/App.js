@@ -3,6 +3,7 @@ import Hero from './Components/Hero/Hero';
 import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './pages/About/About';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
             <Route path="/about" element={<About />} />
           </Routes>
         </div>
+        <div>
+        <Footer/>
+        </div>
+        
       </div>
     </Router>
   );
