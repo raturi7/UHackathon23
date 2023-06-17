@@ -55,15 +55,15 @@ const Hero = () => {
       className="container d-flex  justify-content-center hero-container"
       style={{ color: "#E4E4E4", textAlign: "left" }}
     >
-      <div className="container content-text">
-        <div className="d-flex flex-column align-items-start justify-content-center">
+      <div className="container ">
+        <div className="d-flex flex-column content-text align-items-start justify-content-center">
           <h4
-            className="text-uppercase"
-            style={{ letterSpacing: "0.2rem", fontWeight: "600", fontSize: "20px" }}
+            className="text-uppercase h4"
+            style={{ letterSpacing: "0.2rem", fontWeight: "600" }}
           >
             Upes School of Computer Science
           </h4>
-          <h5 style={{ letterSpacing: "0.1rem" }}>PRESENTS</h5>
+          <h5 style={{ letterSpacing: "0.1rem" }} className="h5">PRESENTS</h5>
           <h1 className="title my-3">
             UHackathon 4.0 <br />
             <motion.span
@@ -75,15 +75,15 @@ const Hero = () => {
             </motion.span>
           </h1>
 
-          <h5 style={{ letterSpacing: "0.1rem", lineHeight: "30px" }}>
+          <h5 style={{ letterSpacing: "0.1rem", lineHeight: "30px" }} className="h5">
             <AnimatedText
               text="The 4th iteration of UPES Hackathon, 
               UHackathon 4.0 META welcomes you!"
-              className=""
+              className="h5"
             />
           </h5>
-          <button className="btn  mt-4 rounded  !bg-orange-600 register-btn !hover:bg-white	">
-            Register Now
+          <button className="btn join-btn mt-5">
+            Get Started
           </button>
         </div>
       </div>

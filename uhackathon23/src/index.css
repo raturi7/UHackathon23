@@ -14,10 +14,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
+  overflow-x: hidden;
   background-color: black;
+  height: 100vh;
+}
+html{
+  overflow-y: hidden;
   overflow-x: hidden;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -28,62 +32,89 @@ code {
 .ellipse1{
   
 position: absolute;
-width: 484px;
-height: 484px;
-left: -50px;
-top: -101px;
+width: 38vw;
+height: 35vw;
+left: -10%;
+top: -5%;
 
 background: #6C1F93;
-filter: blur(200.5px);
+filter: blur(170px);
 }
 
 .ellipse2{
   position: absolute;
-width: 654px;
-height: 654px;
-left: 1177px;
+width: 40.875vw;
+height: 40.875vw;
+left: 75%;
 top: 485px;
 
 background: #360498;
-filter: blur(200.5px);
+filter: blur(150px);
 }
 .ellipse3{
   position: absolute;
-width: 316px;
-height: 316px;
-left: -163px;
+width: 38vw;
+height: 38vw;
+left: -10%;
 top: 1645px;
 
 background: #00CCFF;
-filter: blur(290.5px);
+filter: blur(230px);
 }
 .ellipse4{
   position: absolute;
-  width: 484px;
-  height: 484px;
-  left: 1197px;
-  top: 2378px;
+  width: 42vw;
+  height: 42vw;
+  left: 75%;
+  top: 2578px;
   
   background: #6C1F93;
-  filter: blur(200.5px);
+  filter: blur(170px);
 }
 .ellipse5{
   position: absolute;
-  width: 592px;
-  height: 592px;
-  left: -332px;
+  width: 42vw;
+  height: 42vw;
+  left: -5%;
   top: 3501px;
   
   background: #360498;
-  filter: blur(200.5px);
+  filter: blur(150px);
 }
 .ellipse6{
   position: absolute;
-width: 416px;
-height: 416px;
-left: 1243px;
+  width: 38vw;
+  height: 38vw;
+left: 75%;
 top: 4719px;
 
 background: #00CCFF;
-filter: blur(290.5px);
+filter: blur(220px);
+}
+
+@media (max-width:992px) {
+  .ellipse2{
+    top: 600px;
+  }
+  .ellipse5{
+    position: absolute;
+    width: 48vw;
+    height: 48vw;
+    left: -5%;
+    top: 3701px;
+  }
+  .ellipse4{
+    top: 2678px;
+  }
+}
+@media (max-width:767px) {
+  .ellipse1,.ellipse2,.ellipse3,.ellipse4,.ellipse5,.ellipse6{
+    width: 50%;
+    height: 50%;
+    filter: blur(120px);
+  }
+  .ellipse1{
+    left: -10%;
+    top: -10%;
+  }
 }
