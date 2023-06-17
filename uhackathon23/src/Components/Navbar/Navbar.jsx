@@ -3,7 +3,7 @@ import upesLogo from '../Images/uhacklogo1.png'
 import './Navbar.css'
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg bg-light ">
   <div className="container">
     <a className="navbar-brand" href="/">
     <img src={upesLogo} alt="Bootstrap"/>

@@ -25,3 +25,8 @@
     width: 75%;
   justify-content: space-evenly;
 }
+.register-btn{
+    background-color: #FF5A05;
+    color: white;
+    border-radius: 5px;
+}
