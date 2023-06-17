@@ -1,4 +1,4 @@
-import React,{useEffect,useRef, useState} from 'react'
+import React,{useEffect, useState} from 'react'
 import upesLogo from '../Images/uhacklogo1.png'
 import upesWhiteLogo from '../Images/uhacklogowhite1.png'
 import './Navbar.css'

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Hero.css";
 import { motion } from "framer-motion";
 import AnimatedText from "../AnimatedText";
+import Footer from "../Footer/Footer";
 
 const Hero = () => {
   const textVariants = {
@@ -99,7 +100,9 @@ const Hero = () => {
           <li className="list-group-item">SECONDS</li>
         </ul>
       </div>
+     
     </div>
+    
   );
 };
 
