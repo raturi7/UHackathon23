@@ -9,6 +9,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+.two-margin-top{
+  margin-top: 170px;
+}
+.mobile-margin{
+  margin-top: 120px;
+}
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased !important;

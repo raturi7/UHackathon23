@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Hero.css";
 import { motion } from "framer-motion";
 import AnimatedText from "../AnimatedText";
-import Footer from "../Footer/Footer";
+
 
 const Hero = () => {
   const textVariants = {
@@ -60,7 +60,7 @@ const Hero = () => {
         <div className="d-flex flex-column content-text align-items-start justify-content-center">
           <h4
             className="text-uppercase h4"
-            style={{ letterSpacing: "0.2rem", fontWeight: "600" }}
+            style={{ fontWeight: "600" }}
           >
             Upes School of Computer Science
           </h4>
@@ -77,9 +77,10 @@ const Hero = () => {
             </motion.span>
           </h1>
 
-          <h5 style={{ letterSpacing: "0.1rem", lineHeight: "30px" }} className="h5">
+
+          <h5 style={{ letterSpacing: "0.1rem", lineHeight: "30px"}} className="h5">
             <AnimatedText
-              text="The 4th iteration of UPES Hackathon, 
+              text="The 4th iteration of UPES Hackathon,
               UHackathon 4.0 META welcomes you!"
               className="h5"
             />

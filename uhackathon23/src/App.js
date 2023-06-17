@@ -4,6 +4,7 @@ import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './pages/About/About';
 import Footer from './Components/Footer/Footer';
+import Sponsor from "./Components/Sponsor/Sponsor";
 
 function App() {
   return (
@@ -26,11 +27,11 @@ function App() {
             <Route path="/about" element={<About />} />
           </Routes>
         </div>
-        <div>
+      </div>
+      <Sponsor/>
+      <div>
         <Footer/>
         </div>
-        
-      </div>
     </Router>
   );
 }
