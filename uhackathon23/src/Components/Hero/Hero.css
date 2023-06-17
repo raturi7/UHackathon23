@@ -1,5 +1,5 @@
 .hero-container .title{
-    font-size: 70px;
+    font-size: 64px;
     letter-spacing:0.1rem;
     font-weight: 700;
 }
@@ -7,13 +7,20 @@
     background-image: url("../Images/VR\ Glasses\ 1.png");
     background-size: cover;
     background-position-x: center;
+    padding: 10px;
+    justify-content: flex-start !important;
 }
 .hero-container{
     margin-top: 150px;
+    
+}
+.h4{
+    font-size: 20px;
 }
 .timer{
-    font-size: 78px;
+    font-size: 76px;
     letter-spacing: 5px;
+    margin-top: 80px;
 }
 .hero-container .list-group-item
 {
@@ -25,8 +32,82 @@
     width: 75%;
   justify-content: space-evenly;
 }
-.register-btn{
-    background-color: #FF5A05;
-    color: white;
-    border-radius: 5px;
+@media (max-width:1400px)  and (min-width:992px){
+    .vr-timer{
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+    .timer{
+     margin-top: 50px;
+     font-size: 65px;
+    }
+}
+@media (max-width:1200px) and (min-width:992px) {
+    .hero-container .title{
+        font-size: 55px;
+    }
+    .h4,.h5{
+        font-size: 18px;
+    }
+    .timer{
+        margin-top: 40px;
+        line-height: normal;
+        margin-bottom: 0 !important;
+    }
+    .timer,.hero-container .list-group-horizontal{
+       
+        transform: scale(0.8);
+    }
+}
+@media (max-width:992px) {
+    .hero-container{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center !important;
+        margin-top: 100px;
+    }
+    .vr-timer{
+        min-height: 400px;
+        margin-bottom: 50px;
+    }
+    .content-text{
+        align-items: center !important;
+    }
+}
+@media (max-width:768px) {
+    .vr-timer{
+        background-size: contain;
+        background-repeat: no-repeat;
+       margin-bottom: 0px;
+      min-height: 330px;
+    }
+    .timer{
+        font-size: 60px;
+        margin-top: 50px;
+    }
+}
+@media (max-width:525px) {
+    .vr-timer{
+        min-height: 62.857vw;
+    }
+    .hero-container{
+        margin-top: 70px;
+    }
+    .hero-container .list-group-horizontal{
+       font-size:2.667vw;
+    }
+    .timer{
+        font-size: 10.1vw;
+        margin-top: 11.429vw;
+        line-height: 50px;
+        margin-bottom: 0 !important;
+    }
+    .h4,.h5{
+        font-size: 3.2vw;
+    }
+    .hero-container .title{
+        font-size: 11vw;
+    }
 }
