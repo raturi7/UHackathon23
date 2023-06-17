@@ -66,7 +66,7 @@
         flex-wrap: wrap;
         justify-content: center;
         text-align: center !important;
-        margin-top: 100px;
+        margin-top: 160px;
     }
     .vr-timer{
         min-height: 400px;
@@ -93,7 +93,7 @@
         min-height: 62.857vw;
     }
     .hero-container{
-        margin-top: 70px;
+        margin-top: 150px;
     }
     .hero-container .list-group-horizontal{
        font-size:2.667vw;

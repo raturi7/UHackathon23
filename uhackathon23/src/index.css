@@ -11,7 +11,7 @@
 }
 body {
   margin: 0;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
   overflow-x: hidden;
@@ -19,8 +19,9 @@ body {
   height: 100vh;
 }
 html{
-  overflow-y: hidden;
-  overflow-x: hidden;
+  overflow: hidden !important;
+  z-index: 100 !important;
+
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
