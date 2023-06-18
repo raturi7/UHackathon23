@@ -53,7 +53,8 @@ const Navbar = () => {
             <a className="nav-link" href="/About" style={{ color: color }}>About</a>
             <a className="nav-link" href="/Gallery" style={{ color: color }}>Gallery</a>
             <a className="nav-link" href="/Contact" style={{ color: color }}>Contact</a>
-            <button className='nav-link join-btn'>Join Us</button>
+            <a className=" no-underline" href='/Register'> <button className='nav-link join-btn' href="/Register">Join Us</button></a>
+           
           </div>
         </div>
       </div>
