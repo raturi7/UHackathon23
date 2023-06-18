@@ -4,8 +4,8 @@ import Navbar from "./Components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./pages/About/About";
 import Footer from "./Components/Footer/Footer";
-import Sponsor from "./Components/Sponsor/Sponsor";
 import Register from "./pages/Register/Register";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
             <Route path="/" element={<Hero />} />
             <Route path="/about" element={<About />} />
             <Route path="/register" element={<Register/>} />
+            <Route path="/contact" element={<Contact/>} />
           </Routes>
         </div>
         <Footer/>
