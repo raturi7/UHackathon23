@@ -26,22 +26,22 @@ const Hero = () => {
       },
     },
   };
-
   const calculateTimeLeft = () => {
     const difference = +new Date("September 2, 2023") - +new Date();
     let timeLeft = {};
-
+  
     if (difference > 0) {
       timeLeft = {
-        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-        hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-        minutes: Math.floor((difference / 1000 / 60) % 60),
-        seconds: Math.floor((difference / 1000) % 60),
+        days: String(Math.floor(difference / (1000 * 60 * 60 * 24))).padStart(2, '0'),
+        hours: String(Math.floor((difference / (1000 * 60 * 60)) % 24)).padStart(2, '0'),
+        minutes: String(Math.floor((difference / 1000 / 60) % 60)).padStart(2, '0'),
+        seconds: String(Math.floor((difference / 1000) % 60)).padStart(2, '0'),
       };
     }
-
+  
     return timeLeft;
   };
+  
 
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
