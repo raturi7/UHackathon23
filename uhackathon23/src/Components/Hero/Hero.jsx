@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Hero.css";
 import { motion } from "framer-motion";
 import AnimatedText from "../AnimatedText";
+import Sponsor from "../Sponsor/Sponsor";
 
 
 const Hero = () => {
@@ -52,6 +53,7 @@ const Hero = () => {
   }, []);
 
   return (
+    <div>
     <div
       className="container d-flex  justify-content-center hero-container"
       style={{ color: "#E4E4E4", textAlign: "left" }}
@@ -103,6 +105,9 @@ const Hero = () => {
       </div>
      
     </div>
+    <Sponsor/>
+    </div>
+    
     
   );
 };
