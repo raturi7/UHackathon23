@@ -1,9 +1,9 @@
-import './App.css';
-import Hero from './Components/Hero/Hero';
-import Navbar from './Components/Navbar/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import About from './pages/About/About';
-import Footer from './Components/Footer/Footer';
+import "./App.css";
+import Hero from "./Components/Hero/Hero";
+import Navbar from "./Components/Navbar/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./pages/About/About";
+import Footer from "./Components/Footer/Footer";
 import Sponsor from "./Components/Sponsor/Sponsor";
 
 function App() {
@@ -28,10 +28,14 @@ function App() {
           </Routes>
         </div>
       </div>
-      <Sponsor/>
       <div>
-        <Footer/>
-        </div>
+      <Sponsor />
+
+      </div>
+
+      <div className="footer">
+        <Footer />
+      </div>
     </Router>
   );
 }

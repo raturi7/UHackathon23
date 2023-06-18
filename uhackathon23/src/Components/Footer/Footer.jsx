@@ -6,13 +6,13 @@ import { motion } from "framer-motion";
 const Footer = () => {
   return (
     <footer>
-      <div className="footer">
-        <div className="footer_text1  mt-5">
-          <p className="text-white  text-xl mt-4">
+      <div className="footer flex flex-col align-center text-center  px-6 pt-6">
+        <div className="footer_text1  mt-5 px-6 pt-6">
+          <p className="text-white  text-xl mt-4 text-center">
             Stay Up To Date with our News and Notifications
           </p>
         </div>
-        <div className="footer_social flex flex-row">
+        <div className="footer_social flex flex-row text-center">
           <motion.a
             href="https://www.instagram.com/uhackathon/"
             target="_blank"

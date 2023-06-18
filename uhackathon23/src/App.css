@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+/* styles.css */
+
+
+.footer {
+  flex-shrink: 0;
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
