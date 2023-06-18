@@ -38,8 +38,8 @@ code {
 .ellipse1{
   
 position: absolute;
-width: 38vw;
-height: 35vw;
+width: 45vw;
+height: 40vw;
 left: -10%;
 top: -5%;
 
@@ -49,10 +49,10 @@ filter: blur(170px);
 
 .ellipse2{
   position: absolute;
-width: 40.875vw;
-height: 40.875vw;
+width: 45.875vw;
+height: 45.875vw;
 left: 75%;
-top: 485px;
+top: 405px;
 
 background: #360498;
 filter: blur(150px);
@@ -115,13 +115,12 @@ filter: blur(220px);
 }
 @media (max-width:767px) {
   .ellipse1,.ellipse2,.ellipse3,.ellipse4,.ellipse5,.ellipse6{
-    width: 50%;
-    height: 50%;
+    width: 40% !important;
+    height: 20% !important;
     filter: blur(120px);
   }
   .ellipse1{
     left: -10%;
-    top: -25%;
   }
 }
 .navbar-toggler{

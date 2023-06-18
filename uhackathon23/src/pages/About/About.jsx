@@ -5,7 +5,7 @@ import './About.css'
 const About = () => {
   return (
     <>
-  <div className='container text-white pt-5'>
+  <div className='container text-white pt-5 about-container'>
     <div className='heading text-white'>
       <h1 className='pt-5'>UHackathon 4.0 Meta</h1>
     </div>

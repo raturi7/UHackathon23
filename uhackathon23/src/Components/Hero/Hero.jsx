@@ -3,6 +3,9 @@ import "./Hero.css";
 import { motion } from "framer-motion";
 import AnimatedText from "../AnimatedText";
 import Sponsor from "../Sponsor/Sponsor";
+import OurThemes from "../Our-Themes/OurThemes";
+import WhatIsUhackathon from "../What-is-Uhackarhon/WhatIsUhackathon";
+import History from "../Hackathon-History/History";
 
 
 const Hero = () => {
@@ -105,7 +108,10 @@ const Hero = () => {
       </div>
      
     </div>
+    <WhatIsUhackathon/>
     <Sponsor/>
+    <History/>
+    {/* <OurThemes/> */}
     </div>
     
     

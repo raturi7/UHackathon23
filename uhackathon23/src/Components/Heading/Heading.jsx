@@ -3,8 +3,8 @@ import './Heading.css'
 const Heading = (props) => {
     let {text,position}=props
   return (
-    <div className='container heading-container' style={{textAlign:position}}>
-      <h1 className='heading'>{text}</h1>
+    <div className='container heading-container'>
+      <h1 className='heading' style={{textAlign:position}}>{text}</h1>
     </div>
   )
 }

@@ -5,6 +5,7 @@ import './Navbar.css'
 const Navbar = () => {
   const [img, setImg] = useState(upesWhiteLogo);
   const [color, setColor] = useState("white");
+  const [clicked,setClicked]=useState(false);
   const [background, setBackground] = React.useState("transparent");
   const handleScroll = () => {
     const navbar = document.body.scrollTop
@@ -33,6 +34,15 @@ const Navbar = () => {
           setBackground("white")
           setColor("black")
           setImg(upesLogo)
+          if(clicked)
+          {
+            setClicked(false)
+          document.body.style.overflowY="visible"
+          }
+          else{
+            setClicked(true)
+            document.body.style.overflowY="hidden"
+          }
         }}>
           <svg xmlns="http://www.w3.org/2000/svg" height={32} width={32} viewBox="0 0 512 512" style={{fill:color}}><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" style={{color:color}}/></svg>
         </button>

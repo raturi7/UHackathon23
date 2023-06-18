@@ -13,14 +13,14 @@ function App() {
       <div className="App" style={{position:"relative",overflow:"hidden"}}>
         <Navbar />
 
-        <div className="ellipses-container">
+
           <div className="ellipse1"></div>
           <div className="ellipse2"></div>
           <div className="ellipse3"></div>
           <div className="ellipse4"></div>
           <div className="ellipse5"></div>
           <div className="ellipse6"></div>
-        </div>
+  
 
         <div className="content-container">
           <Routes>
