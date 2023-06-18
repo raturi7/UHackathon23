@@ -5,14 +5,14 @@ import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <footer>
-      <div className="footer flex flex-col align-center text-center  px-6 pt-6">
-        <div className="footer_text1  mt-5 px-6 pt-6">
-          <p className="text-white  text-xl mt-4 text-center">
+    <footer className="container-fluid">
+      <div className="container footer d-flex flex-column align-items-center justify-content-center">
+        <div className="footer_text1  mt-5 mb-5">
+          <p className="text-white text-uppercase text-xl mt-4 mb-0">
             Stay Up To Date with our News and Notifications
           </p>
         </div>
-        <div className="footer_social flex flex-row text-center">
+        <div className="footer_social flex flex-row mb-5">
           <motion.a
             href="https://www.instagram.com/uhackathon/"
             target="_blank"
@@ -54,9 +54,9 @@ const Footer = () => {
             <FaFacebook />
           </motion.a>
         </div>
-        <div className="footer_copyright">
-          <p className="text-white">
-          Copyright © UHackathon 4.0 | All rights reserved
+        <div className="footer_copyright mb-5">
+          <p className="text-white text-uppercase">
+            Copyright © UHackathon 4.0 | All rights reserved
           </p>
         </div>
       </div>
