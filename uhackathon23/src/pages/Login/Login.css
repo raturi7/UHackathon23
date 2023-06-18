@@ -1,0 +1,23 @@
+.login_form{
+    color: #fff;
+    
+}
+.login_form input{
+    color: #fff;
+
+}
+.next-input-label input,
+.next-input-label input::placeholder {
+  color: white;
+}
+
+/* Style the input border */
+.next-input-border {
+  border-color: white;
+}
+.nextui-c-hzQjrs-ibDEqG-cv {
+    /* color: var(--nextui--inputTextColor); */
+    top: -72%;
+    left: var(--nextui-space-2);
+    cursor: inherit;
+}
