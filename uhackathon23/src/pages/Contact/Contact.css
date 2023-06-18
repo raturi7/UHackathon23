@@ -3,11 +3,6 @@
     flex-direction: column;
 
 }
-.head{
-font-weight: 700;
-font-size: 61px;
-
-}
 .no-border {
     border: none;
   }
@@ -16,9 +11,13 @@ font-size: 61px;
     font-size: 16px;
   }
   .contact-form input {
-    border: none;
+    border-radius: 0 !important;
     border-bottom: 1px solid #e4e4e4;
-    outline: none;
+
+  }
+  .form-control:focus {
+    border-color: white !important;
+    box-shadow: none;
   }
   
   .contact-form textarea {
@@ -26,13 +25,12 @@ font-size: 61px;
     border-bottom: 1px solid #e4e4e4;
     outline: none;
   }
-  .contact {
-    display: flex;
-    justify-content: flex-start;
-  }
-  
-  .form {
-    width: 50%; /* Adjust the width as needed */
+
+
+  @media (max-width:992px) {
+    .form input{
+      width: 100% !important;
+    }
   }
   .form .head {
     text-align: left;
@@ -54,16 +52,6 @@ font-size: 61px;
   .form .join-btn {
     display: flex;
     justify-content: flex-start;
-  }
-  .contact-form input {
-    border: none;
-    border-bottom: 1px solid #e4e4e4;
-    outline: none;
-    /* Adjust the height and width of the underline */
-    background-image: linear-gradient(to right, #e4e4e4, #e4e4e4);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: 100% 1px;
   }
   
   .contact-form textarea {

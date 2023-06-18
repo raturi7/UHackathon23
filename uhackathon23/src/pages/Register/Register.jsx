@@ -23,7 +23,7 @@ const Register = () => {
               <h4>Team</h4>
             </div>
             <div>
-              <a>
+              <a href="/">
                 <button className="join-btn p-2">Register Here</button>
               </a>
             </div>
@@ -37,7 +37,7 @@ const Register = () => {
               <h4>Team</h4>
             </div>
             <div>
-              <a>
+              <a href="/">
                 <button className="join-btn p-2">Register Here</button>
               </a>
             </div>
