@@ -1,23 +1,13 @@
 footer{
     background: linear-gradient(180deg, #010B56 0%, #000422 100%);
-    box-shadow: 5px 0px 50px rgba(0, 0, 0, 0.25);
-    border-radius: 50px 50px 0px 0px;
-    margin-top: 200px;
+box-shadow: 5px 0px 50px rgba(0, 0, 0, 0.25);
+border-radius: 50px 50px 0px 0px;
 }
-.footer{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.footer_social a{
-    background: white;
-    padding: 5px;
-    padding-top: 1px;
-    border-radius: 50%;
-}
-
-@media (max-width:510px) {
-    .footer{
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(180deg, #010B56 0%, #000422 100%);
+    padding: 20px;
+    text-align: center;
 }

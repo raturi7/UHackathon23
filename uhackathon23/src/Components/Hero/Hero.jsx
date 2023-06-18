@@ -82,7 +82,7 @@ const Hero = () => {
             <AnimatedText
               text="The 4th iteration of UPES Hackathon,
               UHackathon 4.0 META welcomes you!"
-              className="h5"
+              className="h5 flex"
             />
           </h5>
           <button className="btn join-btn mt-5">

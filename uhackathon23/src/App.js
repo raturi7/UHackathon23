@@ -1,10 +1,11 @@
-import './App.css';
-import Hero from './Components/Hero/Hero';
-import Navbar from './Components/Navbar/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import About from './pages/About/About';
-import Footer from './Components/Footer/Footer';
+import "./App.css";
+import Hero from "./Components/Hero/Hero";
+import Navbar from "./Components/Navbar/Navbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./pages/About/About";
+import Footer from "./Components/Footer/Footer";
 import Sponsor from "./Components/Sponsor/Sponsor";
+import Register from "./pages/Register/Register";
 
 function App() {
   return (
@@ -25,9 +26,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/about" element={<About />} />
+            <Route path="/register" element={<Register/>} />
           </Routes>
         </div>
-        <Sponsor/>
         <Footer/>
       </div>
     </Router>
