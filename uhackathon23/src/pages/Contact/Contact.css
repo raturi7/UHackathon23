@@ -1,4 +1,81 @@
 .contact{
     font-family:'Outfit';
+    flex-direction: column;
 
 }
+.head{
+font-weight: 700;
+font-size: 61px;
+
+}
+.no-border {
+    border: none;
+  }
+  .contact-form input::placeholder {
+    color: #e4e4e4;
+    font-size: 16px;
+  }
+  .contact-form input {
+    border: none;
+    border-bottom: 1px solid #e4e4e4;
+    outline: none;
+  }
+  
+  .contact-form textarea {
+    border: none;
+    border-bottom: 1px solid #e4e4e4;
+    outline: none;
+  }
+  .contact {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .form {
+    width: 50%; /* Adjust the width as needed */
+  }
+  .form .head {
+    text-align: left;
+  }
+  .join-btn{
+    background-color: #FF5A05;
+    color: white !important;
+    border-radius: 5px;
+    padding-left:25px !important;
+    padding-right: 25px !important;
+    font-size: 20px;
+    border: none;
+    
+}
+.form .join-btn {
+    padding-top: 10px; /* Adjust the padding value as needed */
+    text-align: left;
+  }
+  .form .join-btn {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .contact-form input {
+    border: none;
+    border-bottom: 1px solid #e4e4e4;
+    outline: none;
+    /* Adjust the height and width of the underline */
+    background-image: linear-gradient(to right, #e4e4e4, #e4e4e4);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+  }
+  
+  .contact-form textarea {
+    border: none;
+    border-bottom: 1px solid #e4e4e4;
+    outline: none;
+    /* Adjust the height and width of the underline */
+    background-image: linear-gradient(to right, #e4e4e4, #e4e4e4);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+  }
+  .num{
+    flex-direction: row;
+  }
