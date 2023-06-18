@@ -4,7 +4,6 @@ import Navbar from "./Components/Navbar/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./pages/About/About";
 import Footer from "./Components/Footer/Footer";
-import Sponsor from "./Components/Sponsor/Sponsor";
 import Register from "./pages/Register/Register";
 
 function App() {

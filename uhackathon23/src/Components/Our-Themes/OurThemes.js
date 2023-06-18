@@ -10,7 +10,7 @@ import img8 from './Images/vr1.png'
 import Heading from '../Heading/Heading'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+
 
 const data=[[img1,"3D MODELING"],[img2,"Artificial Intelligence"],[img3,"Augmented Reality"],[img4,"Blockchain"],[img5,"Brain Computer Interface"],[img6,"Internet of Things"],[img7,"VIRTUAL Reality"],[img8,"Spatial / Edge computing"]];
 function themesCard(data){

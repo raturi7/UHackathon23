@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import upesLogo from '../Images/uhacklogo1.png'
 import upesWhiteLogo from '../Images/uhacklogowhite1.png'
 import './Navbar.css'
+import { Link } from 'react-router-dom'
 const Navbar = () => {
   const [img, setImg] = useState(upesWhiteLogo);
   const [color, setColor] = useState("white");
@@ -49,11 +50,11 @@ const Navbar = () => {
         
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <div className="navbar-nav" >
-            <a className="nav-link active" aria-current="page" href="/" style={{ color: color }}>Home</a>
-            <a className="nav-link" href="/About" style={{ color: color }}>About</a>
-            <a className="nav-link" href="/Gallery" style={{ color: color }}>Gallery</a>
-            <a className="nav-link" href="/Contact" style={{ color: color }}>Contact</a>
-            <button className='nav-link join-btn'>Join Us</button>
+            <Link className="nav-link active" aria-current="page" to="/" style={{ color: color }}>Home</Link>
+            <Link className="nav-link" to="/About" style={{ color: color }}>About</Link>
+            <Link className="nav-link" to="/Gallery" style={{ color: color }}>Gallery</Link>
+            <Link className="nav-link" to="/Contact" style={{ color: color }}>Contact</Link>
+            <Link to="/Register"><button className='nav-link join-btn'>Join Us</button></Link>
           </div>
         </div>
       </div>
