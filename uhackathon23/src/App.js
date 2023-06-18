@@ -5,11 +5,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./pages/About/About";
 import Footer from "./Components/Footer/Footer";
 import Sponsor from "./Components/Sponsor/Sponsor";
+import Register from "./pages/Register/Register";
 
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div className="App" style={{position:"relative",overflow:"hidden"}}>
         <Navbar />
 
         <div className="ellipses-container">
@@ -25,16 +26,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Hero />} />
             <Route path="/about" element={<About />} />
+            <Route path="/register" element={<Register/>} />
           </Routes>
         </div>
-      </div>
-      <div>
-      <Sponsor />
-
-      </div>
-
-      <div className="footer">
-        <Footer />
+        <Footer/>
       </div>
     </Router>
   );
