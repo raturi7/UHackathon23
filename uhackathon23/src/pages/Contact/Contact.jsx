@@ -1,6 +1,7 @@
 import React from "react";
 import "./Contact.css";
 import Heading from "../../Components/Heading/Heading";
+import img from "./Contact.jpg";
 
 const Contact = () => {
   return (
@@ -41,29 +42,30 @@ const Contact = () => {
       </div>
       <div className="container text-left flex flex-col two-margin-top">
         <div className="container text-white flex flex-row">
-          <div className="flex flex-col pt-3">
+          <div className="flex flex-row pt-3 align-items-start"> {/* Added align-items-start class */}
             <Heading text="Contact Us" position="left" />
             <div className="num flex flex-col mx-5">
               <div className="d-flex flex-column">
-                <p className="font-light ">+917004839585 </p>
+                <p className="font-light">+917004839585</p>
                 <p className="font-light">
                   For Accommodation & Travel Queries
                 </p>
               </div>
               <div className="d-flex flex-column">
-                <p className="font-light mr-5">+919101892272 </p>
-                <p className="font-light">For Technical Queries </p>
+                <p className="font-light">+919101892272</p>
+                <p className="font-light">For Technical Queries</p>
               </div>
               <div className="d-flex flex-column">
-                <p className="font-light mr-5">+918130912282 </p>
-                <p className="font-light">For Other Queries </p>
+                <p className="font-light">+918130912282</p>
+                <p className="font-light">For Other Queries</p>
               </div>
-
-              <div className="d-flex  flex-column  mt-3">
-                <p className="font-light mr-5">uhackathon@ddn.upes.ac.in </p>
-
-                <p className="font-light">uhackathon@ddn.upes.ac.in </p>
+              <div className="d-flex flex-column mt-3">
+                <p className="font-light">uhackathon@ddn.upes.ac.in</p>
+                <p className="font-light">uhackathon@ddn.upes.ac.in</p>
               </div>
+            </div>
+            <div>
+              <img className="img" src={img} alt="img" />
             </div>
           </div>
         </div>
