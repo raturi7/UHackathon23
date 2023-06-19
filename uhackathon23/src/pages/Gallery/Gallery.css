@@ -1,8 +1,60 @@
-.image_gallery img {
-    transition: transform 0.3s ease;
+
+
+  .gallery-container .modal-content{
+    position: relative;
+    background-color: transparent;
+    color: white !important;
+    text-align: left;
+    padding-top: 40px;
+    border: 0;
   }
-  
-  .image_gallery img:hover {
-    transform: scale(1.05);
+  .gallery-container .heading{
+    margin-bottom: 50px !important;
   }
-  
+  .gallery-container .heading-container{
+    padding: 0;
+  }
+  .gallery-container .btn-close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .gallery-container .modal-body{
+    max-width: 40%;
+  }
+  .gallery-container .modal-img{
+    width: 30%;
+  }
+  @media (max-width:1200px) {
+    .gallery-container .modal-body{
+      max-width: 50%;
+    }
+    .gallery-container .modal-img{
+      width: 40%;
+    }
+  }
+  @media (max-width:992px) {
+    .gallery-container .modal-body{
+      padding: 20px !important;
+      max-width: 100%;
+    }
+    .gallery-container .modal-img{
+      width: 70%;
+    }
+    .gallery-container .modal-content{
+      margin-top: 100px;
+    }
+  }
+
+
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
