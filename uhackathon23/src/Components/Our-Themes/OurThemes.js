@@ -33,8 +33,9 @@ function themesCard(data) {
           className="filter-white theme"
         />
       </div>
-      <div className="card-body justify-center text-uppercase text-white">{data[1]}</div>
-    </div>
+      <div className="card-body justify-center text-uppercase text-white" style={{ height: '40px', overflowWrap: 'break-word' }}>
+        <div style={{ fontStyle: 'normal', fontWeight: 600, fontSize: '18px' }}>{data[1]}</div>
+      </div>    </div>
   );
 }
 
@@ -45,7 +46,7 @@ const OurThemes = () => {
       <div className="row pt-5">
         {data.map((element) => {
           return (
-            <div className="col-6 col-md-3 mb-4" key={element[1]}>
+            <div className="col-6 col-md-3 mb-4 py-5"  key={element[1]}>
               {themesCard(element)}
             </div>
           );
