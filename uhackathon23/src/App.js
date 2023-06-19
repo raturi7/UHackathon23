@@ -8,6 +8,7 @@ import Register from "./pages/Register/Register";
 import Contact from "./pages/Contact/Contact";
 import Problem from "./pages/Problem Statements/Problem";
 import Login from "./pages/Login/Login";
+import Gallery from "./pages/Gallery/Gallery";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             <Route path="/register" element={<Register/>} />
             <Route path="/contact" element={<Contact/>} />
             <Route path="/login" element={<Login/>} />
+            <Route path="/gallery" element={<Gallery/>} />
           </Routes>
         </div>
         <Footer/>
