@@ -3,6 +3,7 @@ import image from "../../Components/Images/Rectangle 13.png";
 import './Gallery.css'
 import Heading from '../../Components/Heading/Heading'
 
+
 const Gallery = () => {
   const ref1=React.useRef()
   const modal=React.useRef()
@@ -12,14 +13,14 @@ const Gallery = () => {
   }
 
 
-
   return (
     <div className="gallery-container pt-5">
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" ref={ref1} onClick={()=>{modal.current.style.filter="none"}}>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" ref={ref1}>
         <div class="modal-dialog modal-dialog-scrollable modal-xl modal-dialog-centered">
           <div class="modal-content d-flex flex-wrap flex-row gap-4 justify-content-center" >
             <img src={image} className="modal-img" alt="" />
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"  onClick={()=>{modal.current.style.filter="none"
+    }}></button>
             <div class="modal-body d-flex flex-column p-0 " >
               <div class="modal-header p-0" style={{ border: "none" }}>
                 <Heading text="UHackathon 3.0 Winners" />

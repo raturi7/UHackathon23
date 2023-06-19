@@ -69,8 +69,8 @@ const Hero = () => {
   return (
     <div>
       <div
-        className="container d-flex justify-content-center pb-5 hero-container pt-5"
-        style={{ color: "#E4E4E4", textAlign: "left" }}
+        className="container d-flex justify-content-center hero-container"
+        style={{ color: "#E4E4E4", textAlign: "left",height:"85vh" }}
       >
         <div className="container">
           <div className="d-flex flex-column content-text align-items-start justify-content-center">
@@ -117,9 +117,9 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className="py-5 pt-5">
+      <div className="">
   <motion.img
-    className="py-4 px-4"
+    className=" px-4"
     src={Main}
     alt="Main Poster"
     style={{
@@ -127,7 +127,6 @@ const Hero = () => {
       maxWidth: "800px",
       height: "auto",
       borderRadius: "8px",
-      boxShadow: "0 4px 10px rgba(0, 0, 0, 0.2)",
       filter: "brightness(90%)",
     }}
     initial={{ opacity: 0, scale: 0.8 }}

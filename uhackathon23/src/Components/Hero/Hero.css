@@ -5,7 +5,8 @@
 }
 .vr-timer{
     background-image: url("../Images/VR\ Glasses\ 1.png");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position-x: center;
     padding: 10px;
     justify-content: flex-start !important;
