@@ -2,7 +2,7 @@ import React from "react";
 import "./Contact.css";
 import Heading from "../../Components/Heading/Heading";
 import img from "./Contact.jpg";
-
+import { FaPhone, FaEnvelope } from "react-icons/fa";
 const Contact = () => {
   return (
     <div className="contact flex flex-col two-margin-top">
@@ -46,11 +46,13 @@ const Contact = () => {
             <div className="d-flex flex-row flex-wrap align-items-center justify-content-between contact-box" > {/* Added align-items-start class */}
             <div className="num d-flex flex-column" style={{textAlign:"left"}}>
               <div className="d-flex flex-row num-row my-2 flex-wrap">
+                <FaPhone className="" />
+
                 <p className="font-light mb-0  mx-5">+917004839585</p>
                 For Accommodation & Travel Queries
               
               </div>
-              <div className="d-flex flex-row num-row  my-2 flex-wrap">
+              <div className="d-flex flex-row num-row my-2 flex-wrap pl-2">
                 <p className="font-light mx-5 mb-0">+919101892272</p>
              For Technical Queries
               </div>
@@ -58,6 +60,10 @@ const Contact = () => {
                 <p className="font-light mx-5 mb-0">+918130912282</p>
                For Other Queries
               </div>
+              <div className="flex flex-row">
+                <div>
+                  <FaEnvelope className="" />
+                </div>
               <div className="d-flex flex-column mt-3 mx-5">
                 <p className="font-light">uhackathon@ddn.upes.ac.in</p>
                 <p className="font-light">uhackathon@ddn.upes.ac.in</p>
