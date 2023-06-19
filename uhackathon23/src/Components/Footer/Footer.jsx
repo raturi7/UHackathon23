@@ -14,7 +14,7 @@ const Footer = () => {
         </div>
         <div className="footer_social flex flex-row mb-5">
           <motion.a
-            href="https://www.instagram.com/uhackathon/"
+            href="https://www.instagram.com/upes_hackathon_/"
             target="_blank"
             rel="noreferrer"
             className="w-6 mx-3"
@@ -24,7 +24,7 @@ const Footer = () => {
             <FaInstagram />
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/company/upes-hackathon/"
             target="_blank"
             rel="noreferrer"
             className="w-6 mx-3"
@@ -34,7 +34,7 @@ const Footer = () => {
             <FaLinkedin />
           </motion.a>
           <motion.a
-            href="https://www.twitter.com"
+            href="https://twitter.com/upes_hackathon_"
             target="_blank"
             rel="noreferrer"
             className="w-6 mx-3"
@@ -44,7 +44,7 @@ const Footer = () => {
             <FaTwitter />
           </motion.a>
           <motion.a
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/upeshackathon/?ref=page_internal"
             target="_blank"
             rel="noreferrer"
             className="w-6 mx-3"
