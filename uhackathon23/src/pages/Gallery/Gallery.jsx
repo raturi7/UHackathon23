@@ -9,7 +9,7 @@ const Gallery = () => {
           <img
             src={image}
             alt="image"
-            className="w-1/3 p-4 hover:scale-105 transition-transform duration-300"
+            className=" img w-1/3 p-4 hover:scale-105 transition-transform duration-300"
           />
           <img
             src={image}
