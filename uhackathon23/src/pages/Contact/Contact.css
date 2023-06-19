@@ -65,20 +65,33 @@
     background-size: 100% 1px;
   }
   .num{
-    flex-direction: row;
+    width: 50%;
   }
   .num-img{
-    width: 500px;
+    width: 50%;
   }
   @media (max-width:1200px) {
+    .num{
+      width: 60%;
+    }
     .num-img{
-      width: 400px;
+      width: 360px;
     }
   }
   @media (max-width:992px) {
+    .num .gap-3{
+      justify-content: center !important;
+    }
     .num{
       text-align: center !important;
       gap: 1rem;
+      width: 100%;
+    }
+    .num p{
+      margin: auto !important;
+    }
+    .num .ico{
+      display: none;
     }
     .num .num-row{
    flex-direction: column !important;
@@ -90,4 +103,8 @@
     .contact-box{
       justify-content: center !important;
     }
+  }
+  .num .ico{
+   max-width: 3%;
+   height: 2.8%;
   }
