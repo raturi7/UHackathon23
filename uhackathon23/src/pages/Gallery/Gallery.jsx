@@ -17,7 +17,7 @@ const Gallery = () => {
       if (modal.current && !modal.current.contains(event.target)) {
         modal.current.style.filter = "none";
       }
-    };
+    }});
 
   return (
     <div className="gallery-container pt-5">
