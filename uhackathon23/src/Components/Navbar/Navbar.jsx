@@ -8,7 +8,7 @@ import { useLocation } from 'react-router-dom';
 const Navbar = () => {
   const { pathname } = useLocation();
   useEffect(() => {
-    document.body.scrollTo(0, 0);
+    document.body.scrollTo(1, 1);
   }, [pathname]);
   const [img, setImg] = useState(upesWhiteLogo);
   const [color, setColor] = useState("white");
