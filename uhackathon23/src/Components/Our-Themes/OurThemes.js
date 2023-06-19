@@ -1,43 +1,56 @@
 import React from 'react';
-import img1 from './Images/3d-model 1.svg';
-import img2 from './Images/artificial-intelligence 1.svg';
-import img3 from './Images/augmented-reality 1.svg';
-import img4 from './Images/blockchain 1.svg';
-import img5 from './Images/computer 1.svg';
-import img6 from './Images/internet-of-things 1.svg';
-import img7 from './Images/virtual-reality 1.svg';
-import img8 from './Images/vr 1.svg';
+import img1 from './Images/3D modelling.png';
+import img2 from './Images/Artificial Intelligence.png';
+import img3 from './Images/Augmented Reality.png';
+import img4 from './Images/Blockchain.png';
+import img5 from './Images/Brain Computing Interface.png';
+import img6 from './Images/Edge Computing.png';
+import img7 from './Images/Internet if Things.png';
+import img8 from './Images/Virtual Reality.png';
 import Heading from '../Heading/Heading';
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const data = [
-  [img1, "3D MODELING"],
-  [img2, "Artificial Intelligence"],
-  [img3, "Augmented Reality"],
-  [img4, "Blockchain"],
-  [img5, "Brain Computer Interface"],
-  [img6, "Internet of Things"],
-  [img7, "VIRTUAL Reality"],
-  [img8, "Spatial / Edge computing"]
+  [img1, '3D MODELING'],
+  [img2, 'Artificial Intelligence'],
+  [img3, 'Augmented Reality'],
+  [img4, 'Blockchain'],
+  [img5, 'Brain Computer Interface'],
+  [img6, 'Internet of Things'],
+  [img7, 'VIRTUAL Reality'],
+  [img8, 'Spatial / Edge computing'],
 ];
 
 function themesCard(data) {
   return (
     <div className="card bg-transparent">
-      <img src={data[0]} alt="" className="fill-white" />
-      <div className="card-body text-uppercase">{data[1]}</div>
+      <div className="text-center"> {/* Added text-center class */}
+        <img
+          src={data[0]}
+          alt=""
+          style={{ width: '104px', height: 'auto' }}
+          className="filter-white theme"
+        />
+      </div>
+      <div className="card-body justify-center text-uppercase text-white">{data[1]}</div>
     </div>
   );
 }
 
 const OurThemes = () => {
   return (
-    <div className="container d-flex align-items-center justify-content-center flex-row flex-wrap">
+    <div className="container pt-5">
       <Heading text="Our Themes" position="center" />
-      {data.map((element) => {
-        return themesCard(element);
-      })}
+      <div className="row pt-5">
+        {data.map((element) => {
+          return (
+            <div className="col-6 col-md-3 mb-4" key={element[1]}>
+              {themesCard(element)}
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 };
