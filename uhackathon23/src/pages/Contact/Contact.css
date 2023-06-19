@@ -67,3 +67,19 @@
   .num{
     flex-direction: row;
   }
+  @media (max-width:510px) {
+    .num{
+      text-align: center !important;
+      gap: 1rem;
+    }
+    .num .num-row{
+   flex-direction: column !important;
+   justify-content: center;
+    }
+    .num-img{
+      width: stretch;
+    }
+    .contact-box{
+      justify-content: center !important;
+    }
+  }

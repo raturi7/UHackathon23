@@ -34,8 +34,8 @@ const Navbar = () => {
   return (
     <nav className="navbar fixed-top navbar-expand-lg " style={{ backgroundColor: background }}>
       <div className="container">
-        <a className="navbar-brand" href="/">
-          <img src={img} alt="Bootstrap" />
+        <a className="navbar-brand pt-0" href="/" style={{maxWidth:"260px",maxHeight:"60px"}}>
+          <img src={img} alt="Bootstrap" style={{maxWidth:"265px"}}/>
         </a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onClick={()=>{
           setBackground("white")

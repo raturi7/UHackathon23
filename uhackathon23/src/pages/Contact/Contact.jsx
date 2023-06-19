@@ -42,31 +42,31 @@ const Contact = () => {
       </div>
       <div className="container text-left flex flex-col two-margin-top">
         <div className="container text-white flex flex-row">
-          <div className="flex flex-row pt-3 align-items-start"> {/* Added align-items-start class */}
             <Heading text="Contact Us" position="left" />
-            <div className="num flex flex-col mx-5">
-              <div className="d-flex flex-column">
-                <p className="font-light">+917004839585</p>
-                <p className="font-light">
-                  For Accommodation & Travel Queries
-                </p>
+            <div className="d-flex flex-row flex-wrap align-items-center justify-content-between contact-box" > {/* Added align-items-start class */}
+            <div className="num d-flex flex-column" style={{textAlign:"left"}}>
+              <div className="d-flex flex-row num-row my-2 flex-wrap">
+                <p className="font-light mb-0  mx-5">+917004839585</p>
+                For Accommodation & Travel Queries
+              
               </div>
-              <div className="d-flex flex-column">
-                <p className="font-light">+919101892272</p>
-                <p className="font-light">For Technical Queries</p>
+              <div className="d-flex flex-row num-row  my-2 flex-wrap">
+                <p className="font-light mx-5 mb-0">+919101892272</p>
+             For Technical Queries
               </div>
-              <div className="d-flex flex-column">
-                <p className="font-light">+918130912282</p>
-                <p className="font-light">For Other Queries</p>
+              <div className="d-flex flex-row num-row  my-2 flex-wrap">
+                <p className="font-light mx-5 mb-0">+918130912282</p>
+               For Other Queries
               </div>
-              <div className="d-flex flex-column mt-3">
+              <div className="d-flex flex-column mt-3 mx-5">
                 <p className="font-light">uhackathon@ddn.upes.ac.in</p>
                 <p className="font-light">uhackathon@ddn.upes.ac.in</p>
               </div>
             </div>
-            <div>
-              <img className="img" src={img} alt="img" />
-            </div>
+         
+              <img className="num-img" src={img} alt="img" style={{borderRadius:"7px"}}/>
+        
+
           </div>
         </div>
       </div>
