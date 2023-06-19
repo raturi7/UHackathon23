@@ -1,0 +1,8 @@
+.image_gallery img {
+    transition: transform 0.3s ease;
+  }
+  
+  .image_gallery img:hover {
+    transform: scale(1.05);
+  }
+  
