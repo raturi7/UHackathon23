@@ -7,6 +7,7 @@ import {
   FaFacebook,
 } from "react-icons/fa";
 import { motion } from "framer-motion";
+import {instagram} from './logo/instagram (2).png'
 
 const Footer = () => {
   return (
@@ -22,11 +23,11 @@ const Footer = () => {
             href="https://www.instagram.com/upes_hackathon_/"
             target="_blank"
             rel="noreferrer"
-            className="w-6 mx-3"
+            className=" "
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
           >
-            <FaInstagram />
+            <instagram />
           </motion.a>
           <motion.a
             href="https://www.linkedin.com/company/upes-hackathon/"

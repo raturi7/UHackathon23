@@ -17,9 +17,9 @@ const data = [
   [img3, "Augmented Reality"],
   [img4, "Blockchain"],
   [img5, "Brain Computer Interface"],
-  [img6, "Internet of Things"],
-  [img7, "VIRTUAL Reality"],
-  [img8, "Spatial / Edge computing"],
+  [img6, "Edge Computing"],
+  [img7, "Internet of Things(IoT)"],
+  [img8, "Virtual Reality"],
 ];
 
 function themesCard(data) {
