@@ -62,10 +62,15 @@ const Contact = () => {
                 <p className="font-light">uhackathon@ddn.upes.ac.in</p>
                 <p className="font-light">uhackathon@ddn.upes.ac.in</p>
               </div>
+              <div className="d-flex flex-column mt-3 mx-5">
+              <p style={{fontSize:"20px"}}><b>Convener</b></p>
+              <p>Hospitality Head (Travel & Transport)</p>
+              <p>Hospitality Head (Lodging & Stay)</p>
+            </div>
             </div>
          
               <img className="num-img" src={img} alt="img" style={{borderRadius:"7px"}}/>
-        
+            
 
           </div>
         </div>
