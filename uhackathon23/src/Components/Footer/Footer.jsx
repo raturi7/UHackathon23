@@ -1,6 +1,11 @@
 import React from "react";
 import "./Footer.css";
-import { FaInstagram, FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa";
+import {
+  FaInstagram,
+  FaLinkedin,
+  FaTwitter,
+  FaFacebook,
+} from "react-icons/fa";
 import { motion } from "framer-motion";
 
 const Footer = () => {
@@ -54,9 +59,59 @@ const Footer = () => {
             <FaFacebook />
           </motion.a>
         </div>
+        <div className="links flex flex-wrap justify-center"> {/* Added flex-wrap and justify-center class */}
+          <a
+            href="https://garhwalpost.in/44-teams-from-10-states-vie-for-u-hackathon-1-0-crown-at-upes/"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            UHackathon 1.0
+          </a>
+          <a
+            href="https://garhwalpost.in/sjb-institute-of-technology-wins-u-hackathon-2-0-crown-at-upes/"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            UHackathon 2.0
+          </a>
+          <a
+            href="https://upeshackathon.in/img/UHackathon%203.0.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            UHackathon 3.0
+          </a>
+          <a
+            href="https://devbhoomicyberhackathon.in/"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            Devbhoomi Cyber Hackathon
+          </a>
+          <a
+            href="https://www.upescsi.in/hackathon7.0/"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            UPES-CSI Hackathon 7.0
+          </a>
+          <a
+            href="https://upeshackathon.in/img/pmletter.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            Letter From Honorable Prime Minister
+          </a>
+        </div>
         <div className="footer_copyright mb-5">
           <p className="text-white text-uppercase">
-            Copyright © UHackathon 4.0 | All rights reserved
+            &copy; UHackathon 4.0 | All rights reserved
           </p>
         </div>
       </div>
