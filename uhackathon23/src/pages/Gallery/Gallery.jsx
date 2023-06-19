@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useRef } from "react";
 import image from "../../Components/Images/Rectangle 13.png";
 import './Gallery.css'
 import Heading from '../../Components/Heading/Heading'
@@ -11,17 +11,17 @@ const Gallery = () => {
   for (let i = 0; i < 16; i++) {
     data.push(image);
   }
+  React.useEffect(()=>{
+    ref1.current.addEventListener('click',()=>{
+      if( modal.current.style.filter === "blur(4px) brightness(20%)")
+      modal.current.style.filter = "blur(4px) brightness(20%)"
+    })
+  },[])
 
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (modal.current && !modal.current.contains(event.target)) {
-        modal.current.style.filter = "none";
-      }
-    }});
 
   return (
     <div className="gallery-container pt-5">
-      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" ref={ref1}>
+      <div class="modal fade" id="exampleModal" tabindex="-1" style={{pointerEvents:"none"}} aria-labelledby="exampleModalLabel" aria-hidden="true" ref={ref1}>
         <div class="modal-dialog modal-dialog-scrollable modal-xl modal-dialog-centered">
           <div class="modal-content d-flex flex-wrap flex-row gap-4 justify-content-center" >
             <img src={image} className="modal-img" alt="" />
