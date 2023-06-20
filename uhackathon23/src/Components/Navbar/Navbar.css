@@ -9,7 +9,7 @@
     border: none;
 }
 nav{
-    transition: all 0.2s linear;
+    transition: all 0.1s linear;
 }
 nav .navbar-nav{
     gap: 1rem;

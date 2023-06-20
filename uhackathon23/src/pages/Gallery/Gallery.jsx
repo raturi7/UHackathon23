@@ -2,9 +2,13 @@ import React, { useRef } from "react";
 import image from "../../Components/Images/Rectangle 13.png";
 import './Gallery.css'
 import Heading from '../../Components/Heading/Heading'
-
+import { useLocation } from 'react-router-dom';
 
 const Gallery = () => {
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    window.scrollTo(1, 1);
+  }, [pathname]);
   const ref1 = useRef();
   const modal = useRef();
   let data = [];
@@ -21,9 +25,9 @@ const Gallery = () => {
 
   return (
     <div className="gallery-container pt-5">
-      <div class="modal fade" id="exampleModal" tabindex="-1" style={{pointerEvents:"none"}} aria-labelledby="exampleModalLabel" aria-hidden="true" ref={ref1}>
-        <div class="modal-dialog modal-dialog-scrollable modal-xl modal-dialog-centered">
-          <div class="modal-content d-flex flex-wrap flex-row gap-4 justify-content-center" >
+      <div class="modal fade" id="exampleModal" tabindex="-1"  aria-labelledby="exampleModalLabel" aria-hidden="true" ref={ref1}>
+        <div class="modal-dialog modal-dialog-scrollable modal-xl modal-dialog-centered"  style={{height:"max-content"}}>
+          <div class="modal-content d-flex flex-wrap flex-row gap-4 justify-content-center">
             <img src={image} className="modal-img" alt="" />
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"  onClick={()=>{modal.current.style.filter="none"
     }}></button>

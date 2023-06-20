@@ -2,10 +2,14 @@ import React from "react";
 import "./Contact.css";
 import Heading from "../../Components/Heading/Heading";
 import img from "./Contact.jpg";
-import { FaPhone, FaEnvelope } from "react-icons/fa";
 import phone from '../../Components/Images/phone-call.png'
 import email from '../../Components/Images/email.png'
+import { useLocation } from 'react-router-dom';
 const Contact = () => {
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    window.scrollTo(1, 1);
+  }, [pathname]);
   return (
     <div className="contact flex flex-col two-margin-top">
       <div className="container d-flex justify-content-start text-white">
