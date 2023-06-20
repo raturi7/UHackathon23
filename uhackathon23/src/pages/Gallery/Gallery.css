@@ -14,6 +14,9 @@
   .gallery-container .heading-container{
     padding: 0;
   }
+  .gallery-container .modal{
+    pointer-events: none;
+  }
   .gallery-container .btn-close{
     position: absolute;
     top: 10px;
@@ -34,15 +37,20 @@
     }
   }
   @media (max-width:992px) {
+    .gallery-container .modal{
+      pointer-events: all;
+      margin-top: 80px;
+    }
     .gallery-container .modal-body{
       padding: 20px !important;
       max-width: 100%;
     }
+    .gallery-container .modal-dialog{
+      display: block;
+      height: 800px !important;
+    }
     .gallery-container .modal-img{
       width: 70%;
-    }
-    .gallery-container .modal-content{
-      margin-top: 100px;
     }
   }
 

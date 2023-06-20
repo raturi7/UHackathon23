@@ -3,13 +3,10 @@ import upesLogo from '../Images/uhacklogo1.png'
 import upesWhiteLogo from '../Images/uhacklogowhite1.png'
 import './Navbar.css'
 import { Link } from 'react-router-dom'
-import { useLocation } from 'react-router-dom';
+
 
 const Navbar = () => {
-  const { pathname } = useLocation();
-  useEffect(() => {
-    document.body.scrollTo(10, 0);
-  }, [pathname]);
+
   const [img, setImg] = useState(upesWhiteLogo);
   const [color, setColor] = useState("white");
   const [clicked,setClicked]=useState(false);

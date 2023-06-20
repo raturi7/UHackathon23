@@ -5,7 +5,12 @@ import Heading from '../../Components/Heading/Heading';
 import img1 from '../../Components/Images/Rectangle13-2.png'
 import img2 from '../../Components/Images/Rectangle13-1.png'
 import img3 from '../../Components/Images/Rectangle13.png'
+import { useLocation } from 'react-router-dom';
 const About = () => {
+  const { pathname } = useLocation();
+  React.useEffect(() => {
+    window.scrollTo(1, 1);
+  }, [pathname]);
   function images(){
     return  <div className="container-fluid flex-row d-flex align-items-center justify-content-center p-0 images-container two-margin-top">
          <div className="col lg-4"><img src={img3} alt="" /></div>
@@ -14,6 +19,7 @@ const About = () => {
     </div>
   }
   return (
+    
     <>
     <div className="container-fluid p-0 about-container">
       <div className='container text-white pt-5 two-margin-top'>

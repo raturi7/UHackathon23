@@ -7,11 +7,13 @@ import OurThemes from "../Our-Themes/OurThemes";
 import WhatIsUhackathon from "../What-is-Uhackarhon/WhatIsUhackathon";
 import History from "../Hackathon-History/History";
 import Main from "./Main Poster.png";
+import { useLocation } from 'react-router-dom';
 
 const Hero = () => {
+  const { pathname } = useLocation();
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo(1, 1);
+  }, [pathname]);
 
   const textVariants = {
     hidden: {
