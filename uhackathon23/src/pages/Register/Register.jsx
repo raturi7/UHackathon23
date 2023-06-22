@@ -29,11 +29,11 @@ const Register = () => {
             </div>
             <div>
               <a href="/">
-                <button className="join-btn p-2">Register Here</button>
+                <button className="footer-link p-2">Register Here</button>
               </a>
             </div>
           </div>
-          <div className="veryical-line" style={{width:"3px",height:"100vh",background:"white"}}>
+          <div className="veryical-line" style={{width:"3px",height:"50vh",background:"white"}}>
         
           </div>
           <div>
@@ -43,7 +43,7 @@ const Register = () => {
             </div>
             <div>
               <a href="/">
-                <button className="join-btn p-2">Register Here</button>
+                <button className="footer-link p-2">Register Here</button>
               </a>
             </div>
           </div>

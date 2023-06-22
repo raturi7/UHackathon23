@@ -8,6 +8,11 @@
     font-weight: 500;
     border: none;
 }
+.join-btn:hover{
+    outline: 3px solid #FF5A05;
+    color: #FF5A05 !important;
+    background-color: transparent;
+}
 nav{
     transition: all 0.1s linear;
 }

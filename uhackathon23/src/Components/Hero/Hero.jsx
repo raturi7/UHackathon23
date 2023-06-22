@@ -103,7 +103,7 @@ const Hero = () => {
                 className="h5 flex"
               />
             </h5>
-            <button className="btn join-btn mt-5">Get Started</button>
+            <button className="btn footer-link mt-5">Get Started</button>
           </div>
         </div>
         <div className="container vr-timer d-flex align-items-center justify-content-center flex-column">
