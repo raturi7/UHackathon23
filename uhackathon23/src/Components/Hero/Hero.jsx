@@ -76,8 +76,8 @@ const Hero = () => {
       >
         <div className="container">
           <div className="d-flex flex-column content-text align-items-start justify-content-center">
-            <h4 className="text-uppercase h4" style={{ fontWeight: "600" }}>
-              Upes School of Computer Science
+            <h4 className="text-uppercase h4" style={{ fontWeight: "600",fontSize:"200%" }}>
+              School of Computer Science
             </h4>
             <h5 style={{ letterSpacing: "0.1rem" }} className="h5">
               PRESENTS
@@ -99,7 +99,7 @@ const Hero = () => {
             >
               <AnimatedText
                 text="The 4th iteration of UPES Hackathon,
-              UHackathon 4.0 META welcomes you!"
+                  UHackathon 4.0 META welcomes you!"
                 className="h5 flex"
               />
             </h5>
