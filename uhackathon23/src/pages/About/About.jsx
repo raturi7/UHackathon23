@@ -28,7 +28,8 @@ const About = () => {
           <p> After the success of UHackathon 1.0, 2.0 & 3.0 School of Computer Science is back with the 4th edition of UPES’ s Flagship event UHackathon 4.0META proposed to be held on 1st and 2nd September 2023. It’s a signature event of School Of Computer Science, listed in the Event Calendar. UHackathon 4.0 META is an initiative in sync with the vision of UPES, towards providing a mega platform to the programming community, technophiles and techpreneurs to address the critical challenges of the industry and society by building innovative solutions in form of prototypes leveraging technologies under the umbrella of Metaverse. A 24 hour coding marathon planning to invite participants from G20 Nations and our associate International Universities to come together and participate in developing solutions towards achieving UN SDG goals leveraging the emerging technologies and technologies of tomorrow i.e, Metaverse Technologies including AR (Augmented Reality), VR(Virtual Reality), Artificial Intelligence, IoT, Blockchain, Extended reality, 3D Modelling, Brain Computer Interface, Spatial / Edge computing. The broader areas of UHackathon 4.0 are focused, but not limited to the fields of, Disaster Management, Environmental Sustainability, EdTech solutions, Blockchain, Consumer Tech, Healthcare & Biomedical Devices, Retail, Women Welfare, Smart Communication Systems, Agriculture & Rural Development, Food Technology, Smart Vehicles, Robotics & Drones, and AI systems.</p>
         </section>
         </div>
-        <div className="container links d-flex flex-wrap justify-content-between gap-4 mt-5"> {/* Added flex-wrap and justify-center class */}
+        <div className="container links d-flex flex-column flex-wrap justify-content-center gap-4 mt-5"> 
+        <div className='container d-flex flex-wrap justify-content-center gap-4'>
           <a
             href="https://garhwalpost.in/44-teams-from-10-states-vie-for-u-hackathon-1-0-crown-at-upes/"
             target="_blank"
@@ -53,14 +54,8 @@ const About = () => {
           >
             UHackathon 3.0
           </a>
-          <a
-            href="https://devbhoomicyberhackathon.in/"
-            target="_blank"
-            rel="noreferrer"
-            className="footer-link"
-          >
-            Devbhoomi Cyber Hackathon
-          </a>
+          </div>
+          <div className='container d-flex p-0 flex-wrap justify-content-center gap-4'>
           <a
             href="https://www.upescsi.in/hackathon7.0/"
             target="_blank"
@@ -70,6 +65,14 @@ const About = () => {
             UPES-CSI Hackathon 7.0
           </a>
           <a
+            href="https://devbhoomicyberhackathon.in/"
+            target="_blank"
+            rel="noreferrer"
+            className="footer-link"
+          >
+            Devbhoomi Cyber Hackathon
+          </a>
+          <a
             href="https://upeshackathon.in/img/pmletter.pdf"
             target="_blank"
             rel="noreferrer"
@@ -77,6 +80,7 @@ const About = () => {
           >
             Letter From Honorable Prime Minister
           </a>
+          </div>
         </div>
         {images()}
         <div className='container two-margin-top'>

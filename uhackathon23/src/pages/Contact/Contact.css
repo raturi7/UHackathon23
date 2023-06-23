@@ -77,8 +77,18 @@
     .num-img{
       width: 360px;
     }
+    .upes-img{
+      height: 280px;
+    }
   }
   @media (max-width:992px) {
+    .upes-img{
+      padding: 10px;
+      height: min-content;
+    }
+    .contact-container-box{
+      flex-wrap: wrap;
+    }
     .num .gap-3{
       justify-content: center !important;
     }
