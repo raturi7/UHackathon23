@@ -12,7 +12,7 @@ import { useLocation } from 'react-router-dom';
 const Hero = () => {
   const { pathname } = useLocation();
   useEffect(() => {
-    window.scrollTo(1, 1);
+    document.body.scrollTo(0, 0);
   }, [pathname]);
 
   const textVariants = {

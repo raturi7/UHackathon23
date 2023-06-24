@@ -10,7 +10,7 @@ import UPES from "../../Components/Images/UPES.jpg"
 const About = () => {
   const { pathname } = useLocation();
   React.useEffect(() => {
-    window.scrollTo(1, 1);
+    document.body.scrollTo(0, 0);
   }, [pathname]);
   function uhack(){
     return  <div className="container-fluid flex-row d-flex align-items-center justify-content-center p-0 images-container two-margin-top">
@@ -86,7 +86,7 @@ const About = () => {
           </section>
         </div>
         <div className="container links d-flex flex-column flex-wrap justify-content-center gap-4 mt-5">
-          <div className="container d-flex flex-wrap justify-content-center gap-4">
+          <div className="container d-flex flex-wrap justify-content-center gap-4 mt-5">
             <a
               href="https://garhwalpost.in/44-teams-from-10-states-vie-for-u-hackathon-1-0-crown-at-upes/"
               target="_blank"

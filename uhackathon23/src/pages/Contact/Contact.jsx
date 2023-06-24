@@ -8,7 +8,7 @@ import { useLocation } from 'react-router-dom';
 const Contact = () => {
   const { pathname } = useLocation();
   React.useEffect(() => {
-    window.scrollTo(1, 1);
+    document.body.scrollTo(0, 0);
   }, [pathname]);
   return (
     <div className="contact flex flex-col two-margin-top">

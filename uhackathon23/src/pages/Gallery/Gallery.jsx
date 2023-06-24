@@ -7,7 +7,7 @@ import { useLocation } from 'react-router-dom';
 const Gallery = () => {
   const { pathname } = useLocation();
   React.useEffect(() => {
-    window.scrollTo(1, 1);
+    document.body.scrollTo(0, 0);
   }, [pathname]);
   const ref1 = useRef();
   const modal = useRef();
