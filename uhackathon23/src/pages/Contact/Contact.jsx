@@ -91,16 +91,7 @@ const Contact = () => {
               </div>
               
             </div>
-            <iframe
-              title="map"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.711120109902!2d77.9646479151239!3d30.415936981748608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d4890d7c1735%3A0x22d3ae324c238e3c!2sUPES!5e0!3m2!1sen!2sin!4v1687541261104!5m2!1sen!2sin"
-              width="600"
-              height="400"
-              className="num-img"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25630.305720737346!2d77.9501413!3d30.400029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d4890d7c1735%3A0x22d3ae324c238e3c!2sUPES!5e1!3m2!1sen!2sin!4v1687631014232!5m2!1sen!2sin" width="600" height="400" style={{borderRadius:"10px"}} className="num-img" title="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>
