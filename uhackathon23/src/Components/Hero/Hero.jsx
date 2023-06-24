@@ -72,12 +72,15 @@ const Hero = () => {
     <div>
       <div
         className="container d-flex justify-content-center hero-container"
-        style={{ color: "#E4E4E4", textAlign: "left",height:"85vh" }}
+        style={{ color: "#E4E4E4", textAlign: "left", height: "85vh" }}
       >
         <div className="container">
           <div className="d-flex flex-column content-text align-items-start justify-content-center">
-            <h4 className="text-uppercase h4" style={{ fontWeight: "600" }}>
-             School of Computer Science, UPES
+            <h4
+              className="text-uppercase h4"
+              style={{ fontWeight: "600", fontSize: "200%" }}
+            >
+              School of Computer Science
             </h4>
             <h5 style={{ letterSpacing: "0.1rem" }} className="h5">
               PRESENTS
@@ -94,13 +97,16 @@ const Hero = () => {
             </h1>
 
             <h5
-              style={{ letterSpacing: "0.1rem", lineHeight: "30px" }}
+              style={{ letterSpacing: "0.1rem", }}
               className="h5"
             >
               <AnimatedText
-                text="The 4th iteration of UPES Hackathon,
-                UHackathon 4.0 META welcomes you!"
-                className="h5 flex"
+                text="The 4th iteration of UPES Hackathon,"
+                className="h5 pt-2 pb-0 leading-none flex"
+              /><br/>
+              <AnimatedText
+                text="UHackathon 4.0 META welcomes you!"
+                className="h5 an-text flex leading-none"
               />
             </h5>
             <button className="btn footer-link mt-5">Get Started</button>
@@ -120,22 +126,22 @@ const Hero = () => {
         </div>
       </div>
       <div className="">
-  <motion.img
-    className=" px-4"
-    src={Main}
-    alt="Main Poster"
-    style={{
-      width: "100%",
-      maxWidth: "800px",
-      height: "auto",
-      borderRadius: "8px",
-      filter: "brightness(90%)",
-    }}
-    initial={{ opacity: 0, scale: 0.8 }}
-    animate={{ opacity: 1, scale: 1 }}
-    transition={{ duration: 1 }}
-  />
-</div>
+        <motion.img
+          className=" px-4"
+          src={Main}
+          alt="Main Poster"
+          style={{
+            width: "100%",
+            maxWidth: "800px",
+            height: "auto",
+            borderRadius: "8px",
+            filter: "brightness(90%)",
+          }}
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1 }}
+        />
+      </div>
       <Sponsor />
       <WhatIsUhackathon />
       <OurThemes />

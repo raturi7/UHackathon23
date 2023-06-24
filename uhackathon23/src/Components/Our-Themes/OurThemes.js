@@ -12,14 +12,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const data = [
-  [img1, "3D MODELING"],
+  [img3, "Augmented Reality (AR)"],
   [img2, "Artificial Intelligence"],
-  [img3, "Augmented Reality"],
+  [img7, "Internet of Things(IoT)"],
   [img4, "Blockchain"],
+  [img8, "Virtual Reality (VR)"],
+
+  [img1, "3D MODELING"],
   [img5, "Brain Computer Interface"],
   [img6, "Edge Computing"],
-  [img7, "Internet of Things(IoT)"],
-  [img8, "Virtual Reality"],
 ];
 
 function themesCard(data) {
@@ -62,12 +63,11 @@ const OurThemes = () => {
       </div>
       <span className="container content">
         <p>
-          The broader areas of UHackathon 4.0 are focused, but not limited to
-          the fields of, Disaster Management, Environmental Sustainability,
-          EdTech solutions, Blockchain, Consumer Tech, Healthcare & Biomedical
-          Devices, Retail, Women Welfare, Smart Communication Systems,
-          Agriculture & Rural Development, Food Technology, Smart Vehicles,
-          Robotics & Drones, and AI systems.
+          In terms of technologies, UHackathon 4.0 META will leverage the
+          emerging technologies and technologies of tomorrow, specifically in
+          the realm of Metaverse. These themes and technologies provide a broad
+          scope for participants to explore and develop innovative solutions
+          that address real-world challenges in various domains.
         </p>
       </span>
     </div>

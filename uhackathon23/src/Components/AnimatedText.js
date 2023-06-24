@@ -32,7 +32,7 @@ const AnimatedText = ({ text, className = "" }) => {
   return (
     <div className="">
       <motion.h5
-        className={`    ${className}`}
+        className={`an-text    ${className}`}
         variants={quote} // corrected prop name to "variants"
         initial="initial"
         animate="animate"
