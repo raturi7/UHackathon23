@@ -1,6 +1,7 @@
 .contact{
     font-family:'Outfit';
     flex-direction: column;
+    
 
 }
 .no-border {
@@ -72,7 +73,7 @@
   }
   @media (max-width:1200px) {
     .num{
-      width: 50%;
+      width: 60%;
     }
     .num-img{
       width: 360px;

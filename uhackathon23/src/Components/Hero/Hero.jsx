@@ -69,7 +69,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="small-mobile">
+    <div className="small-mobile-hero">
       <div
         className=" container d-flex justify-content-center hero-container"
         style={{ color: "#E4E4E4", textAlign: "left", height: "85vh" }}
@@ -96,14 +96,12 @@ const Hero = () => {
               </motion.span>
             </h1>
 
-            <h5
-              style={{ letterSpacing: "0.1rem", }}
-              className="h5"
-            >
+            <h5 style={{ letterSpacing: "0.1rem" }} className="h5">
               <AnimatedText
                 text="The 4th iteration of UPES Hackathon,"
                 className="h5 pt-2 pb-0 leading-none flex"
-              /><br/>
+              />
+              <br />
               <AnimatedText
                 text="UHackathon 4.0 META welcomes you!"
                 className="h5 an-text flex leading-none"
