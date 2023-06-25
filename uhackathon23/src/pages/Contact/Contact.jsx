@@ -15,7 +15,7 @@ const Contact = () => {
   return (
     <div className="  contact flex flex-col two-margin-top small-mobile3">
       <div className="container d-flex justify-content-center align-items-center contact-container-box gap-5 text-white">
-        <div className="container form">
+        <div className="container form contact-heading">
           <Heading text="Get In Touch" position="left" />
           <form className="contact-form">
             <div className="form-group py-3 border-b">
