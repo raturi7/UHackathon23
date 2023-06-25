@@ -21,7 +21,7 @@ const About = () => {
   }
   function upes() {
     return (
-      <div className="container-fluid small-mobile flex-row d-flex align-items-center justify-content-center p-0 images-container two-margin-top">
+      <div className="container-fluid  flex-row d-flex align-items-center justify-content-center p-0 images-container two-margin-top">
         <div className="col lg-4">
           <img src={UPES} alt="" />
         </div>
@@ -51,7 +51,7 @@ const About = () => {
   }
   return (
     <>
-      <div className="container-fluid p-0 about-container">
+      <div className="container-fluid small-mobile p-0 about-container">
         <div className="container text-white pt-5 two-margin-top">
           <Heading text="UHackathon 4.0 &nbsp; META" position="left" />
           <section>
