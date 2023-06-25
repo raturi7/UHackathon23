@@ -83,6 +83,9 @@
     }
   }
   @media (max-width:992px) {
+    .contact-heading .heading{
+      text-align: center !important;
+    }
     .num b{
       margin-right: 0 !important;
     }
