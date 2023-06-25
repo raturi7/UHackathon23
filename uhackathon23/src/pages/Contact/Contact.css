@@ -1,7 +1,7 @@
 .contact{
     font-family:'Outfit';
     flex-direction: column;
-    
+
 
 }
 .no-border {
@@ -126,4 +126,8 @@
     font-weight: 700;
     font-size: 20px;
     letter-spacing: 0.2px;
+        text-align: right;
+  }
+  .container iframe{
+    width: 100%;
   }

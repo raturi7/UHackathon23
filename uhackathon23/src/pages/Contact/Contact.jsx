@@ -73,16 +73,17 @@ const Contact = () => {
                   >
                     +917004839585
                   </p>
-                <b style={{marginRight:"2rem"}}>Devashish</b>Convener
+                  <b style={{ marginRight: "2rem" }}>Devashish</b>Convener
                 </div>
               </div>
               <div className="d-flex flex-row num-row my-2 flex-wrap pl-2">
                 <p className="font-light mx-5 mb-0">+919101892272</p>
-                <b style={{marginRight:"2rem"}}>Devashish</b> Travel & Transport
+                <b style={{ marginRight: "2rem" }}>Devashish</b> Travel &
+                Transport
               </div>
               <div className="d-flex flex-row num-row  my-2 flex-wrap">
                 <p className="font-light mx-5 mb-0">+918130912282</p>
-                <b style={{marginRight:"2rem"}}>Devashish</b> Lodging & Stay
+                <b style={{ marginRight: "2rem" }}>Devashish</b> Lodging & Stay
               </div>
 
               <div className="d-flex flex-column justify-content-center mt-3 ">
@@ -93,7 +94,7 @@ const Contact = () => {
               </div>
             </div>
             <div className="contact_address flex flex-row">
-              <div className="logo flex flex-row absolute pb-0" >
+              <div className="logo flex flex-row absolute pb-0">
                 <img src={socs} alt="" style={{ marginRight: "10px" }} />
                 <img src={ulogo} alt="" />
               </div>
@@ -101,7 +102,7 @@ const Contact = () => {
                 <h3 className="socs text-right font-bold capitalize">
                   SCHOOL OF COMPUTER SCIENCE
                 </h3>
-                <p>
+                <p className="text-right">
                   University of Petroleum and Energy Studies, Energy Acres, PO
                   <br />
                   Bidholi via Prem Nagar, dehradun, 248007. Uttarakhand, India.
@@ -109,17 +110,19 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25630.305720737346!2d77.9501413!3d30.400029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d4890d7c1735%3A0x22d3ae324c238e3c!2sUPES!5e1!3m2!1sen!2sin!4v1687631014232!5m2!1sen!2sin"
-            width="1142px"
-            height="400px"
-            style={{ borderRadius: "10px" }}
-            className="num-img"
-            title="map"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+          <div className="container">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25630.305720737346!2d77.9501413!3d30.400029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d4890d7c1735%3A0x22d3ae324c238e3c!2sUPES!5e1!3m2!1sen!2sin!4v1687631014232!5m2!1sen!2sin"
+              width="1142px"
+              height="400px"
+              style={{ borderRadius: "10px" }}
+              className="num-img"
+              title="map"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
         </div>
       </div>
     </div>
