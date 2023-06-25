@@ -13,7 +13,7 @@ const Contact = () => {
     document.body.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <div className=" small-mobile contact flex flex-col two-margin-top">
+    <div className="  contact flex flex-col two-margin-top">
       <div className="container d-flex justify-content-center align-items-center contact-container-box gap-5 text-white">
         <div className="container form">
           <Heading text="Get In Touch" position="left" />
@@ -69,7 +69,7 @@ const Contact = () => {
                 <div className="d-flex flex-row num-row my-2 flex-wrap">
                   <p
                     className="font-light mb-0"
-                    style={{ marginRight: "3.1rem", marginLeft: "0.5rem" }}
+                    style={{ marginRight: "53px", marginLeft: "0.5rem" }}
                   >
                     +917004839585
                   </p>
@@ -92,16 +92,16 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="contact_address flex flex-row">
-              <div className="logo flex flex-row absolute pb-0" >
+            <div className=" p-0 contact_address flex flex-row">
+              <div className="logo d-flex justify-content-center flex-row absolute pb-0" >
                 <img src={socs} alt="" style={{ marginRight: "10px" }} />
                 <img src={ulogo} alt="" />
               </div>
               <div className="text-right">
-                <h3 className="socs text-right font-bold capitalize">
+                <h3 className="socs text-right font-bold capitalize" style={{textAlign:"right"}}>
                   SCHOOL OF COMPUTER SCIENCE
                 </h3>
-                <p>
+                <p className="upes-text">
                   University of Petroleum and Energy Studies, Energy Acres, PO
                   <br />
                   Bidholi via Prem Nagar, dehradun, 248007. Uttarakhand, India.
