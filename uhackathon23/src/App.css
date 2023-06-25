@@ -50,11 +50,13 @@
 
 @media (max-width: 510px) {
   .small-mobile{
-    transform:scale(0.75)
+    transform:scale(0.75);
+
   }
   .small-mobile-hero{
     transform: scale(0.75);
-    
+        margin-top: -98vh;
+          margin-bottom: -98vh;
 
   }
 }

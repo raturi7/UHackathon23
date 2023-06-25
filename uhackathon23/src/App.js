@@ -41,7 +41,7 @@ function App() {
         <div className="ellipse5"></div>
         <div className="ellipse6"></div>
 
-        <div className="content-container">
+        <div className="content-container ">
           <ScrollToTopOnMount />
           <ScrollToTop />
           <Routes>

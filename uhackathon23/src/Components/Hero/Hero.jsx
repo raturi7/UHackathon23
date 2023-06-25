@@ -69,9 +69,9 @@ const Hero = () => {
   }, []);
 
   return (
-    <div>
+    <div className="small-mobile-hero">
       <div
-        className=".small-mobile-hero container d-flex justify-content-center hero-container"
+        className=" container d-flex justify-content-center hero-container"
         style={{ color: "#E4E4E4", textAlign: "left", height: "85vh" }}
       >
         <div className="container">
