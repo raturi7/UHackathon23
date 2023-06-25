@@ -13,7 +13,7 @@ const Contact = () => {
     document.body.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <div className="contact flex flex-col two-margin-top">
+    <div className=" small-mobile contact flex flex-col two-margin-top">
       <div className="container d-flex justify-content-center align-items-center contact-container-box gap-5 text-white">
         <div className="container form">
           <Heading text="Get In Touch" position="left" />
