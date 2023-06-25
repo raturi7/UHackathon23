@@ -5,6 +5,8 @@ import img from "./Contact.jpg";
 import phone from '../../Components/Images/phone-call.png'
 import email from '../../Components/Images/email.png'
 import { useLocation } from 'react-router-dom';
+import ulogo from "../../Components/Images/UPES UOT#1 white 2.png"
+import socs from "../../Components/Images/SoCS Logo white 2.png"
 const Contact = () => {
   const { pathname } = useLocation();
   React.useEffect(() => {
@@ -89,10 +91,35 @@ const Contact = () => {
                   <p className="font-light mx-2">uhackathon@ddn.upes.ac.in</p>
                 </div>
               </div>
-              
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25630.305720737346!2d77.9501413!3d30.400029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d4890d7c1735%3A0x22d3ae324c238e3c!2sUPES!5e1!3m2!1sen!2sin!4v1687631014232!5m2!1sen!2sin" width="600" height="400" style={{borderRadius:"10px"}} className="num-img" title="map" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div className="contact_address flex flex-row">
+              <div className="logo flex flex-row absolute pb-0" >
+                <img src={socs} alt="" style={{ marginRight: "10px" }} />
+                <img src={ulogo} alt="" />
+              </div>
+              <div className="text-right">
+                <h3 className="socs text-right font-bold capitalize">
+                  SCHOOL OF COMPUTER SCIENCE
+                </h3>
+                <p>
+                  University of Petroleum and Energy Studies, Energy Acres, PO
+                  <br />
+                  Bidholi via Prem Nagar, dehradun, 248007. Uttarakhand, India.
+                </p>
+              </div>
+            </div>
           </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25630.305720737346!2d77.9501413!3d30.400029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d4890d7c1735%3A0x22d3ae324c238e3c!2sUPES!5e1!3m2!1sen!2sin!4v1687631014232!5m2!1sen!2sin"
+            width="1142px"
+            height="400px"
+            style={{ borderRadius: "10px" }}
+            className="num-img"
+            title="map"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
     </div>
