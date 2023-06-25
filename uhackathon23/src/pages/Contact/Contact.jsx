@@ -69,20 +69,20 @@ const Contact = () => {
                 <div className="d-flex flex-row num-row my-2 flex-wrap">
                   <p
                     className="font-light mb-0"
-                    style={{ marginRight: "3rem", marginLeft: "0.5rem" }}
+                    style={{ marginRight: "3.1rem", marginLeft: "0.5rem" }}
                   >
                     +917004839585
                   </p>
-                  Convener
+                <b style={{marginRight:"2rem"}}>Devashish</b>Convener
                 </div>
               </div>
               <div className="d-flex flex-row num-row my-2 flex-wrap pl-2">
                 <p className="font-light mx-5 mb-0">+919101892272</p>
-                Hospitality Head (Travel & Transport)
+                <b style={{marginRight:"2rem"}}>Devashish</b> Travel & Transport
               </div>
               <div className="d-flex flex-row num-row  my-2 flex-wrap">
                 <p className="font-light mx-5 mb-0">+918130912282</p>
-                Hospitality Head (Lodging & Stay)
+                <b style={{marginRight:"2rem"}}>Devashish</b> Lodging & Stay
               </div>
 
               <div className="d-flex flex-column justify-content-center mt-3 ">
