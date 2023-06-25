@@ -55,7 +55,7 @@ const Contact = () => {
         />
       </div>
       <div className="container text-left flex flex-col two-margin-top">
-        <div className="container text-white flex flex-row">
+        <div className="container text-white flex flex-row contact-heading">
           <Heading text="Contact Us" position="left" />
           <div className="d-flex flex-row flex-wrap align-items-center justify-content-between contact-box">
             {" "}
