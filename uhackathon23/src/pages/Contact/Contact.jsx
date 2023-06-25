@@ -13,7 +13,7 @@ const Contact = () => {
     document.body.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <div className="  contact flex flex-col two-margin-top">
+    <div className="  contact flex flex-col two-margin-top small-mobile3">
       <div className="container d-flex justify-content-center align-items-center contact-container-box gap-5 text-white">
         <div className="container form">
           <Heading text="Get In Touch" position="left" />
@@ -110,7 +110,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="container">
+          <div className="container mt-5">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d25630.305720737346!2d77.9501413!3d30.400029!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3908d4890d7c1735%3A0x22d3ae324c238e3c!2sUPES!5e1!3m2!1sen!2sin!4v1687631014232!5m2!1sen!2sin"
               width="1142px"

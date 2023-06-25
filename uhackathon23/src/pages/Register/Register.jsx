@@ -8,7 +8,7 @@ const Register = () => {
     document.body.scrollTo(0, 0);
   }, [pathname]);
   return (
-    <div className="container two-margin-top">
+    <div className="container two-margin-top small-mobile4">
       <div className="container text-white flex flex-col p-0">
         <div className="container p-0">
           <h6

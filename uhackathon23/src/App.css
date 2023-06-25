@@ -48,7 +48,7 @@
   text-align: center;
 }
 
-@media (max-width: 510px) {
+@media (max-width: 440px) {
   .small-mobile{
     transform:scale(0.75);
 
@@ -57,6 +57,32 @@
     transform: scale(0.75);
         margin-top: -98vh;
           margin-bottom: -98vh;
+
+  }
+  .small-mobile3{
+    transform: scale(0.75);
+    margin-top:-15vh;
+      margin-bottom: -30vh;
+  }
+  .small-mobile4{
+    transform: scale(0.75);
+    margin-top:15vh;
+      margin-bottom: -10vh;
+  }
+}
+@media (max-width: 395px){
+  .small-mobile-hero{
+    transform: scale(0.75);
+        margin-top: -100vh;
+          margin-bottom: -100vh;
+
+  }
+}
+@media (max-width: 360px){
+  .small-mobile-hero{
+    transform: scale(0.75);
+        margin-top: -130vh;
+          margin-bottom: -130vh;
 
   }
 }
