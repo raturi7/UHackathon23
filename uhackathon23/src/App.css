@@ -52,4 +52,9 @@
   .small-mobile{
     transform:scale(0.75)
   }
+  .small-mobile-hero{
+    transform: scale(0.75);
+    
+
+  }
 }

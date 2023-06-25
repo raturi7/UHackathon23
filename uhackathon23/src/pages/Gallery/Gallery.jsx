@@ -24,7 +24,7 @@ const Gallery = () => {
 
 
   return (
-    <div className="gallery-container pt-5 small-mobile">
+    <div className="gallery-container pt-5">
       <div class="modal fade" id="exampleModal" tabindex="-1"  aria-labelledby="exampleModalLabel" aria-hidden="true" ref={ref1}>
         <div class="modal-dialog modal-dialog-scrollable modal-xl modal-dialog-centered"  style={{height:"max-content"}}>
           <div class="modal-content d-flex flex-wrap flex-row gap-4 justify-content-center">
