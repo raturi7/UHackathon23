@@ -71,19 +71,19 @@ const Contact = () => {
                     className="font-light mb-0"
                     style={{ marginRight: "53px", marginLeft: "0.5rem" }}
                   >
-                    +917004839585
+                    +91 74139 33555
                   </p>
                   <b style={{ marginRight: "2rem" }}>Devashish</b>Convener
                 </div>
               </div>
               <div className="d-flex flex-row num-row my-2 flex-wrap pl-2">
-                <p className="font-light mx-5 mb-0">+919101892272</p>
-                <b style={{ marginRight: "2rem" }}>Devashish</b> Travel &
+                <p className="font-light mx-5 mb-0">+91 93983 81263</p>
+                <b style={{ marginRight: "2rem" }}>Akshat</b> Travel &
                 Transport
               </div>
               <div className="d-flex flex-row num-row  my-2 flex-wrap">
-                <p className="font-light mx-5 mb-0">+918130912282</p>
-                <b style={{ marginRight: "2rem" }}>Devashish</b> Lodging & Stay
+                <p className="font-light mx-5 mb-0">+91 77029 46560</p>
+                <b style={{ marginRight: "2rem" }}>Vinay</b> Lodging & Stay
               </div>
 
               <div className="d-flex flex-column justify-content-center mt-3 ">
@@ -94,12 +94,15 @@ const Contact = () => {
               </div>
             </div>
             <div className=" p-0 contact_address flex flex-row">
-              <div className="logo d-flex justify-content-center flex-row absolute pb-0" >
+              <div className="logo d-flex justify-content-center flex-row absolute pb-0">
                 <img src={socs} alt="" style={{ marginRight: "10px" }} />
                 <img src={ulogo} alt="" />
               </div>
               <div className="text-right">
-                <h3 className="socs text-right font-bold capitalize" style={{textAlign:"right"}}>
+                <h3
+                  className="socs text-right font-bold capitalize"
+                  style={{ textAlign: "right" }}
+                >
                   SCHOOL OF COMPUTER SCIENCE
                 </h3>
                 <p className="upes-text">
