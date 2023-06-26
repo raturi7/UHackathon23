@@ -156,3 +156,16 @@
   .ulogo{
     width: 80%;
   }
+    .table-cell-padding {
+      padding-top: 10px;
+      /* Adjust the padding value as needed */
+    }
+    tr{
+      display:table-row;
+    }
+
+
+        .row1 {
+          /* padding: 10px; */
+          height: 32px;
+        }

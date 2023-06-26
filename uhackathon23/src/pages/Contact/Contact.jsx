@@ -6,13 +6,20 @@ import phone from "../../Components/Images/phone-call.png";
 import email from "../../Components/Images/email.png";
 import { useLocation } from "react-router-dom";
 import ulogo from "../../Components/Images/UPESLOGO.png";
+
 const Contact = () => {
   const { pathname } = useLocation();
+
   React.useEffect(() => {
     document.body.scrollTo(0, 0);
   }, [pathname]);
+
+  const handleEmailClick = () => {
+    window.location.href = "mailto:uhackathon@ddn.upes.ac.in";
+  };
+
   return (
-    <div className="  contact flex flex-col two-margin-top small-mobile3">
+    <div className="contact flex flex-col two-margin-top small-mobile3">
       <div className="container d-flex justify-content-center align-items-center contact-container-box gap-5 text-white">
         <div className="container form contact-heading">
           <Heading text="Get In Touch" position="left" />
@@ -63,7 +70,7 @@ const Contact = () => {
               className="num d-flex flex-column raghav-ansh-table"
               style={{ textAlign: "left" }}
             >
-              <table className="table-auto">
+              <table className="table-auto border-spacing-y-2 py-2	">
                 <tbody>
                   <tr>
                     <td
@@ -78,33 +85,33 @@ const Contact = () => {
                         style={{ maxWidth: "32px" }}
                       />
                     </td>
-                    <td>+91 74139 33555</td>
-                    <td>Devashish Sharma</td>
-                    <td>Convener</td>
+                    <td className="row1" >+91 74139 33555</td>
+                    <td className="row1">Devashish Sharma</td>
+                    <td className="row1">Convener</td>
+                  </tr>
+                  <tr className="table-cell-padding">
+                    <td className="row1"></td>
+                    <td className="row1">+91 93983 81263</td>
+                    <td className="row1">Akshat Kembhavi</td>
+                    <td className="row1">Travel & Transport</td>
                   </tr>
                   <tr>
-                    <td className="hider"></td>
-                    <td>+91 93983 81263</td>
-                    <td>Akshat Kembhavi</td>
-                    <td>Travel & Transport</td>
+                    <td className="row1" ></td>
+                    <td className="row1">+91 77029 46560</td>
+                    <td className="row1">Vinay K</td>
+                    <td className="row1">Lodging & Stay</td>
                   </tr>
                   <tr>
-                    <td className="hider"></td>
-                    <td>+91 77029 46560</td>
-                    <td>Vinay K</td>
-                    <td>Lodging & Stay</td>
+                    <td className="row1"></td>
+                    <td className="row1">+91 81716 70271</td>
+                    <td className="row1">Parth Nautiyal</td>
+                    <td className="row1">Registration Head</td>
                   </tr>
                   <tr>
-                    <td className="hider"></td>
-                    <td>+91 81716 70271</td>
-                    <td>Parth Nautiyal</td>
-                    <td>For Registration Queries</td>
-                  </tr>
-                  <tr>
-                    <td className="hider"></td>
-                    <td>+91 93223 99818</td>
-                    <td>Utkarsh Singh</td>
-                    <td>For Registration Queries</td>
+                    <td className="row1"></td>
+                    <td className="row1">+91 93223 99818</td>
+                    <td className="row1">Utkarsh Singh</td>
+                    <td className="row1">Assoc. Registration Head</td>
                   </tr>
                 </tbody>
               </table>
@@ -134,7 +141,13 @@ const Contact = () => {
               <div className="d-flex flex-column justify-content-center mt-5 raghav-ansh">
                 <div className="d-flex flex-row gap-3 ">
                   <img src={email} alt="" className="ico" />
-                  <p className="font-light mx-2">uhackathon@ddn.upes.ac.in</p>
+                  {/* <p className="font-light mx-2">uhackathon@ddn.upes.ac.in</p> */}
+                  <a
+                    href="mailto:uhackathon@ddn.upes.ac.in"
+                    className="font-light mx-2 text-white"
+                  >
+                    uhackathon@ddn.upes.ac.in
+                  </a>
                 </div>
               </div>
             </div>
@@ -165,7 +178,7 @@ const Contact = () => {
               style={{ borderRadius: "10px" }}
               className="num-img"
               title="map"
-              allowfullscreen=""
+              allowFullScreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
