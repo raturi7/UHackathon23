@@ -63,21 +63,23 @@ const Contact = () => {
               className="num d-flex flex-column"
               style={{ textAlign: "left" }}
             >
-              <img src={phone} alt="" className="ico" />
 
               <table className="table-auto">
                 <tbody>
                   <tr>
+                    <td className="hider" style={{width:"20px",paddingRight:"20px"}}> <img src={phone} alt="" className="ico" style={{maxWidth:"50px"}}/></td>
                     <td>+91 74139 33555</td>
                     <td>Devashish Sharma</td>
                     <td>Convener</td>
                   </tr>
                   <tr>
+                    <td className="hider"></td>
                     <td>+91 93983 81263</td>
                     <td>Akshat Kembhavi</td>
                     <td>Travel & Transport</td>
                   </tr>
                   <tr>
+                    <td className="hider"></td>
                     <td>+91 77029 46560</td>
                     <td>Vinay K</td>
                     <td>Lodging & Stay</td>
