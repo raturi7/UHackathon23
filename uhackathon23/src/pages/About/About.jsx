@@ -7,6 +7,14 @@ import img2 from '../../Components/Images/Rectangle13-1.png'
 import img3 from '../../Components/Images/Rectangle13.png'
 import { useLocation } from 'react-router-dom';
 import UPES from "../../Components/Images/UPES.jpg"
+import imgddn1 from "./images/img1 (1).avif"
+import imgddn2 from "./images/img1 (2).avif"
+import imgddn3 from "./images/img1 (3).avif"
+import imgupes1 from "./images/imgupes1 (1).avif"
+import imgupes2 from "./images/imgupes1 (2).avif"
+import imgupes3 from "./images/imgupes1 (3).avif"
+
+
 const About = () => {
   const { pathname } = useLocation();
   React.useEffect(() => {
@@ -23,13 +31,13 @@ const About = () => {
     return (
       <div className="container-fluid  flex-row d-flex align-items-center justify-content-center p-0 images-container two-margin-top">
         <div className="col lg-4">
-          <img src={img3} alt="" />
+          <img src={imgupes3} alt="" />
         </div>
         <div className="col lg-4">
-          <img src={img2} alt="" />
+          <img src={imgupes2} alt="" />
         </div>
         <div className="col lg-4">
-          <img src={img1} alt="" />
+          <img src={imgupes1} alt="" />
         </div>
       </div>
     );
@@ -38,13 +46,13 @@ const About = () => {
     return (
       <div className="container-fluid flex-row d-flex align-items-center justify-content-center p-0 images-container two-margin-top">
         <div className="col lg-4">
-          <img src={img3} alt="" />
+          <img src={imgddn3} alt="" />
         </div>
         <div className="col lg-4">
-          <img src={img2} alt="" />
+          <img src={imgddn2} alt="" />
         </div>
         <div className="col lg-4">
-          <img src={img1} alt="" />
+          <img src={imgddn1} alt="" />
         </div>
       </div>
     );
