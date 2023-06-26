@@ -5,7 +5,7 @@ import img from "./Contact.jpg";
 import phone from "../../Components/Images/phone-call.png";
 import email from "../../Components/Images/email.png";
 import { useLocation } from "react-router-dom";
-import ulogo from "../../Components/Images/UPES UOT#1 white 2.png";
+import ulogo from "../../Components/Images/UPESLOGO.png";
 import socs from "../../Components/Images/SoCS Logo white 2.png";
 const Contact = () => {
   const { pathname } = useLocation();
@@ -118,7 +118,7 @@ const Contact = () => {
             <div className=" p-0 contact_address flex flex-row">
               <div className="logo d-flex justify-content-center flex-row absolute pb-0">
                 <img src={socs} alt="" style={{ marginRight: "10px" }} />
-                <img src={ulogo} alt="" />
+                <img src={ulogo} alt="" className="logo" />
               </div>
               <div className="text-right">
                 <h3
