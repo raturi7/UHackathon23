@@ -60,7 +60,11 @@ const Gallery = () => {
     setSelectedImage(image);
     modal.current.style.filter = "blur(4px) brightness(20%)";
   };
-
+// window.addEventListener('keypress',(e)=>{
+//   if(e.key === "Escape") {
+//     modal.current.style.filter = "none";
+//   }
+// })
   const closeModal = () => {
     setSelectedImage([]);
     modal.current.style.filter = "none";

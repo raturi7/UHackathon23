@@ -21,7 +21,7 @@ const About = () => {
     document.body.scrollTo(0, 0);
   }, [pathname]);
   function uhack(){
-    return  <div className="container-fluid flex-row d-flex align-items-center justify-content-center p-0 images-container two-margin-top">
+    return  <div className="container-fluid flex-row d-flex align-items-center img-scale justify-content-center p-0 images-container two-margin-top">
          <div className="col lg-4"><img src={img3} alt="" /></div>
          <div className="col lg-4"><img src={img2} alt="" /></div>
          <div className="col lg-4"><img src={img1} alt="" /></div>
@@ -29,7 +29,7 @@ const About = () => {
   }
   function upes() {
     return (
-      <div className="container-fluid  flex-row d-flex align-items-center justify-content-center p-0 images-container two-margin-top">
+      <div className="container-fluid  flex-row d-flex align-items-center img-scale justify-content-center p-0 images-container two-margin-top">
         <div className="col lg-4">
           <img src={imgupes3} alt="" />
         </div>
@@ -44,7 +44,7 @@ const About = () => {
   }
   function dehradun() {
     return (
-      <div className="container-fluid flex-row d-flex align-items-center justify-content-center p-0 images-container two-margin-top">
+      <div className="container-fluid flex-row d-flex align-items-center img-scale justify-content-center p-0 images-container two-margin-top">
         <div className="col lg-4">
           <img src={imgddn3} alt="" />
         </div>

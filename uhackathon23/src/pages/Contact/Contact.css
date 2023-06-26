@@ -90,7 +90,11 @@
       margin-right: 0 !important;
     }
     .logo{
+      justify-content: center !important;
       display: flex;
+    }
+    .ulogo{
+      width: 190% !important;
     }
     .upes-img{
       padding: 10px;
@@ -142,4 +146,7 @@
   }
   .container iframe{
     width: 100%;
+  }
+  .ulogo{
+    width: 80%;
   }
