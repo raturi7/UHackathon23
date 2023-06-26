@@ -11,6 +11,11 @@ const Contact = () => {
   React.useEffect(() => {
     document.body.scrollTo(0, 0);
   }, [pathname]);
+
+    const handleEmailClick = () => {
+      window.location.href = "mailto:uhackathon@ddn.upes.ac.in";
+    };
+
   return (
     <div className="  contact flex flex-col two-margin-top small-mobile3">
       <div className="container d-flex justify-content-center align-items-center contact-container-box gap-5 text-white">
@@ -134,8 +139,10 @@ const Contact = () => {
               <div className="d-flex flex-column justify-content-center mt-3 ">
                 <div className="d-flex flex-row gap-3 ">
                   <img src={email} alt="" className="ico" />
-                  <p className="font-light mx-2">uhackathon@ddn.upes.ac.in</p>
-                </div>
+                  {/* <p className="font-light mx-2">uhackathon@ddn.upes.ac.in</p> */}
+ <a href="mailto:uhackathon@ddn.upes.ac.in" className="font-light mx-2 text-white">
+      uhackathon@ddn.upes.ac.in
+    </a>                </div>
               </div>
             </div>
             <div className=" p-0 contact_address d-flex flex-column align-items-end w-50">
