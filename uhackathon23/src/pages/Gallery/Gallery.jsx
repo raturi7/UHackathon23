@@ -105,7 +105,6 @@ const Gallery = () => {
                   selectedImage[2]
                 }
               </p>
-              <p style={{ fontSize: "16px" }}>{"Date: DD/MM/YY"}</p>
             </div>
           </div>
         </div>
