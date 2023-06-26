@@ -2,9 +2,6 @@
 import React from 'react'
 import './About.css'
 import Heading from '../../Components/Heading/Heading';
-import img1 from '../../Components/Images/Rectangle13-2.png'
-import img2 from '../../Components/Images/Rectangle13-1.png'
-import img3 from '../../Components/Images/Rectangle13.png'
 import { useLocation } from 'react-router-dom';
 import UPES from "../../Components/Images/UPES.jpg"
 import imgddn1 from "./images/img1 (1).avif"
