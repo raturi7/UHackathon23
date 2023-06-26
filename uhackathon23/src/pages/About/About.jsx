@@ -23,22 +23,34 @@ const About = () => {
     document.body.scrollTo(0, 0);
   }, [pathname]);
   function uhack(){
-    return  <div className="container-fluid flex-row d-flex align-items-center img-scale justify-content-center p-0 images-container two-margin-top">
-         <div className="col lg-4"><img src={uhack1} alt="" /></div>
-         <div className="col lg-4"><img src={uhack2} alt="" /></div>
-         <div className="col lg-4"><img src={uhack3} alt="" /></div>
-    </div>
+    return (
+      <div className="container-fluid rounded-tr-lg flex-row d-flex align-items-center img-scale justify-content-center p-0 images-container two-margin-top">
+        <div
+          className="col lg-4 rounded-tl-lg img-scalel
+
+"
+        >
+          <img src={uhack1} alt="" />
+        </div>
+        <div className="col lg-4">
+          <img src={uhack2} alt="" />
+        </div>
+        <div className="col lg-4 img-scaler">
+          <img src={uhack3} alt="" />
+        </div>
+      </div>
+    );
   }
   function upes() {
     return (
-      <div className="container-fluid  flex-row d-flex align-items-center img-scale justify-content-center p-0 images-container two-margin-top">
-        <div className="col lg-4">
+      <div className="container-fluid  flex-row d-flex align-items-center  justify-content-center p-0 images-container two-margin-top">
+        <div className="col lg-4 img-scalel">
           <img src={imgupes3} alt="" />
         </div>
         <div className="col lg-4">
           <img src={imgupes2} alt="" />
         </div>
-        <div className="col lg-4">
+        <div className="col lg-4 img-scaler">
           <img src={imgupes1} alt="" />
         </div>
       </div>
@@ -48,13 +60,13 @@ const About = () => {
     return (
       <div className="container-fluid flex-row d-flex align-items-center img-scale justify-content-center p-0 images-container two-margin-top">
         <div className="col lg-4">
-          <img src={imgddn3} alt="" />
+          <img src={imgddn3} alt="" className="img-scalel" />
         </div>
         <div className="col lg-4">
           <img src={imgddn2} alt="" />
         </div>
         <div className="col lg-4">
-          <img src={imgddn1} alt="" />
+          <img src={imgddn1} alt="" className="img-scaler" />
         </div>
       </div>
     );
