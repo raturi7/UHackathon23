@@ -23,7 +23,7 @@ const About = () => {
     document.body.scrollTo(0, 0);
   }, [pathname]);
   function uhack(){
-    return  <div className="container-fluid flex-row d-flex align-items-center justify-content-center p-0 images-container two-margin-top">
+    return  <div className="container-fluid flex-row d-flex align-items-center img-scale justify-content-center p-0 images-container two-margin-top">
          <div className="col lg-4"><img src={uhack1} alt="" /></div>
          <div className="col lg-4"><img src={uhack2} alt="" /></div>
          <div className="col lg-4"><img src={uhack3} alt="" /></div>
