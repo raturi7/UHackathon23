@@ -19,7 +19,7 @@ const WhatIsUhackathon = () => {
           prototypes leveraging technologies under the umbrella of Metaverse.
           <br />
           <br />
-          UHackathon 4.0 is a 24 hour coding marathon planning to invite
+          UHackathon 4.0 is a 24-hour coding marathon planning to invite
           participants from G20 Nations and our associate International
           Universities to come together and participate in developing solutions
           towards achieving UN SDG goals leveraging the emerging technologies
