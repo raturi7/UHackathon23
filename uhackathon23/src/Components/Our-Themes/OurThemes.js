@@ -14,7 +14,7 @@ import "slick-carousel/slick/slick-theme.css";
 const data = [
   [img2, "Artificial Intelligence",img1, "3D MODELING"],
   [img7, "Internet of Things(IoT)",img5, "Brain Computer Interface"],
-  [img4, "Blockchain",img6, "Edge Computing"]
+  [img4, "Blockchain",img6, "Edge/Cloud Computing"]
 ];
 
 function themesCard(data) {

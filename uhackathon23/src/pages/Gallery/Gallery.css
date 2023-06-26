@@ -66,3 +66,6 @@ body {
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
+img{
+  width: 257px;
+}
