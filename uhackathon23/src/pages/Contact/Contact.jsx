@@ -63,11 +63,21 @@ const Contact = () => {
               className="num d-flex flex-column"
               style={{ textAlign: "left" }}
             >
-
               <table className="table-auto">
                 <tbody>
                   <tr>
-                    <td className="hider" style={{width:"20px",paddingRight:"20px"}}> <img src={phone} alt="" className="ico" style={{maxWidth:"32px"}}/></td>
+                    <td
+                      className="hider"
+                      style={{ width: "20px", paddingRight: "20px" }}
+                    >
+                      {" "}
+                      <img
+                        src={phone}
+                        alt=""
+                        className="ico"
+                        style={{ maxWidth: "32px" }}
+                      />
+                    </td>
                     <td>+91 74139 33555</td>
                     <td>Devashish Sharma</td>
                     <td>Convener</td>
@@ -83,6 +93,18 @@ const Contact = () => {
                     <td>+91 77029 46560</td>
                     <td>Vinay K</td>
                     <td>Lodging & Stay</td>
+                  </tr>
+                  <tr>
+                    <td className="hider"></td>
+                    <td>+91 81716 70271</td>
+                    <td>Parth Nautiyal</td>
+                    <td>For Registration Queries</td>
+                  </tr>
+                  <tr>
+                    <td className="hider"></td>
+                    <td>+91 93223 99818</td>
+                    <td>Utkarsh Singh</td>
+                    <td>For Registration Queries</td>
                   </tr>
                 </tbody>
               </table>
@@ -118,7 +140,7 @@ const Contact = () => {
             </div>
             <div className=" p-0 contact_address d-flex flex-column align-items-end w-50">
               <div className="logo d-flex justify-content-end flex-row pb-0 my-4">
-                <img src={ulogo} alt="" className="ulogo"/>
+                <img src={ulogo} alt="" className="ulogo" />
               </div>
               <div className="text-right">
                 <h3

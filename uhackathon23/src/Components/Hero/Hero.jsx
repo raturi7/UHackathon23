@@ -8,7 +8,7 @@ import WhatIsUhackathon from "../What-is-Uhackarhon/WhatIsUhackathon";
 import History from "../Hackathon-History/History";
 import Main from "./Main Poster.png";
 import { useLocation } from 'react-router-dom';
-
+import { Link } from "react-router-dom";
 const Hero = () => {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -107,7 +107,14 @@ const Hero = () => {
                 className="h5 an-text flex leading-none"
               />
             </h5>
-            <button className="btn footer-link mt-5">Get Started</button>
+            {/* <button className="btn footer-link mt-5">Get Started</button> */}
+            <Link
+              to="/Register"
+              style={{ textDecoration: "none" }}
+              className="btn footer-link mt-5"
+            >
+            Get Started
+            </Link>
           </div>
         </div>
         <div className="container vr-timer d-flex align-items-center justify-content-center flex-column">
