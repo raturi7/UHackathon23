@@ -97,7 +97,7 @@
       display: flex;
     }
     .ulogo{
-      width: 190% !important;
+      width: 100% !important;
     }
     .upes-img{
       padding: 10px;
@@ -135,6 +135,9 @@
     }
     .contact_address .text-right{
       text-align: center !important;
+    }
+    .contact_address{
+      width: 100% !important;
     }
   }
   .num .ico{

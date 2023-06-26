@@ -67,7 +67,7 @@ const Contact = () => {
               <table className="table-auto">
                 <tbody>
                   <tr>
-                    <td className="hider" style={{width:"20px",paddingRight:"20px"}}> <img src={phone} alt="" className="ico" style={{maxWidth:"50px"}}/></td>
+                    <td className="hider" style={{width:"20px",paddingRight:"20px"}}> <img src={phone} alt="" className="ico" style={{maxWidth:"32px"}}/></td>
                     <td>+91 74139 33555</td>
                     <td>Devashish Sharma</td>
                     <td>Convener</td>

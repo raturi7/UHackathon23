@@ -43,7 +43,7 @@ const About = () => {
   }
   function upes() {
     return (
-      <div className="container-fluid  flex-row d-flex align-items-center  justify-content-center p-0 images-container two-margin-top">
+      <div className="container-fluid  flex-row d-flex align-items-center img-scale  justify-content-center p-0 images-container two-margin-top">
         <div className="col lg-4 img-scalel">
           <img src={imgupes3} alt="" />
         </div>
