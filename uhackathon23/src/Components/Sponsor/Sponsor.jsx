@@ -19,7 +19,7 @@ function sponsorCard(img){
 }
 const settings = {
   dots: false,
-  arrows:false,
+  arrows:true,
   infinite: true,
   slidesToShow: 2,
   swipeToSlide: true,

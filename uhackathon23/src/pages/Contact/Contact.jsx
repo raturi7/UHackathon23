@@ -2,11 +2,11 @@ import React from "react";
 import "./Contact.css";
 import Heading from "../../Components/Heading/Heading";
 import img from "./Contact.jpg";
-import phone from '../../Components/Images/phone-call.png'
-import email from '../../Components/Images/email.png'
-import { useLocation } from 'react-router-dom';
-import ulogo from "../../Components/Images/UPES UOT#1 white 2.png"
-import socs from "../../Components/Images/SoCS Logo white 2.png"
+import phone from "../../Components/Images/phone-call.png";
+import email from "../../Components/Images/email.png";
+import { useLocation } from "react-router-dom";
+import ulogo from "../../Components/Images/UPES UOT#1 white 2.png";
+import socs from "../../Components/Images/SoCS Logo white 2.png";
 const Contact = () => {
   const { pathname } = useLocation();
   React.useEffect(() => {
@@ -64,8 +64,28 @@ const Contact = () => {
               className="num d-flex flex-column"
               style={{ textAlign: "left" }}
             >
-              <div className="d-flex flex-row align-items-center gap-3 ">
-                <img src={phone} alt="" className="ico" />
+              <img src={phone} alt="" className="ico" />
+
+              <table className="table-auto">
+                <tbody>
+                  <tr>
+                    <td>+91 74139 33555</td>
+                    <td>Devashish Sharma</td>
+                    <td>Convener</td>
+                  </tr>
+                  <tr>
+                    <td>+91 93983 81263</td>
+                    <td>Akshat Kembhavi</td>
+                    <td>Travel & Transport</td>
+                  </tr>
+                  <tr>
+                    <td>+91 77029 46560</td>
+                    <td>Vinay K</td>
+                    <td>Lodging & Stay</td>
+                  </tr>
+                </tbody>
+              </table>
+              {/* <div className="d-flex flex-row align-items-center gap-3 ">
                 <div className="d-flex flex-row num-row my-2 flex-wrap">
                   <p
                     className="font-light mb-0"
@@ -73,18 +93,20 @@ const Contact = () => {
                   >
                     +91 74139 33555
                   </p>
-                  <b style={{ marginRight: "2rem" }}>Devashish</b>Convener
+                  <b style={{ marginRight: "2rem" }}>Devashish Sharma</b>
+                  Convener
                 </div>
               </div>
               <div className="d-flex flex-row num-row my-2 flex-wrap pl-2">
                 <p className="font-light mx-5 mb-0">+91 93983 81263</p>
-                <b style={{ marginRight: "2rem" }}>Akshat</b> Travel &
+                <b style={{ marginRight: "2rem" }}>Akshat Kembhavi</b> Travel &
                 Transport
               </div>
               <div className="d-flex flex-row num-row  my-2 flex-wrap">
                 <p className="font-light mx-5 mb-0">+91 77029 46560</p>
-                <b style={{ marginRight: "2rem" }}>Vinay</b> Lodging & Stay
+                <b style={{ marginRight: "2rem" }}>Vinay K</b> Lodging & Stay
               </div>
+              */}
 
               <div className="d-flex flex-column justify-content-center mt-3 ">
                 <div className="d-flex flex-row gap-3 ">
