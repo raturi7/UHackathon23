@@ -41,7 +41,7 @@ const Sponsor = () => {
   return (
     <>
     <div className='container d-flex align-items-center justify-content-center flex-row flex-wrap sponsor-container two-margin-top pc-container'>
-      <Heading text="Meet Our Sponsors" position="center" />
+      <Heading text="Industry Associates" position="center" />
          {
         imgaes.map((element)=>{
           return sponsorCard(element)

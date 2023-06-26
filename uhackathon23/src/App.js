@@ -9,6 +9,8 @@ import Register from "./pages/Register/Register";
 import Contact from "./pages/Contact/Contact";
 import Login from "./pages/Login/Login";
 import Gallery from "./pages/Gallery/Gallery";
+import Timeline from "./pages/timeline/Timeline";
+
 
 function ScrollToTopOnMount() {
   useEffect(() => {
@@ -51,6 +53,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<Login />} />
             <Route path="/gallery" element={<Gallery />} />
+            <Route path="/timeline" element={<Timeline />} />
           </Routes>
         </div>
 
