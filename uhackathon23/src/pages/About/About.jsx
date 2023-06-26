@@ -13,7 +13,9 @@ import imgddn3 from "./images/img1 (3).avif"
 import imgupes1 from "./images/imgupes1 (1).avif"
 import imgupes2 from "./images/imgupes1 (2).avif"
 import imgupes3 from "./images/imgupes1 (3).avif"
-
+import uhack1 from "./images/img.avif"
+import uhack2 from "./images/img(17).avif"
+import uhack3 from "./images/img(3).avif"
 
 const About = () => {
   const { pathname } = useLocation();
@@ -21,10 +23,10 @@ const About = () => {
     document.body.scrollTo(0, 0);
   }, [pathname]);
   function uhack(){
-    return  <div className="container-fluid flex-row d-flex align-items-center img-scale justify-content-center p-0 images-container two-margin-top">
-         <div className="col lg-4"><img src={img3} alt="" /></div>
-         <div className="col lg-4"><img src={img2} alt="" /></div>
-         <div className="col lg-4"><img src={img1} alt="" /></div>
+    return  <div className="container-fluid flex-row d-flex align-items-center justify-content-center p-0 images-container two-margin-top">
+         <div className="col lg-4"><img src={uhack1} alt="" /></div>
+         <div className="col lg-4"><img src={uhack2} alt="" /></div>
+         <div className="col lg-4"><img src={uhack3} alt="" /></div>
     </div>
   }
   function upes() {
