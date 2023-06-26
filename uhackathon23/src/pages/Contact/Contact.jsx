@@ -131,7 +131,7 @@ const Contact = () => {
               </div>
               */}
 
-              <div className="d-flex flex-column justify-content-center mt-3 ">
+              <div className="d-flex flex-column justify-content-center mt-5 ">
                 <div className="d-flex flex-row gap-3 ">
                   <img src={email} alt="" className="ico" />
                   <p className="font-light mx-2">uhackathon@ddn.upes.ac.in</p>
