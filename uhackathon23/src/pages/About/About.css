@@ -35,3 +35,9 @@
         margin-top: 50px !important;
     }
 }
+.img-scalel{
+    border-top-left-radius: 50px;
+}
+.img-scaler{
+    border-top-right-radius: 50px;
+}
