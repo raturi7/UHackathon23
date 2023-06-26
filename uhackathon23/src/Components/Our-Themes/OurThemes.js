@@ -72,7 +72,10 @@ const OurThemes = () => {
       <Heading text="Our Themes" position="center" />
       <div className="d-flex flex-wrap flex-row">
         <div className="col-6 col-md-3 py-5 d-flex flex-column justify-contnet-end">
-          <p style={{color:"#e4e4e4",fontSize:"17px"}}><b>EXTENDED REALITY (XR) </b><p>(SPATIAL COMPUTING)</p></p>
+          <p style={{ color: "#e4e4e4", fontSize: "17px" }}>
+            <b>EXTENDED REALITY (XR) </b>
+            <p>(SPATIAL COMPUTING)</p>
+          </p>
           <div
             className="container d-flex flex-column py-5"
             style={{ border: "1px solid #e4e4e4", borderRadius: "35px" }}
@@ -137,18 +140,18 @@ const OurThemes = () => {
             </div>
           </div>
         </div>
-                {data.map((element) => {
-          return ( themesCard(element)
-         );
-        })} 
+        {data.map((element) => {
+          return themesCard(element);
+        })}
       </div>
       <span className="container content">
         <p>
-          In terms of technologies, UHackathon 4.0 META will leverage the
-          emerging technologies and technologies of tomorrow, specifically in
-          the realm of Metaverse. These themes and technologies provide a broad
-          scope for participants to explore and develop innovative solutions
-          that address real-world challenges in various domains.
+          The broader areas of UHackathon 4.0 are focused, but not limited to
+          the fields of, Disaster Management, Environmental Sustainability,
+          EdTech solutions, Blockchain, Consumer Tech, Healthcare & Biomedical
+          Devices, Retail, Women Welfare, Smart Communication Systems,
+          Agriculture & Rural Development, Food Technology, Smart Vehicles,
+          Robotics & Drones, and AI systems.
         </p>
       </span>
     </div>

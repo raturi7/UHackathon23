@@ -19,7 +19,7 @@ const Register = () => {
           </h6>
        
            <Heading text="PARTICIPANT" position="center"/> */}
-          <Heading text="COMMING" position="center" /><br/>
+          <Heading text="COMING" position="center" /><br/>
           <Heading text="SOON" position="center" />
         </div>
         {/* <div className="team pt-3 pb-0  flex !flex-row display-flex !justify-between">

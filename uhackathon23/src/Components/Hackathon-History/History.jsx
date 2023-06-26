@@ -20,7 +20,7 @@ const History = () => {
             rel="noreferrer"
             className="text-white"
           >
-            Hackathon 1.0
+            UHackathon 1.0
           </a>
           , was organized in May 2019, attracting student participation from 10
           states across the country. This unique event featured problem
@@ -36,7 +36,7 @@ const History = () => {
             rel="noreferrer"
             className="text-white"
           >
-            Hackathon 1.0
+            UHackathon 1.0
           </a>
           ,{" "}
           <a
