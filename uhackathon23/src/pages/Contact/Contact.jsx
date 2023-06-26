@@ -60,7 +60,7 @@ const Contact = () => {
             {" "}
             {/* Added align-items-start class */}
             <div
-              className="num d-flex flex-column"
+              className="num d-flex flex-column raghav-ansh-table"
               style={{ textAlign: "left" }}
             >
               <table className="table-auto">
@@ -131,7 +131,7 @@ const Contact = () => {
               </div>
               */}
 
-              <div className="d-flex flex-column justify-content-center mt-5 ">
+              <div className="d-flex flex-column justify-content-center mt-5 raghav-ansh">
                 <div className="d-flex flex-row gap-3 ">
                   <img src={email} alt="" className="ico" />
                   <p className="font-light mx-2">uhackathon@ddn.upes.ac.in</p>

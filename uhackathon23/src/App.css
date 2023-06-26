@@ -62,6 +62,18 @@
           margin-bottom: -90vh;
 
   }
+  .raghav-ansh-table{
+    position: relative;
+  }
+  .raghav-ansh{
+    margin-top: 150px !important;
+  }
+  .table-auto{
+    width: 520px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   .small-mobile3{
     transform: scale(0.75);
     margin-top:-15vh;
