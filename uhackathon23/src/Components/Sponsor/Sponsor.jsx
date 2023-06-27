@@ -4,11 +4,12 @@ import img1 from './Images/90a2c3b80d4b7a7599788bfeb9b848ce-removebg-preview 1.p
 import img2 from './Images/539f3ffbecad044276726c01-removebg-preview 1.png'
 import img3 from './Images/google-1-removebg-preview 1.png'
 import img4 from './Images/image25.png'
-import img5 from './Images/image27.png'
+import img9 from './Images/image27.png'
 import img6 from './Images/kisspng-logo-brand-walmart-desktop-wallpaper-image-walmart-to-offer-low-cost-checking-accounts-5b63eaa32fa612 1.png'
 import img7 from './Images/new-Microsoft-logo-removebg-preview 1.png'
 import img8 from './Images/taskade-circle-logo-full-black.png'
 import Heading from '../Heading/Heading'
+import img5 from './Images/Good Good Piggy.png'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
