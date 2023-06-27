@@ -57,7 +57,7 @@ const Navbar = () => {
             <Link className="nav-link" to="/About" style={{ color: color }}>About</Link>
             <Link className="nav-link" to="/Gallery" style={{ color: color }}>Gallery</Link>
             <Link className="nav-link" to="/Contact" style={{ color: color }}>Contact</Link>
-            <Link to="/Register" style={{textDecoration:"none"}} className='nav-link join-btn'>Join Us</Link>
+            <Link to="/Register" style={{textDecoration:"none"}} className='nav-link join-btn' data-hackathon-slug="YOUR-HACKATHON-SLUG" >Join Us</Link>
           </div>
         </div>
       </div>
