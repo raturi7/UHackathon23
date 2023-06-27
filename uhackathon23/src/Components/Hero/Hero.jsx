@@ -9,6 +9,7 @@ import History from "../Hackathon-History/History";
 import Main from "./Main Poster.png";
 import { useLocation } from 'react-router-dom';
 import { Link } from "react-router-dom";
+import Timeline from "../Timeline/Timeline";
 const Hero = () => {
   const { pathname } = useLocation();
   useEffect(() => {
@@ -130,7 +131,8 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <div className="">
+      <Timeline/>
+      <div className="two-margin-top">
         <motion.img
           className=" px-4"
           src={Main}

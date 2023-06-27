@@ -80,7 +80,7 @@ const Contact = () => {
                         src={phone}
                         alt=""
                         className="ico"
-                        style={{ maxWidth: "32px" }}
+                        style={{ maxWidth: "28px" }}
                       />
                     </td>
                     <td>+91 74139 33555</td>

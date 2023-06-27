@@ -49,6 +49,14 @@
 }
 
 @media (max-width: 440px) {
+  .about-container{
+    transform: scale(0.75);
+    margin-top: -600px;
+    margin-bottom: -600px;
+  }
+  .about-container .two-margin-top{
+    margin-top:100px !important;
+  }
   .small-mobile{
     transform:scale(0.75);
 
@@ -58,8 +66,8 @@
   }
   .small-mobile-hero{
     transform: scale(0.75);
-        margin-top: -95vh;
-          margin-bottom: -90vh;
+        margin-top: -1050px;
+          margin-bottom: -1050px;
 
   }
   .raghav-ansh-table{
@@ -88,16 +96,39 @@
 @media (max-width: 395px){
   .small-mobile-hero{
     transform: scale(0.75);
-        margin-top: -100vh;
-          margin-bottom: -100vh;
+        margin-top: -1150px;
+          margin-bottom: -1150px;
 
   }
 }
 @media (max-width: 360px){
   .small-mobile-hero{
     transform: scale(0.75);
-        margin-top: -130vh;
+        margin-top: -170vh;
           margin-bottom: -130vh;
 
   }
 }
+
+.timeline-container img{
+  width: stretch;
+}
+
+@media (max-width:767px) {
+  .timeline-container{
+    width: 100%;
+    position: relative;
+  }
+  .timeline-container .timeline-box{
+    position: absolute;
+    right: 0;
+    overflow-x: scroll;
+
+  }
+  .timeline-container img{
+    width: 1200px;
+    height: 400px;
+  }
+}
+
+
