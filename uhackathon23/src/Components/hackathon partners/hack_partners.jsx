@@ -14,7 +14,7 @@ const imgaes = [img2, img3, img4, img5, img1];
 function sponsorCard(img) {
   return (
     <div class="card p-4">
-      <img class="card-img" src={img} alt="" />
+      <img class="card-img" src={img} alt="DEVFOLIO LOGO" />
     </div>
   );
 }
