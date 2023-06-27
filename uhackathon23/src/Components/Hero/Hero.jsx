@@ -31,7 +31,7 @@ const Hero = () => {
     },
   };
   const calculateTimeLeft = () => {
-    const difference = +new Date("September 2, 2023") - +new Date();
+    const difference = +new Date("September 1, 2023") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
