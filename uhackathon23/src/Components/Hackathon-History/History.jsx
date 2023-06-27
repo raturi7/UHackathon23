@@ -1,6 +1,6 @@
 import React from "react";
 import Heading from "../Heading/Heading";
-
+import letter from '../Images/pmletter.pdf'
 const History = () => {
   return (
     <div className="container what-container two-margin-top">
@@ -10,7 +10,7 @@ const History = () => {
           UHackathon 3.0 took place on August 5th and 6th, 2022, with
           participation from SAARC Nations. The event received recognition and
           praise from the Honorable Prime Minister of India, Shri Narendra Modi,
-          including a letter of acknowledgment.
+          including a <a  style={{color:"#e4e4e4"}} href={letter}>letter of acknowledgment.</a>
           <br />
           <br />
           The inaugural edition,{" "}

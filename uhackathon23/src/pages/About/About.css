@@ -6,7 +6,6 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 160%;
-    /* or 32px */
     padding-left: 10px;
     padding-right: 10px;
     text-align: justify;
@@ -40,4 +39,14 @@
 }
 .img-scaler{
     border-top-right-radius: 50px;
+}
+
+
+@media (max-width:767px) {
+    .img-scalel{
+        border-top-left-radius: 20px;
+    }
+    .img-scaler{
+        border-top-right-radius: 20px;
+    }
 }
