@@ -1,39 +1,18 @@
-import React, { useEffect } from "react";
+import React from "react";
 import "./Timeline.css";
 import Heading from "../Heading/Heading";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
 
 const Timeline = () => {
-  useEffect(() => {
-    AOS.init({
-      // Global settings:
-      disable: false,
-      startEvent: "DOMContentLoaded",
-      initClassName: "aos-init",
-      animatedClassName: "aos-animate",
-      useClassNames: false,
-      disableMutationObserver: false,
-      debounceDelay: 50,
-      throttleDelay: 99,
-      offset: 120,
-      delay: 0,
-      duration: 400,
-      easing: "ease",
-      once: false,
-      mirror: false,
-      anchorPlacement: "top-bottom",
-    });
-  }, []);
 
   return (
     <div className="container">
       <Heading text="Timeline" position="center" />
-      <div className="row">
+      <div className="row pt-5">
         <div className="col-md-12">
           <div className="main-timeline">
-            <div className="timeline" data-aos="">
-              <a href="/" className="timeline-content">
+            <div className="timeline">
+              <div  className="timeline-content">
                 <div className="timeline-year">27 June 2023</div>
                 <h3 className="title">Official Website Live</h3>
                 <p className="description">
@@ -41,7 +20,7 @@ const Timeline = () => {
                   Integer males uada tellus lorem, et condimentum neque commodo
                   Integer males uada tellus lorem, et condimentum neque commodo
                 </p>
-              </a>
+              </div>
             </div>
             <div className="timeline">
               <a href="/" className="timeline-content">
@@ -67,7 +46,7 @@ const Timeline = () => {
             </div>
             <div class="timeline">
               <a href="/" class="timeline-content">
-                <div class="timeline-year" style={{ right: "-18px" }}>
+                <div class="timeline-year" style={{ left: "-25px" }}>
                   9 July 2023
                 </div>
                 <h3 class="title">Theme Reveal</h3>
@@ -113,7 +92,7 @@ const Timeline = () => {
             </div>
             <div class="timeline">
               <a href="/" class="timeline-content">
-                <div class="timeline-year" style={{ right: "-42px" }}>
+                <div class="timeline-year" style={{ left: "-42px" }}>
                   1 & 2 Sept. 2023
                 </div>
                 <h3 class="title">UHackathon 4.0 Finale</h3>
