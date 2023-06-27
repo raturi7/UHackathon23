@@ -50,3 +50,24 @@
         border-top-right-radius: 20px;
     }
 }
+.zsiq_custommain img{
+    height: 70px !important;
+    width: 70px !important;
+}
+.zsiq_custommain{
+    height: auto !important;
+    width: auto !important; 
+}
+ 
+@media (max-width:555px) {
+    .zsiq-newtheme.zsiq_size2[embedtheme], .zsiq-newtheme.zsiq_size3[embedtheme], body .zsiq-mobhgt[embedtheme].zsiq-newtheme{
+        max-height: 70% !important;
+        height: 70% !important;
+        width: 70% !important;
+        margin-right: 0 !important;
+        margin-left: auto;
+    }
+    .siq-chat-attender-name{
+        font-size: 14px !important;
+    }
+}
