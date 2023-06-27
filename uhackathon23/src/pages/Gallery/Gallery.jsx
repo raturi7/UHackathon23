@@ -11,7 +11,7 @@ import img6 from "./IMAGES/img (6).avif";
 import img7 from "./IMAGES/img (7).avif";
 import img8 from "./IMAGES/img (8).avif";
 import img9 from "./IMAGES/img (9).avif";
-import img10 from "./IMAGES/img (10).avif";
+import img10 from "./IMAGES/imgimp.avif";
 import img11 from "./IMAGES/img (11).avif";
 import img12 from "./IMAGES/img (12).avif";
 import img13 from "./IMAGES/img (13).avif";
