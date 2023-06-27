@@ -38,7 +38,7 @@ const Gallery = () => {
     [img6,"A beacon of wisdom","A beacon of wisdom and inspiration, illuminating our event with their presence, as they ignite minds and shape the path of innovation"],
     [img7,"Token of Gratitude","With deep appreciation, we expressed our heartfelt gratitude and presented a token of gratitude to our esteemed chief guests, acknowledging their wisdom, guidance, and unwavering support that had illuminated our path and enriched our event."],
     [img2,"The Educational Orchestrators","The educational orchestrators, guiding and nurturing young minds, fostering an environment of growth and inspiration, as they pave the way for tomorrow's leaders and innovators."],
-    [img19,"Igniting a Collective Spirit0","An exuberant show of good faith and well wishes, igniting a collective spirit of innovation, collaboration, and boundless possibilities."],
+    [img19,"Igniting a Collective Spirit","An exuberant show of good faith and well wishes, igniting a collective spirit of innovation, collaboration, and boundless possibilities."],
     [img12,"The Discerning Jury","The discerning jury, unraveling brilliance, shaping the destiny of innovation with insightful judgment."],
     [img14,"Grace and Expression","A mesmerizing symphony of bodies, where rhythm and passion intertwine, painting the canvas of movement with grace and expression."],
     [img10,"A band of digital warriors","The masterminds behind the scenes, orchestrating creativity and precision, weaving together a seamless tapestry of inspiration and success"],
