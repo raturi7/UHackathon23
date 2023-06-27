@@ -40,7 +40,7 @@ const Timeline = () => {
             </div>
             <div class="timeline">
               <a href="/" class="timeline-content">
-                <div class="timeline-year" style={{ left: "-25px" }}>
+                <div class="timeline-year" style={{ right: "-25px" }}>
                   9 July 2023
                 </div>
                 <h3 class="title">Theme Reveal</h3>
@@ -95,7 +95,7 @@ const Timeline = () => {
             </div>
             <div class="timeline">
               <a href="/" class="timeline-content">
-                <div class="timeline-year" style={{ left: "-42px" }}>
+                <div class="timeline-year" style={{ right: "-42px" }}>
                   1 & 2 Sept. 2023
                 </div>
                 <h3 class="title">UHackathon 4.0 Finale</h3>
