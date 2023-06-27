@@ -2,8 +2,6 @@
 import React from 'react'
 import './About.css'
 import Heading from '../../Components/Heading/Heading';
-import { useLocation } from 'react-router-dom';
-import UPES from "../../Components/Images/UPES.jpg"
 import imgddn1 from "./images/img1 (1).avif"
 import imgddn2 from "./images/img1 (2).avif"
 import imgddn3 from "./images/img1 (3).avif"
@@ -15,10 +13,7 @@ import uhack2 from "./images/img(17).avif"
 import uhack3 from "./images/img(3).avif"
 
 const About = () => {
-  const { pathname } = useLocation();
-  React.useEffect(() => {
-    document.body.scrollTo(0, 0);
-  }, [pathname]);
+
   function uhack(){
     return (
       <div className="container-fluid rounded-tr-lg flex-row d-flex align-items-center img-scale justify-content-center p-0 images-container two-margin-top">
@@ -70,7 +65,7 @@ const About = () => {
   }
   return (
     <>
-      <div className="container-fluid p-0 about-container">
+      <div className="container-fluid  p-0 about-container">
         <div className="container text-white pt-5 two-margin-top">
           <Heading text="UHackathon 4.0 &nbsp; META" position="left" />
           <section>

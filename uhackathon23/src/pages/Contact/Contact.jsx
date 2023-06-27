@@ -4,17 +4,10 @@ import Heading from "../../Components/Heading/Heading";
 import img from "./Contact.jpg";
 import phone from "../../Components/Images/phone-call.png";
 import email from "../../Components/Images/email.png";
-import { useLocation } from "react-router-dom";
 import ulogo from "../../Components/Images/UPESLOGO.png";
 const Contact = () => {
-  const { pathname } = useLocation();
-  React.useEffect(() => {
-    document.body.scrollTo(0, 0);
-  }, [pathname]);
 
-  const handleEmailClick = () => {
-    window.location.href = "mailto:uhackathon@ddn.upes.ac.in";
-  };
+
 
   return (
     <div className="  contact flex flex-col two-margin-top small-mobile3">

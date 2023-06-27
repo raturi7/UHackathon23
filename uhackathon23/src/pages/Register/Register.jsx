@@ -1,12 +1,9 @@
 import React from "react";
 import "./Register.css";
 import Heading from "../../Components/Heading/Heading";
-import { useLocation } from 'react-router-dom';
+
 const Register = () => {
-  const { pathname } = useLocation();
-  React.useEffect(() => {
-    document.body.scrollTo(0, 0);
-  }, [pathname]);
+
   return (
     <div className="container two-margin-top small-mobile4">
       <div className="container text-white flex flex-col p-3">

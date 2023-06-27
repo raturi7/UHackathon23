@@ -1,8 +1,7 @@
 import React, { useRef, useState } from "react";
-import image from "../../Components/Images/Rectangle 13.png";
 import "./Gallery.css";
 import Heading from "../../Components/Heading/Heading";
-import { useLocation } from "react-router-dom";
+
 import img1 from "./IMAGES/img (1).avif";
 import img2 from "./IMAGES/img (2).avif";
 import img3 from "./IMAGES/img (3).avif";
@@ -25,10 +24,7 @@ import img19 from "./IMAGES/img (19).avif";
 import img20 from "./IMAGES/img (20).avif";
 
 const Gallery = () => {
-  const { pathname } = useLocation();
-  React.useEffect(() => {
-    document.body.scrollTo(0, 0);
-  }, [pathname]);
+
   const ref1 = useRef();
   const modal = useRef();
   const [selectedImage, setSelectedImage] = useState(["","",""]); // Store the selected image
