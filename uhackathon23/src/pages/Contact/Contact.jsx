@@ -96,13 +96,13 @@ const Contact = () => {
                     <td className="hider"></td>
                     <td>+91 81716 70271</td>
                     <td>Parth Nautiyal</td>
-                    <td>For Registration Queries</td>
+                    <td>Registration Head</td>
                   </tr>
                   <tr>
                     <td className="hider"></td>
                     <td>+91 93223 99818</td>
                     <td>Utkarsh Singh</td>
-                    <td>For Registration Queries</td>
+                    <td>Assoc. Registration Head</td>
                   </tr>
                 </tbody>
               </table>

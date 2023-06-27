@@ -2,7 +2,7 @@
 import React from 'react'
 import './About.css'
 import Heading from '../../Components/Heading/Heading';
-import imgddn1 from "./images/img1 (1).avif"
+import imgddn1 from "./images/DEHRADUN.jpg"
 import imgddn2 from "./images/img1 (2).avif"
 import imgddn3 from "./images/img1 (3).avif"
 import imgupes1 from "./images/imgupes1 (1).avif"
