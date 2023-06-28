@@ -60,7 +60,6 @@
     padding: 20px;
     font-size: 14px;
     margin: 0;
-    opacity: 0.8;
 }
 .main-timeline .timeline:nth-child(even){ float: right; }
 .main-timeline .timeline:nth-child(even):before{
