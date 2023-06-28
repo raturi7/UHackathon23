@@ -17,7 +17,7 @@ const Timeline = () => {
                 <h3 className="title">Official Website Live</h3>
                 <p className="description">
                   Mark your calendars! The official website for our hackathon
-                  will go live on 7th June 2023, providing all the essential
+                  will go live on 27th June 2023, providing all the essential
                   information, guidelines, and updates for participants. Get
                   ready to embark on an exciting hacking journey!
                 </p>
