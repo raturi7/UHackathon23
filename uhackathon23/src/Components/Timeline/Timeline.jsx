@@ -17,7 +17,7 @@ const Timeline = () => {
                 <h3 className="title">Official Website Live</h3>
                 <p className="description">
                   Mark your calendars! The official website for our hackathon
-                  will go live on 7th June 2023, providing all the essential
+                  will go live on 27th June 2023, providing all the essential
                   information, guidelines, and updates for participants. Get
                   ready to embark on an exciting hacking journey!
                 </p>
@@ -25,7 +25,7 @@ const Timeline = () => {
             </div>
 
             <div class="timeline">
-              <a href="/" class="timeline-content">
+              <div class="timeline-content">
                 <div class="timeline-year">29 June 2023</div>
                 <h3 class="title">Registrations Open</h3>
                 <p class="description">
@@ -36,10 +36,10 @@ const Timeline = () => {
                   prizes. Sign up today and secure your spot in this thrilling
                   event.
                 </p>
-              </a>
+              </div>
             </div>
             <div class="timeline">
-              <a href="/" class="timeline-content">
+              <div class="timeline-content">
                 <div class="timeline-year" style={{ right: "-25px" }}>
                   9 July 2023
                 </div>
@@ -51,10 +51,10 @@ const Timeline = () => {
                   theme. Abstract submission officially begins, giving you a
                   platform to showcase your unique approach to problem-solving.
                 </p>
-              </a>
+              </div>
             </div>
             <div class="timeline">
-              <a href="/" class="timeline-content">
+              <div class="timeline-content">
                 <div class="timeline-year">11 July 2023</div>
                 <h3 class="title">Abstract Submission Starts</h3>
                 <p class="description">
@@ -64,10 +64,10 @@ const Timeline = () => {
                   yourself for the ultimate showdown in the upcoming Uhackathon
                   4.0 META finale.
                 </p>
-              </a>
+              </div>
             </div>
             <div class="timeline">
-              <a href="/" class="timeline-content">
+              <div class="timeline-content">
                 <div class="timeline-year">31 July 2023</div>
                 <h3 class="title">Registrations & Abstract Submission Ends</h3>
                 <p class="description">
@@ -78,10 +78,10 @@ const Timeline = () => {
                   talent from around the globe. Submit your entry to be
                   considered for the preliminary round.
                 </p>
-              </a>
+              </div>
             </div>
             <div class="timeline">
-              <a href="/" class="timeline-content">
+              <div class="timeline-content">
                 <div class="timeline-year">18 Aug. 2023</div>
                 <h3 class="title">Result Announcement</h3>
                 <p class="description">
@@ -91,10 +91,10 @@ const Timeline = () => {
                   yourself for the ultimate showdown in the upcoming Uhackathon
                   4.0 META finale.
                 </p>
-              </a>
+              </div>
             </div>
             <div class="timeline">
-              <a href="/" class="timeline-content">
+              <div class="timeline-content">
                 <div class="timeline-year" style={{ right: "-42px" }}>
                   1 & 2 Sept. 2023
                 </div>
@@ -107,7 +107,7 @@ const Timeline = () => {
                   Get ready to celebrate the spirit of innovation and excellence
                   in this thrilling finale.
                 </p>
-              </a>
+              </div>
             </div>
           </div>
         </div>
