@@ -148,15 +148,15 @@ const Hero = () => {
           transition={{ duration: 1 }}
         />
       </div>
-      <Sponsor />
-      <Sponsor1 />
-
-      <Partners />
 
       <WhatIsUhackathon />
       <OurThemes />
 
       <History />
+      <Sponsor />
+      <Sponsor1 />
+
+      <Partners />
     </div>
   );
 };

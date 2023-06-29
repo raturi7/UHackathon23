@@ -10,11 +10,12 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-const imgaes = [img2, img3, img4, img5, img1];
+const imgaes = [[img2,"FILECOIN LOGO"], [img3, "POLYGON LOGO"], [img4,"REPLIT LOGO"], [img5,"SOLANA LOGO"], [img1,"DEVFOLIO LOGO"]];
+
 function sponsorCard(img) {
   return (
     <div class="card p-4">
-      <img class="card-img" src={img} alt="DEVFOLIO LOGO" />
+      <img class="card-img" src={img[0]} alt={img[1]} />
     </div>
   );
 }
