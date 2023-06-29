@@ -82,18 +82,6 @@ const Contact = () => {
                   </tr>
                   <tr>
                     <td className="hider"></td>
-                    <td>+91 93983 81263</td>
-                    <td>Akshat Kembhavi</td>
-                    <td>Travel & Transport</td>
-                  </tr>
-                  <tr>
-                    <td className="hider"></td>
-                    <td>+91 77029 46560</td>
-                    <td>Vinay K</td>
-                    <td>Lodging & Stay</td>
-                  </tr>
-                  <tr>
-                    <td className="hider"></td>
                     <td>+91 81716 70271</td>
                     <td>Parth Nautiyal</td>
                     <td>Registration Head</td>
@@ -103,6 +91,18 @@ const Contact = () => {
                     <td>+91 93223 99818</td>
                     <td>Utkarsh Singh</td>
                     <td>Assoc. Registration Head</td>
+                  </tr>
+                  <tr>
+                    <td className="hider"></td>
+                    <td>+91 93983 81263</td>
+                    <td>Akshat Kembhavi</td>
+                    <td>Travel & Transport Head</td>
+                  </tr>
+                  <tr>
+                    <td className="hider"></td>
+                    <td>+91 77029 46560</td>
+                    <td>Vinay K</td>
+                    <td>Lodging & Stay Head</td>
                   </tr>
                 </tbody>
               </table>

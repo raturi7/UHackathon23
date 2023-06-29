@@ -7,6 +7,16 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
 
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   const [img, setImg] = useState(upesWhiteLogo);
   const [color, setColor] = useState("white");
   const [clicked,setClicked]=useState(false);
@@ -59,8 +69,8 @@ const Navbar = () => {
             <Link className="nav-link" to="/Contact" style={{ color: color }}>Contact</Link>
             {/* <button  style={{textDecoration:"none"}} className='nav-link join-btn' data-hackathon-slug="uhackathon" >Join Us</button> */}
             <div 
-	className="apply-button nav-link join-btn" 
-	data-hackathon-slug="uhackathon"
+	className="apply-button " 
+	data-hackathon-slug="UHACKATHON"
 	data-button-theme="light"
 	// style="height: 44px; width: 312px"
 ></div>
