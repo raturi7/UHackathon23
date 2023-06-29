@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
-
   const [img, setImg] = useState(upesWhiteLogo);
   const [color, setColor] = useState("white");
   const [clicked,setClicked]=useState(false);
@@ -52,14 +51,14 @@ const Navbar = () => {
         </button>
         
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div className="navbar-nav" >
+          <div className="navbar-nav" style={{alignItems:"center"}}>
             <Link className="nav-link active" aria-current="page" to="/" style={{ color: color }}>Home</Link>
             <Link className="nav-link" to="/About" style={{ color: color }}>About</Link>
             <Link className="nav-link" to="/Gallery" style={{ color: color }}>Gallery</Link>
             <Link className="nav-link" to="/Contact" style={{ color: color }}>Contact</Link>
             {/* <button  style={{textDecoration:"none"}} className='nav-link join-btn' data-hackathon-slug="uhackathon" >Join Us</button> */}
             <div 
-	className="apply-button nav-link join-btn" 
+	className="apply-button" 
 	data-hackathon-slug="uhackathon"
 	data-button-theme="light"
 	// style="height: 44px; width: 312px"
