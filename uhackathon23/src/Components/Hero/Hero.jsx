@@ -10,6 +10,8 @@ import Main from "./Main Poster.png";
 
 import { Link } from "react-router-dom";
 import Timeline from "../Timeline/Timeline";
+import Partners from "../hackathon partners/hack_partners";
+import Sponsor1 from "../Sponsor/Sponsor1";
 const Hero = () => {
 
 
@@ -31,7 +33,7 @@ const Hero = () => {
     },
   };
   const calculateTimeLeft = () => {
-    const difference = +new Date("September 2, 2023") - +new Date();
+    const difference = +new Date("September 1, 2023") - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
@@ -111,7 +113,7 @@ const Hero = () => {
               style={{ textDecoration: "none" }}
               className="btn footer-link mt-5"
             >
-            Get Started
+              Get Started
             </Link>
           </div>
         </div>
@@ -128,7 +130,7 @@ const Hero = () => {
           </ul>
         </div>
       </div>
-      <Timeline/>
+      <Timeline />
       <div className="two-margin-top">
         <motion.img
           className=" px-4"
@@ -146,11 +148,15 @@ const Hero = () => {
           transition={{ duration: 1 }}
         />
       </div>
-      <Sponsor />
+
       <WhatIsUhackathon />
       <OurThemes />
 
       <History />
+      <Sponsor />
+      <Sponsor1 />
+
+      <Partners />
     </div>
   );
 };
