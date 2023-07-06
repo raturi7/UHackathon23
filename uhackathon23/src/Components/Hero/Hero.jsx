@@ -12,6 +12,7 @@ import { Link } from "react-router-dom";
 import Timeline from "../Timeline/Timeline";
 import Partners from "../hackathon partners/hack_partners";
 import Sponsor1 from "../Sponsor/Sponsor1";
+import Problem from "../../pages/problem statement/Problem";
 const Hero = () => {
 
 
