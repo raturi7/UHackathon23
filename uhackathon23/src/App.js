@@ -10,7 +10,7 @@ import Contact from "./pages/Contact/Contact";
 import Login from "./pages/Login/Login";
 import Gallery from "./pages/Gallery/Gallery";
 import ScrollOnTop from './pages/SOT/ScrollOnTop';
-
+import Problem from "./pages/problem statement/Problem"
 
 
 
@@ -47,6 +47,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<Login />} />
             <Route path="/gallery" element={<Gallery />} />
+          <Route path="/problem-statement" element={<Problem/>} />
           </Routes>
         </div>
 
