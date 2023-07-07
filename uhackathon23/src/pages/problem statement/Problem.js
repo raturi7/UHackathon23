@@ -1,9 +1,10 @@
-import React, { useRef } from "react";
+import React, { useRef ,useState} from "react";
 import "./Problem.css";
 import Heading from "../../Components/Heading/Heading";
 import data from "./statement.json";
 
 const Problem = () => {
+  const {ps,setPs}=useState({})
   const modalRef = useRef(null);
 
   const openModal = () => {
@@ -16,18 +17,21 @@ const Problem = () => {
     modalElement.style.display = "none";
   };
 
-  // window.onclick = function(event) {
-  //   if (event.target == modal) {
-  //     modal.style.display = "none";
-  //   }
-  // }
+  window.onclick = function (event) {
+    if (event.target === modalRef.current) {
+      modalRef.current.style.display = "none";
+    }
+  };
 
   function psCard(data) {
     return (
       <div className="col-4 card-container">
         <button
           className="card d-flex flex-row align-items-center justify-content-start p-3 pl-4 gap-4 w-100"
-          onClick={openModal}
+          onClick={()=>{
+            
+            openModal()
+          }}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -57,45 +61,15 @@ const Problem = () => {
           <span className="close" onClick={handleCloseModal}>
             &times;
           </span>
-          <section className="container d-flex align-items-start justify-content-center p-4 flex-column">
+          <section className="d-flex align-items-start justify-content-center p-4 flex-column" style={{textAlign:"left"}}>
             <h6 className="mb-4 ps-number" style={{ fontWeight: "600" }}>
               PS NUMBER: PSAIML001
             </h6>
-            <span className="d-flex flex-row">
-              <h6
-                className="blue-color"
-                style={{ color: "#0043ce", fontWeight: "600" }}
-              >
-                Problem Statement:&nbsp;{" "}
-              </h6>{" "}
-              <h6 className="norm" style={{ fontWeight: "600" }}>
-                Artificial Intelligence
-              </h6>
-            </span>
-            <span className="d-flex flex-row">
-              <h6
-                className="blue-color"
-                style={{ color: "#0043ce", fontWeight: "600" }}
-              >
-                Key:&nbsp;{" "}
-              </h6>{" "}
-              <h6 className="norm" style={{ fontWeight: "600" }}>
-                Lorem
-              </h6>
-            </span>
-            <span className="d-flex flex-row mb-4">
-              <h6
-                className="blue-color"
-                style={{ color: "#0043ce", fontWeight: "600" }}
-              >
-                Organisation:&nbsp;{" "}
-              </h6>{" "}
-              <h6 className="norm" style={{ fontWeight: "600" }}>
-                IIT Bombay
-              </h6>
-            </span>
+            <p style={{marginBottom:"8px"}} className="blue-title"><b style={{color:"#0043ce"}}>Problem Statement:</b> <b>Analysis of Hinglish Content</b></p>
+            <p style={{marginBottom:"8px"}}  className="blue-title"><b style={{color:"#0043ce"}}>Key:</b> <b>Lorem</b></p>
+            <p style={{marginBottom:"8px"}} className="mb-4 blue-title"><b style={{color:"#0043ce"}}>Organisation:</b> <b>IIT Bombay</b></p>
             <span style={{ textAlign: "justify" }} className="mb-4">
-              <p>
+              <p className="description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
                 magni at, cupiditate quos consequatur corporis excepturi iste
                 perspiciatis corrupti porro accusamus nulla officiis, ipsam
