@@ -1,149 +1,40 @@
 import React from "react";
 import "./Problem.css";
-import logo from "./3D modelling.png"
+import logo from "./3D modelling.png";
+import { color } from "framer-motion";
 
 const Problem = () => {
   return (
-    <div>
-      <section id="timeline">
-        <div className="container">
-          <div className="row">
-            <div className="head-div" data-aos="fade-up">
-              <h2 className="heading" style={{ paddingTop: 0, margin: 0 }}>
-                <b>ROADMAP</b>
-              </h2>
-            </div>
-          </div>
-
-          <div className="row" style={{ paddingTop: 60 }}>
-            <div className="col-lg-12">
-              <ul className="list-group timeline">
-                <li
-                  data-aos="fade-up"
-                  id="event1"
-                  className="list-group-item"
-                  style={{ overflow: "visible" }}
-                >
-                  <div
-                    className="timeline-image"
-                    style={{ overflow: "visible" }}
-                  >
-                    <img
-                      className="img-fluid"
-                      style={{ zIndex: 1 }}
-                      src={logo}
-                      alt="journey 1"
-                    />
-                  </div>
-                  <div className="timeline-panel">
-                    <div className="timeline-heading">
-                      <h4>17th April, 2023</h4>
-                      <h4 className="subheading">Registration Starts</h4>
-                    </div>
-                  </div>
-                </li>
-                <li
-                  data-aos="fade-up"
-                  className="list-group-item timeline-inverted"
-                >
-                  <div className="timeline-image">
-                    <img
-                      className="img-fluid"
-                      style={{ transform: "scale(1.3)" }}
-                      src="assets/img/timeline/casual-life-3d-girl-solving-problem-with-phone.avif"
-                      alt="journey 2"
-                    />
-                  </div>
-                  <div className="timeline-panel">
-                    <div className="timeline-heading">
-                      <h4>27 April, 2023</h4>
-                      <h4 className="subheading">
-                        Theme Reveal and Problem Statement Selection
-                      </h4>
-                    </div>
-                  </div>
-                </li>
-
-                <li data-aos="fade-up" className="list-group-item">
-                  <div className="timeline-image">
-                    <img
-                      className="img-fluid"
-                      style={{ transform: "scale(1.5)", marginLeft: 10 }}
-                      src="assets/img/timeline/3d-business-guy-working-on-a-computer.avif"
-                      alt="journey 3"
-                    />
-                  </div>
-                  <div className="timeline-panel">
-                    <div className="timeline-heading">
-                      <h4>28th April, 2023</h4>
-                      <h4 className="subheading">
-                        Inaugural Ceremony and Round 1 Evaluation
-                      </h4>
-                    </div>
-                  </div>
-                </li>
-                <li
-                  data-aos="fade-up"
-                  className="list-group-item timeline-inverted"
-                >
-                  <div className="timeline-image">
-                    <img
-                      className="img-fluid"
-                      style={{ marginTop: -10 }}
-                      src="assets/img/timeline/business-3d-young-people-in-casual-clothes-standing.avif"
-                      alt="journey 4"
-                    />
-                  </div>
-                  <div className="timeline-panel">
-                    <div className="timeline-heading">
-                      <h4>29th April, 2023</h4>
-                      <h4 className="subheading">Round 2 Evaluation</h4>
-                    </div>
-                  </div>
-                </li>
-                <li data-aos="fade-up" className="list-group-item">
-                  <div className="timeline-image">
-                    <img
-                      className="img-fluid"
-                      style={{ transform: "scale(0.9)", marginTop: -30 }}
-                      src="assets/img/timeline/business-3d-businessman-generated-a-new-great-idea.avif"
-                      alt="journey 3"
-                    />
-                  </div>
-                  <div className="timeline-panel">
-                    <div className="timeline-heading">
-                      <h4>30th April, 2023</h4>
-                      <h4 className="subheading">Final Round Evaluation</h4>
-                    </div>
-                  </div>
-                </li>
-                <li
-                  data-aos="fade-up"
-                  className="list-group-item timeline-inverted"
-                >
-                  <div className="timeline-image">
-                    <img
-                      className="img-fluid"
-                      style={{ transform: "scale(1.4)" }}
-                      id="winner"
-                      src="assets/img/timeline/3d-casual-life-trophy-and-target.avif"
-                      alt="journey 5"
-                    />
-                  </div>
-                  <div className="timeline-panel">
-                    <div className="timeline-heading">
-                      <h4>30 April</h4>
-                      <h4 className="subheading" id="winner-txt">
-                        Closing Ceremony
-                      </h4>
-                    </div>
-                  </div>
-                </li>
-              </ul>
+    <div className="container problem-statement-card two-margin-top">
+      <div className="row d-fex flex-row flex-wrap">
+        <div className="col-4">
+          <div className="card d-flex flex-row align-items-center justify-content-start p-3 pl-4 gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><path d="M224 0c13.3 0 24 10.7 24 24V70.1l23-23c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-57 57v76.5l66.2-38.2 20.9-77.8c3.4-12.8 16.6-20.4 29.4-17s20.4 16.6 17 29.4L373 142.2l37.1-21.4c11.5-6.6 26.2-2.7 32.8 8.8s2.7 26.2-8.8 32.8L397 183.8l31.5 8.4c12.8 3.4 20.4 16.6 17 29.4s-16.6 20.4-29.4 17l-77.8-20.9L272 256l66.2 38.2 77.8-20.9c12.8-3.4 26 4.2 29.4 17s-4.2 26-17 29.4L397 328.2l37.1 21.4c11.5 6.6 15.4 21.3 8.8 32.8s-21.3 15.4-32.8 8.8L373 369.8l8.4 31.5c3.4 12.8-4.2 26-17 29.4s-26-4.2-29.4-17l-20.9-77.8L248 297.6v76.5l57 57c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-23-23V488c0 13.3-10.7 24-24 24s-24-10.7-24-24V441.9l-23 23c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l57-57V297.6l-66.2 38.2-20.9 77.8c-3.4 12.8-16.6 20.4-29.4 17s-20.4-16.6-17-29.4L75 369.8 37.9 391.2c-11.5 6.6-26.2 2.7-32.8-8.8s-2.7-26.2 8.8-32.8L51 328.2l-31.5-8.4c-12.8-3.4-20.4-16.6-17-29.4s16.6-20.4 29.4-17l77.8 20.9L176 256l-66.2-38.2L31.9 238.6c-12.8 3.4-26-4.2-29.4-17s4.2-26 17-29.4L51 183.8 13.9 162.4c-11.5-6.6-15.4-21.3-8.8-32.8s21.3-15.4 32.8-8.8L75 142.2l-8.4-31.5c-3.4-12.8 4.2-26 17-29.4s26 4.2 29.4 17l20.9 77.8L200 214.4V137.9L143 81c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l23 23V24c0-13.3 10.7-24 24-24z"/></svg>
+           <div className="card-content d-flex flex-column align-items-start justify-content-center" >
+            <h5 style={{fontWeight:"600" ,color:"#2E2545",textAlign:"left"}}>Analysis of Hinglish Content</h5>
+            <h6 style={{fontWeight:"600",color:"#8585BD"}}>PSAIML001</h6>
             </div>
           </div>
         </div>
-      </section>
+        <div className="col-4">
+          <div className="card d-flex flex-row align-items-center justify-content-start p-3 pl-4 gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><path d="M224 0c13.3 0 24 10.7 24 24V70.1l23-23c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-57 57v76.5l66.2-38.2 20.9-77.8c3.4-12.8 16.6-20.4 29.4-17s20.4 16.6 17 29.4L373 142.2l37.1-21.4c11.5-6.6 26.2-2.7 32.8 8.8s2.7 26.2-8.8 32.8L397 183.8l31.5 8.4c12.8 3.4 20.4 16.6 17 29.4s-16.6 20.4-29.4 17l-77.8-20.9L272 256l66.2 38.2 77.8-20.9c12.8-3.4 26 4.2 29.4 17s-4.2 26-17 29.4L397 328.2l37.1 21.4c11.5 6.6 15.4 21.3 8.8 32.8s-21.3 15.4-32.8 8.8L373 369.8l8.4 31.5c3.4 12.8-4.2 26-17 29.4s-26-4.2-29.4-17l-20.9-77.8L248 297.6v76.5l57 57c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-23-23V488c0 13.3-10.7 24-24 24s-24-10.7-24-24V441.9l-23 23c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l57-57V297.6l-66.2 38.2-20.9 77.8c-3.4 12.8-16.6 20.4-29.4 17s-20.4-16.6-17-29.4L75 369.8 37.9 391.2c-11.5 6.6-26.2 2.7-32.8-8.8s-2.7-26.2 8.8-32.8L51 328.2l-31.5-8.4c-12.8-3.4-20.4-16.6-17-29.4s16.6-20.4 29.4-17l77.8 20.9L176 256l-66.2-38.2L31.9 238.6c-12.8 3.4-26-4.2-29.4-17s4.2-26 17-29.4L51 183.8 13.9 162.4c-11.5-6.6-15.4-21.3-8.8-32.8s21.3-15.4 32.8-8.8L75 142.2l-8.4-31.5c-3.4-12.8 4.2-26 17-29.4s26 4.2 29.4 17l20.9 77.8L200 214.4V137.9L143 81c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l23 23V24c0-13.3 10.7-24 24-24z"/></svg>
+           <div className="card-content d-flex flex-column align-items-start justify-content-center" >
+            <h5 style={{fontWeight:"600" ,color:"#2E2545",textAlign:"left"}}>Analysis of Hinglish Content</h5>
+            <h6 style={{fontWeight:"600",color:"#8585BD"}}>PSAIML001</h6>
+            </div>
+          </div>
+        </div>
+        <div className="col-4">
+          <div className="card d-flex flex-row align-items-center justify-content-start p-3 pl-4 gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 448 512"><path d="M224 0c13.3 0 24 10.7 24 24V70.1l23-23c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-57 57v76.5l66.2-38.2 20.9-77.8c3.4-12.8 16.6-20.4 29.4-17s20.4 16.6 17 29.4L373 142.2l37.1-21.4c11.5-6.6 26.2-2.7 32.8 8.8s2.7 26.2-8.8 32.8L397 183.8l31.5 8.4c12.8 3.4 20.4 16.6 17 29.4s-16.6 20.4-29.4 17l-77.8-20.9L272 256l66.2 38.2 77.8-20.9c12.8-3.4 26 4.2 29.4 17s-4.2 26-17 29.4L397 328.2l37.1 21.4c11.5 6.6 15.4 21.3 8.8 32.8s-21.3 15.4-32.8 8.8L373 369.8l8.4 31.5c3.4 12.8-4.2 26-17 29.4s-26-4.2-29.4-17l-20.9-77.8L248 297.6v76.5l57 57c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-23-23V488c0 13.3-10.7 24-24 24s-24-10.7-24-24V441.9l-23 23c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l57-57V297.6l-66.2 38.2-20.9 77.8c-3.4 12.8-16.6 20.4-29.4 17s-20.4-16.6-17-29.4L75 369.8 37.9 391.2c-11.5 6.6-26.2 2.7-32.8-8.8s-2.7-26.2 8.8-32.8L51 328.2l-31.5-8.4c-12.8-3.4-20.4-16.6-17-29.4s16.6-20.4 29.4-17l77.8 20.9L176 256l-66.2-38.2L31.9 238.6c-12.8 3.4-26-4.2-29.4-17s4.2-26 17-29.4L51 183.8 13.9 162.4c-11.5-6.6-15.4-21.3-8.8-32.8s21.3-15.4 32.8-8.8L75 142.2l-8.4-31.5c-3.4-12.8 4.2-26 17-29.4s26 4.2 29.4 17l20.9 77.8L200 214.4V137.9L143 81c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l23 23V24c0-13.3 10.7-24 24-24z"/></svg>
+           <div className="card-content d-flex flex-column align-items-start justify-content-center" >
+            <h5 style={{fontWeight:"600" ,color:"#2E2545",textAlign:"left"}}>Analysis of Hinglish Content</h5>
+            <h6 style={{fontWeight:"600",color:"#8585BD"}}>PSAIML001</h6>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
