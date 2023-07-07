@@ -108,3 +108,41 @@ box-shadow: 0px 1px 20px -8px rgba(0,0,0,0.75);
     outline-color:#0043ce !important;
     color: #0043ce !important;
   }
+
+
+  @media (max-width:767px) {
+    .problem-statement-card .modal-content{
+        width: 80%;
+    }
+  }
+
+  .fixed-top{
+    z-index: 998 !important;
+  }
+
+  @media (max-width:510px) {
+    .problem-statement-card .modal-content section{
+        padding: 0 !important;
+        padding-top: 20px !important;
+    }
+    .input{
+        min-width: 200px;
+    }
+    .problem-statement-card .blue-title{
+        font-size: 14px !important;
+    }
+    .problem-statement-card .description{
+        font-size: 12px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  
