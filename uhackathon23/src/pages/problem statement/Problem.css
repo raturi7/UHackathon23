@@ -1,0 +1,110 @@
+.problem-statement-card .card-container{
+    max-width: 350px;
+    -webkit-box-shadow: 0px 1px 20px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 20px -8px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 20px -8px rgba(0,0,0,0.75);
+}
+.problem-statement-card .ps-box{
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+@media (max-width:998px) {
+    .problem-statement-card .ps-box{
+        flex-wrap: wrap;
+    }
+    .problem-statement-card .card-container{
+        max-width: none;
+        width: max-content;
+    }
+}
+
+
+
+
+/* The Modal (background) */
+.problem-statement-card .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    z-index: 999;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  /* Modal Content/Box */
+  .problem-statement-card .modal-content {
+    z-index: 999;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+    position: relative;
+    height: 90vh;
+    overflow-y: scroll;
+  }
+  
+  /* The Close Button */
+  .problem-statement-card .close {
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer; 
+    position: absolute;
+    right: 20px;
+    top: 0px;
+  }
+  
+
+  .input {
+    max-width: 390px;
+    min-width: 260px;
+    height: 44px;
+    background-color: #05060f0a;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s ;
+  }
+  
+  .label {
+    text-align: left;
+    display: block;
+    margin-bottom: .3rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #05060f99;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .input:hover, .input:focus, .input-grou:hover .input {
+    outline: none;
+    border-color: #05060f;
+  }
+  
+  .input-grou:hover .label, .input:focus {
+    color: #05060fc2;
+  }
+
+
+  .problem-statement-card .join-btn{
+    background-color: #0043ce;
+  }
+  .problem-statement-card .join-btn:hover{
+    outline-color:#0043ce !important;
+    color: #0043ce !important;
+  }
+  .problem-statement-card .join-btn:focus{
+    outline-color:#0043ce !important;
+    color: #0043ce !important;
+  }
