@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import "./Problem.css";
 import Heading from "../../Components/Heading/Heading";
-
 import data from "./statement.json";
 
 const Problem = () => {
@@ -115,16 +114,36 @@ const Problem = () => {
                 iste ab!0
               </p>
             </span>
-            <form action="" method="post" style={{display:"grid",placeItems:"flex-start"}} >
-            <div class="input-grou mb-3">
-    <label class="label">Team Name</label>
-    <input autocomplete="off" name="Email" id="Email" class="input" type="text"/>
-    <div></div></div>
-    <div class="input-grou mb-4">
-    <label class="label">Team ID</label>
-    <input autocomplete="off" name="Email" id="Email" class="input" type="text"/>
-    <div></div></div>
-<button type="submit" className="join-btn p-2">Submit</button>
+            <form
+              action="http://localhost/hackathon/problem_form.php"
+              method="post"
+              style={{ display: "grid", placeItems: "flex-start" }}
+            >
+              <div class="input-grou mb-3">
+                <label class="label">Team Name</label>
+                <input
+                  autocomplete="off"
+                  name="team_name"
+                  id="Email"
+                  class="input"
+                  type="text"
+                />
+                <div></div>
+              </div>
+              <div class="input-grou mb-4">
+                <label class="label">Team ID</label>
+                <input
+                  autocomplete="off"
+                  name="team_id"
+                  id="Email"
+                  class="input"
+                  type="text"
+                />
+                <div></div>
+              </div>
+              <button type="submit" className="join-btn p-2">
+                Submit
+              </button>
             </form>
           </section>
         </div>
