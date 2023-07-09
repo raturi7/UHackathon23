@@ -1,6 +1,6 @@
   [
     {
-      "path":"./Images/XR COTURE.png",
+      "path":"XR COTURE.png",
       "problem_id":"UHCK_AI001",
       "Name of Organization": "XRCouture",
       "Sector / Domain": "Artificial Intelligence",
@@ -10,7 +10,7 @@
       "Non-Functional Requirements": "<br>1. The website can have some avatars or NPC or images to represent the Bot and End-user.<br>2. The AI bot should answer only what is relevant to its context.<br>3. It would be great to have Lip Sync and animations for characters, but not mandatory.<br>4. Support for multiple bots with different backstories and an option to choose them to make them more interesting."
     },
     {
-      "path": "./Images/Metaverk",
+      "path": "Metaverk.png",
       "problem_id":"UHCK_BC001",
       "Name of Organization": "Metaverk",
       "Sector / Domain": "Blockchain Technology",
