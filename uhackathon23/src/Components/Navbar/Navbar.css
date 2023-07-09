@@ -25,3 +25,10 @@ nav .navbar-nav .nav-link{
     font-size: 18px;
     font-weight: 600 !important; 
 }
+
+@media (max-width:1330px) {
+    nav .navbar-nav .nav-link{
+      padding-left: 3px !important;
+      padding-right: 3px !important;
+    }
+  }

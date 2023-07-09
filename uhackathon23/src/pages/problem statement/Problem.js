@@ -1,17 +1,22 @@
 import React, { useRef ,useState} from "react";
 import "./Problem.css";
 import Heading from "../../Components/Heading/Heading";
-import logo from './Images/MarshMcLennan.png'
+// import logo from './Images/MarshMcLennan.png'
 import data from "./statement.json";
 
 
 const Problem = () => {
 
 
+
   const [ps,setPs]=useState({});
-  const [image,setImage]= useState("");
+  const [image,setImage]= useState("c4i4.png");
   const modalRef = useRef(null);
  
+  // function printImg(){
+  //   const logo=require(image)
+  //   return logo
+  // }
   const [keys,setKeys]=useState([])
   const [values,setValues]=useState([])
 
@@ -58,12 +63,13 @@ const Problem = () => {
   
       
   return (
-    <div className="col-4 card-container" key={data.id}>
+    <div className="col-6 card-container" key={data.id}>
       <button
         className="card d-flex flex-row align-items-center justify-content-start p-3 pl-4 gap-4 w-100"
         onClick={async () => {
           setPs(data);
           setImage(data.path);
+          console.log(data.path)
           setKeys(Object.keys(data));
           setValues(Object.values(data));
           openModal(data);
@@ -81,7 +87,7 @@ const Problem = () => {
             <h5
               style={{
                 fontWeight: "600",
-                color: "#2E2545",
+                color: "#fff",
                 textAlign: "left",
                 maxHeight: "40px",
                 marginBottom: "0px",
@@ -104,7 +110,8 @@ const Problem = () => {
        {/* Modal content */}
        <div className="modal-content">
          <div className="d-flex justify-content-center">
-           <img src={image} alt="" className="comp-logo" />
+          
+           <img src={require('./Images/'+image)} alt="" className="comp-logo" />
          </div>
          <span className="close" onClick={handleCloseModal}>
            &times;

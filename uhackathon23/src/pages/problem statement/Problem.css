@@ -1,5 +1,5 @@
 .problem-statement-card .card-container{
-    max-width: 350px;
+    max-width: 600px;
     -webkit-box-shadow: 0px 1px 20px -8px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 1px 20px -8px rgba(0,0,0,0.75);
 box-shadow: 0px 1px 20px -8px rgba(0,0,0,0.75);
@@ -10,14 +10,24 @@ box-shadow: 0px 1px 20px -8px rgba(0,0,0,0.75);
     flex-wrap: wrap;
 }
 
+@media (max-width:1400px) {
+  .problem-statement-card .card-container{
+    max-width: 450px !important;
+  }
+}
+
 @media (max-width:998px) {
     .problem-statement-card .ps-box{
         flex-wrap: wrap;
     }
     .problem-statement-card .card-container{
-        max-width: none;
-        width: max-content;
-        min-width: 320px;
+        max-width: none !important;
+        width: 100%;
+        /* min-width: 320px; */
+    }
+    .ps-box{
+      padding-left: 15px;
+      padding-right: 15px;
     }
 }
 
@@ -140,7 +150,7 @@ box-shadow: 0px 1px 20px -8px rgba(0,0,0,0.75);
 .title-ps{
   display: block !important; 
   display: -webkit-box !important;
-  max-width: 240px !important;
+  max-width: 600px !important;
  max-height: 80px !important;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
@@ -156,3 +166,15 @@ box-shadow: 0px 1px 20px -8px rgba(0,0,0,0.75);
   left: 20px; */
   width: 50%;
 }
+
+.card-container button{
+
+  background: rgba( 255, 255, 255, 0.15 );
+  /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  color: #fff !important;
+}
+
