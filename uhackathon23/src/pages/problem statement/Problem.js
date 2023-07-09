@@ -122,7 +122,7 @@ const Problem = () => {
 
      <Heading text="Problem Statements" position="center"></Heading>
 
-     <div className="d-flex flex-row ps-box">
+     <div className="d-flex flex-row ps-box mt-4">
        {data.map((element, index) => {
          return psCard(element, index);
        })}
