@@ -21,6 +21,7 @@
       "Extra Points": "A tokenization platform built on EVM would offer several benefits to businesses, such as:<br><br>1. Reduced costs: By automating the process of tokenization, a tokenization platform built on EVM can help businesses to reduce the costs associated with tokenizing their assets.<br>2. Increased efficiency: A tokenization platform built on EVM can help businesses to increase the efficiency of their tokenization process. This can save businesses time and money.<br>3. Improved security: A tokenization platform built on EVM can help businesses to improve the security of their tokenization process. This is because EVM is a secure platform that is resistant to fraud and hacking."
     },
     {
+      "path":"good good piggy.png",
       "problem_id": "UHCK_XR001",
       "Name of Organization": "Good Good Piggy",
       "Sector / Domain": "Extended Reality",
@@ -30,6 +31,7 @@
       "Non-Functional Requirements": "<br>1. Easy to use: The prototype should be easy for kids to use and navigate, with intuitive controls and simple instructions.<br>2. Security: The prototype should be designed with security and privacy in mind, with appropriate measures to protect kids' personal information and prevent unauthorized access.<br>3. Performance: The prototype should be optimized for performance and run smoothly on a range of devices, without lag or delays. The application should be responsive and performant, even on low-end devices.<br>4. Usability: The prototype should be designed with usability in mind, with clear and concise instructions that are easy for kids to understand.<br>5. Reliability: The prototype should be reliable and free from errors or crashes.<br>6. Accessibility: The application should be accessible and inclusive for children of all abilities.<br>7. Scalability: The application should be scalable and able to accommodate a large number of users."
     },
     {
+      "path":"India Blockchain Alliance.png",
       "problem_id": "UHCK_MSC001",
       "Name of Organization": "India Blockchain Alliance",
       "Sector / Domain": "Blockchain & Artificial Intelligence",
@@ -41,6 +43,7 @@
       "Special Instructions": "<br>1. Focus on developing a minimum viable product to demonstrate using Blockchain and AI for the key capabilities.<br>2. Ensure the solution is user-friendly, secure, and scalable using Blockchain and AI.<br>3. Provide documentation on how the Blockchain and AI solution works and can be expanded further.<br>4. Explain how Blockchain can be used to audit carbon credits transparently and enable trading.<br>5. Discuss how AI can help calculate individual carbon footprints and identify opportunities for reduction."
     },
     {
+      "path":"Systique.png",
       "problem_id": "UHCK_AI002",
       "Name of Organization": "Hughes Systique Corporation",
       "Sector / Domain": "Artificial Intelligence",
@@ -50,6 +53,7 @@
       "Non-Functional Requirements": "<br>1. Accuracy and Reliability: The solution should prioritize high accuracy and reliability in predicting ticket counts. It should strive to minimize errors and provide dependable predictions that stakeholders can rely on for resource planning and capacity management decisions.<br>2. Scalability: The solution should be designed to handle large-scale ticket data and accommodate increasing data volumes as the network or system grows. It should be scalable to support efficient processing and prediction of ticket counts, even with substantial data sets.<br>3. Real-time Responsiveness: The solution should be responsive and capable of providing timely predictions. It should process data efficiently and deliver predictions within an acceptable timeframe to support real-time decision-making and ticket handling.<br>4. Interpretability and Explainability: The solution should be able to provide insights into the factors influencing ticket count predictions. It should offer transparency and explainability, allowing stakeholders to understand how the model arrived at its predictions. This helps build trust and facilitates informed decision-making.<br>5. Robustness and Adaptability: The solution should be robust and adaptable to changes in the network or system environment. It should be able to handle variations in ticket generation patterns, accommodate new ticket categories or types, and adjust to changes in external factors that affect ticket counts."
     },
     {
+      "path":"Flugel Soft.png",
       "problem_id": "UHCK_XR002",
       "Name of Organization": "Flugelsoft Software Private Limited",
       "Sector / Domain": "Extended Reality",
@@ -59,6 +63,7 @@
       "Non-Functional Requirements": "<br>1. Diverse Teams: Participants are encouraged to form diverse teams comprising individuals with different skill sets, including developers, designers, economists, and business experts. This diversity will foster multidisciplinary collaboration and ensure a range of perspectives are considered.<br>2. Sustainable and Ethical Considerations: Solutions should prioritize sustainability and ethical practices within the virtual economy. Consider the environmental impact, fair distribution of wealth, and user privacy when designing virtual currency systems and business models."
     },
     {
+      "path":"Flugel Soft.png",
       "problem_id": "UHCK_XR003",
       "Name of Organization": "Flugelsoft Software Private Limited",
       "Sector / Domain": "Extended Reality",
@@ -68,6 +73,7 @@
       "Non-Functional Requirements": "<br>1. Usability: The system should be user-friendly and intuitive, ensuring that individuals with disabilities can easily access and interact with the Metaverse without encountering unnecessary challenges or complexities.<br>2. Performance: The system should deliver a seamless and responsive experience, with minimal latency and high-quality graphics, to ensure that users with disabilities can fully immerse themselves in the virtual environment.<br>3. Security and Privacy: The system should prioritize the security and privacy of users, ensuring that personal information and interactions within the Metaverse are protected from unauthorized access or misuse.<br>4. Scalability: The system should be able to handle a large number of users concurrently, accommodating individuals with disabilities and other users without compromising performance or accessibility.<br>5. Compatibility: The system should be compatible with a wide range of devices and platforms, including assistive technologies, to ensure that individuals with disabilities can access and engage with the Metaverse using their preferred devices and tools."
     },
     {
+      "path":"Flugel Soft.png",
       "problem_id": "UHCK_XR004",
       "Name of Organization": "Flugelsoft Software Private Limited",
       "Sector / Domain": "Extended Reality",
@@ -77,6 +83,7 @@
       "Non-Functional Requirements": "1. Usability: The tools and platforms should have a user-friendly interface and intuitive navigation, ensuring that users can easily adapt to and utilize the features within the Metaverse environment.\n2. Security: The solution should prioritize the security and privacy of user data, employing robust encryption, access controls, and secure authentication mechanisms to safeguard sensitive information.\n3. Scalability: The tools and platforms should be designed to handle a growing user base and increasing data volume within the Metaverse, ensuring scalability and high performance even as the platform expands.\n4. Cross-Platform Compatibility: The solution should be compatible with multiple devices and operating systems, enabling users to access and collaborate within the Metaverse from various devices, such as desktops, laptops, and mobile devices.\n5. Performance: The tools and platforms should deliver fast and responsive performance, minimizing latency and ensuring a smooth user experience within the Metaverse environment, even during peak usage periods.\n6. Accessibility: The solution should consider accessibility requirements, provide features and accommodations for users with disabilities, and ensure inclusivity and equal participation within the Metaverse."
     },
     {
+      "path":"Flugel Soft.png",
       "problem_id": "UHCK_XR005",
       "Name of Organization": "Flugelsoft Software Private Limited",
       "Sector / Domain": "Extended Reality",
@@ -87,6 +94,7 @@
       "Non-Functional Requirements": "1. Privacy by Design: The solution should adhere to privacy by design principles, ensuring that privacy considerations are embedded into the architecture and processes from the initial design stages. It should prioritize privacy as a fundamental requirement rather than an afterthought. \n2. Transparency and Accountability: The solution should provide transparency regarding data collection, storage, and usage practices within the Metaverse. It should clearly communicate privacy policies, terms of service, and data handling practices to users, fostering trust and accountability. \n3. Robust Security Measures: The solution should implement robust security measures to protect against unauthorized access, data breaches, and cyber threats. It should employ industry-standard encryption, secure coding practices, regular security assessments, and updates to mitigate vulnerabilities. \n4. User Empowerment and Control: The solution should empower users by providing them with control over their personal data. It should offer user-friendly privacy settings, consent management tools, and clear options for data deletion or modification. Users should have the ability to manage their privacy preferences easily. \n5. Ethical Use of Data: The solution should adhere to ethical principles when handling user data within the Metaverse. It should prioritize responsible data collection, usage, and sharing practices, respecting user consent and ensuring data is not exploited or used for unethical purposes."
     },
     {
+      "path":"Cognecto.png",
       "problem_id": "UHCK_AI004",
       "Name of Organization": "Cognecto",
       "Sector / Domain": "Artificial Intelligence",
@@ -103,6 +111,7 @@
       ]
     },
     {
+      "path":"Divin Pro.png",
       "problem_id": "UHCK_WW001",
       "Name of Organization": "DivIn Pro",
       "Sector / Domain": "Women Welfare",
@@ -112,6 +121,7 @@
       "Non-Technical Instructions": "1. Provide extensive training and educational resources to companies and individuals on using the tools and platforms effectively, including guidance on analyzing salary data, interpreting insights, and implementing strategies to address pay gaps and promote equal compensation. \n2. Establish partnerships and collaborations with Name of Organizations, employers, and industry institutions to promote the adoption and usage of the tools and platforms, leveraging their networks and influence to drive significant awareness, participation, and commitment to closing the gender pay gap."
     },
   {
+    "path":"socs.png",
     "problem_id": "UHCK_MSC002",
     "Name of Organization": "School of Computer Science",
     "Title of Problem Statement": "Smart Parking Solution: Real-Time Availability for Faculty Parking",
@@ -120,6 +130,7 @@
     "Non-Functional Requirements": "1. Ease of Use: The solution should have a user-friendly interface that is intuitive and easy to navigate. Faculty members should be able to quickly access and understand the real-time parking availability information without any confusion or complexity. \n2. Real-Time Updates: The solution should provide up-to-date and accurate information about parking spot availability. It should continuously monitor parking spaces and promptly update the availability status to reflect any changes in real time. \n3. Accessibility and Compatibility: The solution should be accessible across different devices and platforms, including mobile devices, tablets, and desktop computers. It should be compatible with various operating systems and browsers, ensuring that faculty members can access the information regardless of their preferred devices. \n4. Reliable Communication: The solution should ensure reliable communication between the parking system and faculty members. It should use stable and robust communication channels to deliver parking availability updates effectively, minimizing any potential delays or disruptions in the transmission of information. \n5. Scalability and Future-Proofing: The solution should be designed to accommodate potential growth and scalability. It should be able to handle increasing numbers of faculty members and parking spaces without compromising performance. Additionally, it should be adaptable to future technologies and advancements to ensure its longevity and relevance."
   },
   {
+    "path":"Kosha Foods.png",
     "problem_id": "UHCK_AI005",
     "Name of Organization": "Koshaa Foods",
     "Title of Problem Statement": "Increasing Natural Language Understanding in AI and Machine Learning Systems",
@@ -128,6 +139,7 @@
     "Non-Functional Requirements": "1. Accuracy and Precision: By using cutting-edge methods and methodologies, training NLU models on big, diverse datasets will increase their accuracy and precision.\n2. Enhance the robustness of NLU systems to cope with linguistic, dialectal, slang, and user preference variances, ensuring flexibility to various contexts and user populations. \n3. Real-time Processing: Make NLU models and algorithms more effective at processing language inputs in real-time so that people and AI systems can communicate with each other quickly. \n4. Privacy and Security: Employ privacy-preserving methods to safeguard user information and provide secure connection between users and AIML systems while adhering to pertinent privacy laws. \n5. Scalability and Performance: Create AIML systems that can process language inputs on a wide scale, guaranteeing scalability and excellent performance even as user demands rise. \n6. Address moral considerations in your decision-making. \n7. Multimodal Integration: To increase comprehension and user experiences, enable integration with multimodal inputs, such as merging text with visual or aural data. \n8 .User-Friendly Interfaces: Create user-friendly, intuitive interfaces that make it easy for users to interact with AIML systems and provide feedback and direction."
   },
   {
+    "path":"Kosha Foods.png",
     "problem_id": "UHCK_CC001",
     "Name of Organization": "Koshaa Foods",
     "Sector / Domain": "Food Industry",
@@ -137,6 +149,7 @@
     "Non-Functional Requirements": "1. Scalability and performance: Plan the cloud infrastructure to support a large number of concurrent users and workloads while maintaining excellent performance and scalability. \n2. Availability and dependability: To maintain high availability and data dependability, use fault-tolerant technologies such as data replication and backup systems. \n3. Establish strong security mechanisms, such as encryption, access restrictions, and secure communication protocols, to safeguard user data and ensure privacy. \n4. Cost optimisation solutions, such as resource consolidation and energy-efficient resource allocation, should be developed to reduce infrastructure costs while fulfilling performance requirements. \n5. Energy Efficiency: Use energy-aware resource management approaches to optimise energy use and minimise cloud computing's environmental effect. \n6. Compliance and Governance: To safeguard user rights and preserve confidence, ensure compliance with regulatory and legal obligations such as data protection legislation and industry standards. \n7. Interoperability and portability: Create cloud services and applications that are compatible across many cloud platforms and allow for easy workload movement across cloud providers."
   },
   {
+    "path":"Kosha Foods.png",
     "problem_id": "UHCK_FT001",
     "Name of Organization": "Koshaa Foods",
     "Title of Problem Statement": "Designing an AI-based Fraud Detection System for Real-Time Financial Transactions",
@@ -145,6 +158,7 @@
     "Non-Functional Requirements": "1. Performance and Scalability: Create the system with the ability to process a large number of real-time transactions quickly, enabling real-time fraud detection.\n2. Accuracy and False Positive Reduction: To reduce false positives, prevent pointless transaction blocks, and minimise consumer annoyance, continuously improve the accuracy of the fraud detection models and algorithms. \n3. Data Privacy and Security: Adhere to applicable data protection laws and industry standards while implementing strong security measures to safeguard sensitive customer information and transaction data. \n4. Design the system to be adaptable and learn from new fraud patterns and approaches, taking feedback into account and regularly updating the fraud detection models. \n5. Make sure that the system creates reports and keeps audit logs in order to support internal audits and regulatory compliance. \n6. Scalable Infrastructure: Use cloud-based services or distributed computing frameworks to construct a scalable and dependable infrastructure that can handle the computational requirements of real-time fraud detection. \n7. Design user interfaces that are easy for fraud analysts and investigators to utilise in order to organise cases, conduct investigations, and collaborate effectively."
   },
   {
+    "path":"Divin Pro.png", 
     "problem_id": "UHCK_WW002",
     "Name of Organization": "Divin Pro",
     "Title of Problem Statement": "Empowering Women in Sports: Promoting Gender Equality and Inclusive Athletic Opportunities through Innovative Initiatives and Technologies",
@@ -153,6 +167,7 @@
     "Non-Technical Instructions": "1. Challenge stereotypes: Encourage individuals and Name of Organizations to challenge gender stereotypes and biases within the sports industry. Promote positive role models and success stories of women athletes to inspire others. \n2. Foster a supportive environment: Create a safe and inclusive environment that encourages women's participation in sports. Promote respect, fairness, and equal opportunities for all participants. Implement policies against discrimination and harassment.\n3. Celebrate achievements: Recognize and celebrate the achievements of women athletes at all levels. Organize award ceremonies, tournaments, and exhibitions to showcase their skills and promote their success."
   },
   {
+    "path":"socs.png",
     "problem_id": "UHCK_XR006",
     "Name of Organization": "School of Computer Science",
     "Title of Problem Statement": "A virtual reality based fire training simulator integrated with fire dynamics data",
@@ -161,6 +176,7 @@
     "Non-Technical Expected Outcomes": "1. Design an intuitive and user-friendly interface for the VR simulator, ensuring ease of use and accessibility for trainees with varying levels of technical expertise. \n2. Create supporting training materials, such as user manuals, guidelines, and tutorials, to assist trainers and trainees in maximizing the benefits of the VR fire training simulator."
   },
 {
+    "path":"Moretech Solutions SA.png",
     "problem_id": "UHCK_IT002",
     "Name of Organization": "Moretech Solutions Pvt. Ltd.",
     "Sector / Domain": "Information Technology",
@@ -170,6 +186,7 @@
     "Non-Technical Instructions": "1. The solution should have an intuitive and easy-to-use interface for both the customers and the agency's staff.\n2. The solution should optimize the itinerary planning process to minimize the time required for generating personalized recommendations. It should automate repetitive tasks, such as searching for flights, accommodations, and attractions, and leverage intelligent algorithms to suggest relevant options quickly.\n3. The solution should prioritize customer data privacy and establish a high level of trust. It should comply with relevant data protection regulations, securely store customer information, and provide transparent explanations regarding data usage."
   },
   {
+    "path":"socs.png",
     "problem_id": "UHCK_3D001", 
     "Name of Organization": "School of Computer Science, UPES",
     "Sector / Domain": "3D Modeling",
@@ -179,6 +196,7 @@
     "Non-Technical Instructions": "1. Develop comprehensive training materials and user manuals to guide disaster response teams on the deployment, operation, and maintenance of the 3D-modeled drones.\n2. Provide clear operational guidelines that outline best practices and procedures for utilizing the drones effectively in disaster management and relief operations.\n3. Develop safety protocols and procedures to ensure the responsible and secure use of the drones during missions, prioritizing the well-being of both operators and affected populations."
   },
   {
+    "path":"Moretech Solutions SA.png",
     "problem_id": "UHCK_IT003",
     "Name of Organization": "Moretech Solutions Pvt. Ltd.",
     "Sector / Domain": "Information Technology",
@@ -188,6 +206,7 @@
     "Non-Technical Instructions": "1. Data privacy and security measures to protect student information.\n2. Scalability to handle a large number of concurrent online exams.\n3. Performance optimization to ensure a smooth and responsive exam experience."
   },
   {
+    "path":"Moretech Solutions SA.png",
     "problem_id": "UHCK_IT004",
     "Name of Organization": "Moretech Solutions Pvt. Ltd.",
     "Sector / Domain": "Information Technology",
@@ -197,6 +216,7 @@
     "Non-Technical Instructions": "1. Scalability to handle a large number of intersections and varying traffic conditions.\n2. Performance optimization to minimize response time for signal adjustments.\n3. Security measures to protect traffic data and system integrity."
   },
   {
+    "path":"Moretech Solutions SA.png",
     "problem_id": "UHCK_IT005",
     "Name of Organization": "Moretech Solutions Pvt. Ltd.",
     "Sector / Domain": "Information Technology",
@@ -206,6 +226,7 @@
     "Non-Technical Instructions": "1. Scalability to handle a large number of products and shelves.\n2. Performance optimization to ensure real-time allocation recommendations.\n3. User-friendly interface for store managers to review and adjust allocations."
   },
   {
+    "path":"MarshMcLennan.png",
     "problem_id": "UHCK_CC002",
     "Sector / Domain": "Cloud Computing",
     "Name of Organization": "MarshMcLennan",
@@ -215,6 +236,7 @@
     "Non-Technical Instructions": "1. Scalability to handle increasing client demands and varying workload patterns.\n2. Security measures to protect client data and ensure compliance with data privacy regulations.\n3. User-friendly interface and intuitive controls for easy resource allocation management.\n4. High system availability and reliability to minimize downtime and service disruptions.\n5. Performance optimization to ensure fast and responsive resource allocation.\n6. Compatibility with different cloud platforms and services.\n7. Flexibility to adapt to changing client requirements and industry trends."
   },
   {
+    "path":"MarshMcLennan.png",
     "problem_id": "UHCK_ET002",
     "Name of Organization": "MarshMcLennan",
     "Sector/domain": "Education Technologyn",
@@ -224,6 +246,7 @@
     "Non-Technical Instructions": "1. Inclusivity and accessibility to ensure coding education reaches individuals from diverse backgrounds and communities.\n2. User-friendly coding platforms and tools that cater to different learning styles and abilities.\n3. Scalability of coding programs to accommodate a growing number of learners and expand into new regions.\n4. Collaboration with coding industry leaders and experts to stay updated on coding best practices and emerging technologies.\n5. Continuous support and guidance for learners throughout their coding journey, fostering a sense of community and empowerment.\n6. Evaluation and recognition of coding skills through certifications and badges, enhancing learners' employability.\n7. Advocacy for coding education and policy changes to promote the integration of coding skills in educational systems worldwide."
   },
   {
+    "path":"MarshMcLennan.png",
     "problem_id": "UHCK_GM001",
     "Name of Organization": "MarshMcLennan",
     "Sector/domain": "Gaming Industry",
@@ -233,6 +256,7 @@
     "Non-Technical Instructions": "1. Scalability to handle games of varying complexity and sizes.\n2. Compatibility with different gaming platforms and hardware configurations.\n3. User-friendly interface and controls for easy game performance optimization.\n4. High system availability and reliability to minimize game crashes and disruptions.\n5. Performance optimization to ensure smooth gameplay and responsive controls.\n6. Compatibility with industry standards and best practices for game development.\n7. Continuous updates and patches to address emerging performance-related challenges."
   },
   {
+    "path":"MarshMcLennan.png",
     "problem_id": "UHCK_ET003",
     "Name of Organization": "MarshMcLennan",
     "Sector / Domain": "Education Technology",
@@ -242,6 +266,7 @@
     "Non-Technical Instructions": "1. Scalability to accommodate a large number of users and varying course enrollments.\n2. Security measures to protect student data and ensure privacy.\n3. User-friendly interface and intuitive navigation for easy access to course materials and resources.\n4. High system availability and reliability to avoid disruptions in learning activities.\n5. Performance optimization to ensure fast and responsive online learning experiences.\n6. Compatibility with different devices and platforms for flexible access to educational content.\n7. Continuous updates and enhancements based on user feedback and emerging educational technologies.\n8. Adherence to educational standards and regulations for online learning platforms."
   },
   {
+    "path":"Soran Kids Foundation.png",
     "problem_id": "UHCK_HC002",
     "Name of Organization": "SORAN Kids Foundation",
     "Sector / Domain": "Healthcare",
@@ -251,6 +276,7 @@
     "Non-Technical Instructions": "1. It should be having potential to scale up and expand (in functionality and in geographic coverage)\n2. Information security: Data sensitivity and Confidentiality must be accorded highest priority."
   },
   {
+    "path":"c4i4.png",
     "problem_id": "UHCK_MF003",
     "Name of Organization": "C4i4 Lab",
     "Sector / Domain": "Manufacturing",
@@ -261,6 +287,7 @@
     "Non-Technical Instructions": "1. Scalability: Consider whether the system needs to accommodate future expansion or changes in the production process. Define the scalability requirements, such as the ability to handle higher volumes of products or adapt to different product types.\n2. Documentation and Traceability: Specify any requirements for documentation and traceability of inspection results. This may include recording images, timestamps, measurement data, and other relevant information for audit purposes."
   },
   {
+    "path":"socs.png",
     "problem_id":"UHCK_XR007",
     "Name of Organization": "School of Computer Science",
     "Title of Problem Statement": "An augmented reality based navigation and transportation system",
@@ -269,6 +296,7 @@
     "Expected Outcomes (Non-Technical)": "Enhanced user experience and convenience through the utilization of AR technology, providing users with visual and contextually relevant information during navigation.\nIncreased efficiency and time savings by offering personalized and optimized route planning, considering user preferences and real-time data on congestion and transportation options.\nImproved user satisfaction and engagement through the interactive nature of the AR navigation system, allowing users to explore points of interest and access additional information."
   },
   {
+    "path":"socs.png",
     "problem_id":"UHCK_ET001",
     "Name of Organization": "School of Computer Science",
     "Title of Problem Statement": "Streamlining Food Court Operations: Automating Order Process and Minimizing Waiting Times",
@@ -278,6 +306,7 @@
     "Expected outcomes (non technical)": "Improved user experience with reduced wait times and overcrowding.\nEfficient time management for students and staff.\nEnhanced productivity by allocating more time to academic or work-related activities.\nReduced stress levels by avoiding crowded cafes.\nSupport for social distancing and health measures.\nValuable insights for cafe management to optimize operations.\nEnhanced satisfaction and well-being within the university community."
   },
   {
+    "path":"socs.png",
     "problem_id":"UHCK_XR008",
     "Name of Organization": "School of Computer Science",
     "Title of Problem Statement": "An augmented reality based fashion preview system",
@@ -286,6 +315,7 @@
     "Expected Outcomes (Non-Technical)": "Design an intuitive and user-friendly interface for the AR application, allowing seamless navigation between the catalog, customization options, and AR preview. Consider best practices in UI/UX design to ensure a smooth and engaging user experience.\nCreate a tutorial/video guide for navigation inside the application and all its major features for ease of use."
   },
   {
+    "path":"HiTech Saw.png",
     "problem_id":"UHCK_HC001",
     "Name of Organization": "HI-TECH SAW LTD.",
     "sector_domain": "Healthcare",
@@ -295,6 +325,7 @@
     "Non Functional Requirements": "Scalability to handle increasing appointment volumes and growing patient demand.\nSecurity measures to protect patient privacy and adhere to healthcare regulations.\nUser-friendly interface for easy appointment booking and rescheduling.\nHigh system availability and reliability to avoid scheduling errors and disruptions.\nPerformance optimization to ensure fast and responsive appointment scheduling.\nCompatibility with different devices and platforms for seamless user experience.\nFlexibility to accommodate various appointment types and specialty requirements.\nAdherence to industry standards and regulations for patient appointment scheduling."
   },
   {
+    "path":"HiTech Saw.png",
     "problem_id":"UHCK_MSC003",
     "Name of Organization": "HI-TECH SAW LTD.",
     "sector_domain": "Environmental Sustainability",
@@ -304,6 +335,7 @@
     "Expected outcomes (non technical)": "Scalability to accommodate buildings of varying sizes and complexities.\nData security measures to protect energy consumption data and user privacy.\nUser-friendly interface with clear energy-saving recommendations and feedback.\nHigh system availability and reliability to minimize disruptions in energy control.\nPerformance optimization to ensure real-time monitoring and responsive energy controls.\nCompatibility with existing building management systems and infrastructure.\nAdherence to energy efficiency standards and certifications for sustainable buildings."
   },
   {
+    "path":"HiTech Saw.png",
     "problem_id":"UHCK_MF001",
     "Name of Organization": "HI-TECH SAW LTD.",
     "sector_domain": "Manufacturing (Pharmaceutical industry)",
@@ -313,6 +345,7 @@
     "Expected outcomes (non technical)": "Scalability to handle varying batch sizes and multiple product lines.\nData security measures to protect sensitive manufacturing and quality data.\nUser-friendly interface with intuitive navigation and ease of use.\nHigh system availability and reliability to minimize disruptions.\nPerformance optimization to ensure fast and responsive system operation.\nCompatibility with existing manufacturing systems and equipment.\nAdherence to industry regulations and standards for batch manufacturing."
   },
   {
+    "path":"HiTech Saw.png",
     "problem_id":"UHCK_MF002",
     "Name of Organization": "HI-TECH SAW LTD.",
     "sector_domain": "Manufacturing (Textile industry)",
@@ -322,6 +355,7 @@
     "Expected outcomes (non technical)": "Scalability to handle increased production volumes and future expansion.\nSecurity measures to protect sensitive production and planning data.\nUser-friendly interface with intuitive navigation and ease of use.\nHigh system availability and reliability to minimize disruptions.\nPerformance optimization to ensure fast and responsive system operation.\nCompatibility with existing systems and infrastructure.\nFlexibility to adapt to changing market demands and business requirements."
   },
   {
+    "path":"Moretech Solutions SA.png",
     "problem_id":"UHCK_IT001",
     "Name of Organization": "Moretech Solutions Pvt. Ltd.",
     "sector_domain": "Information Technology",
