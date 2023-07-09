@@ -1,7 +1,7 @@
 import React, { useRef ,useState} from "react";
 import "./Problem.css";
 import Heading from "../../Components/Heading/Heading";
-
+import logo from './Images/MarshMcLennan.png'
 import data from "./statement.json";
 
 const Problem = () => {
@@ -82,6 +82,9 @@ const Problem = () => {
       <div ref={modalRef} className="modal">
         {/* Modal content */}
         <div className="modal-content">
+          <div className="d-flex justify-content-center">
+          <img src={logo} alt="" className="comp-logo"/>
+          </div>
           <span className="close" onClick={handleCloseModal}>
             &times;
           </span>
