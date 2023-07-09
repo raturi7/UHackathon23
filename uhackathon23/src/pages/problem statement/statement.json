@@ -212,7 +212,7 @@
       "Title of Problem Statement": "Improving Online Exam Integrity",
       "Description of Problem": "<br>An institute conducts online exams that are vulnerable to cheating and academic misconduct. The existing online exam system lacks robust security measures and monitoring capabilities. The institute is seeking a solution to improve the integrity of online exams and ensure fair assessment of student performance.",
       "Functional/Technical Requirements": "<br>1. Secure online exam platform with user authentication and access control.<br>2. Remote proctoring capabilities to detect and prevent cheating behaviors.<br>3. Browser lockdown features to restrict access to unauthorized resources.<br>4. Automated plagiarism detection for essay-type exam answers.",
-      "Non-Functional/Non-Technical Requirements": ""
+      "Non-Functional/Non-Technical Requirements": "<br> 1. Data privacy and security measures to protect student information.<br> 2. Scalability to handle a large number of concurrent online exams.<br>3. Performance optimization to ensure a smooth and responsive exam experience."
     },
     {
       "path": "Moretech Solutions SA.png",
