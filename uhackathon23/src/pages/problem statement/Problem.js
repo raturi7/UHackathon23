@@ -1,7 +1,7 @@
 import React, { useRef ,useState} from "react";
 import "./Problem.css";
 import Heading from "../../Components/Heading/Heading";
-// import logo from './Images/MarshMcLennan.png'
+import upesLogo from './Images/UPES Icon.png'
 import data from "./statement.json";
 
 
@@ -23,7 +23,7 @@ const Problem = () => {
   function printData() {
     let i = 0;
     let htmlData = [];
-    for (i = 1; i < keys.length; i++) {
+    for (i = 2; i < keys.length; i++) {
         
       const htmlString = `<p style="marginBottom: 8px;text-align:justify" className="blue-title"><b style="color: #0043ce;">${keys[i]}:</b> <b>${values[i]}</b></p>`;
       htmlData.push(React.createElement('div', { dangerouslySetInnerHTML: { __html: htmlString } }));
@@ -59,29 +59,21 @@ const Problem = () => {
 
  function psCard(data, index) {
   // Generate the problem ID
-  const problemId = `UHACK${String(index + 1).padStart(3, "0")}`;
   
       
   return (
     <div className="col-6 card-container" key={data.id}>
       <button
-        className="card d-flex flex-row align-items-center justify-content-start p-3 pl-4 gap-4 w-100"
+        className="card d-flex flex-row align-items-center justify-content-start p-3 pl-4 gap-2 w-100"
         onClick={async () => {
           setPs(data);
           setImage(data.path);
-          console.log(data.path)
           setKeys(Object.keys(data));
           setValues(Object.values(data));
           openModal(data);
         }}
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          height="2em"
-          viewBox="0 0 384 512"
-        >
-          <path d="..." />
-        </svg>
+        <img src={upesLogo} alt="" style={{height:"4em"}} className="img-logo-ps"/>
         <div className="card-content d-flex flex-column align-items-start justify-content-center gap-2">
           <div className="title-ps">
             <h5
@@ -92,11 +84,12 @@ const Problem = () => {
                 maxHeight: "40px",
                 marginBottom: "0px",
               }}
+              className="title-ps-r"
             >
-              {data["Title of Problem"]}
+              {data["Title of Problem Statement"]}
             </h5>
           </div>
-          <h6 style={{ fontWeight: "600", color: "#8585BD" }}>{problemId}</h6>
+          <h6 style={{ fontWeight: "600", color: "#8585BD" }} className="id-ps-r">{data["problem_id"]}</h6>
         </div>
       </button>
     </div>
@@ -121,9 +114,7 @@ const Problem = () => {
            className="d-flex align-items-start justify-content-center p-4 flex-column"
            style={{ textAlign: "left" }}
          >
-           <h6 className="mb-4 ps-number" style={{ fontWeight: "600" }}>
-             {"PS NUMBER: " + ps.id}
-           </h6>
+           <p style={{marginBottom: "18px",textAlign:"justify"}} className="blue-title"><b style={{color: "#0043ce"}}>Problem Statement ID:</b> <b>{ps.problem_id}</b></p>
            {printData()}
          </section>
        </div>
