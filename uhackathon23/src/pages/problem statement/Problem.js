@@ -9,6 +9,7 @@ const Problem = () => {
 
 
   const [ps,setPs]=useState({});
+  const [image,setImage]= useState("");
   const modalRef = useRef(null);
  
   const [keys,setKeys]=useState([])
@@ -17,7 +18,8 @@ const Problem = () => {
   function printData() {
     let i = 0;
     let htmlData = [];
-    for (i = 0; i < keys.length; i++) {
+    for (i = 1; i < keys.length; i++) {
+        
       const htmlString = `<p style="marginBottom: 8px;text-align:justify" className="blue-title"><b style="color: #0043ce;">${keys[i]}:</b> <b>${values[i]}</b></p>`;
       htmlData.push(React.createElement('div', { dangerouslySetInnerHTML: { __html: htmlString } }));
     }
@@ -54,13 +56,14 @@ const Problem = () => {
   // Generate the problem ID
   const problemId = `UHACK${String(index + 1).padStart(3, "0")}`;
   
-
+      
   return (
     <div className="col-4 card-container" key={data.id}>
       <button
         className="card d-flex flex-row align-items-center justify-content-start p-3 pl-4 gap-4 w-100"
         onClick={async () => {
           setPs(data);
+          setImage(data.path);
           setKeys(Object.keys(data));
           setValues(Object.values(data));
           openModal(data);
@@ -101,7 +104,7 @@ const Problem = () => {
        {/* Modal content */}
        <div className="modal-content">
          <div className="d-flex justify-content-center">
-           <img src={logo} alt="" className="comp-logo" />
+           <img src={image} alt="" className="comp-logo" />
          </div>
          <span className="close" onClick={handleCloseModal}>
            &times;
