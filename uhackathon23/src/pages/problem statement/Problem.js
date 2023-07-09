@@ -8,8 +8,13 @@ const Problem = () => {
 
   const [ps,setPs]=useState({});
   const modalRef = useRef(null);
+ 
+  const [keys,setKeys]=useState([])
+  const [values,setValues]=useState([])
 
-
+  function printData(){
+    
+  }
 
   const openModal =  () => {
     const modalElement = modalRef.current;
@@ -34,6 +39,7 @@ const Problem = () => {
           className="card d-flex flex-row align-items-center justify-content-start p-3 pl-4 gap-4 w-100"
           onClick={async ()=>{
            setPs(data)
+           setKeys(Object.keys(data))
             openModal(data)
           }}
         >
@@ -64,6 +70,7 @@ const Problem = () => {
             <h6 className="mb-4 ps-number" style={{ fontWeight: "600" }}>
               {"PS NUMBER: "+ps.id}
             </h6>
+            {}
             <p style={{marginBottom:"8px"}} className="blue-title"><b style={{color:"#0043ce"}}>Problem Statement:</b> <b>{ps.title}</b></p>
             <p style={{marginBottom:"8px"}}  className="blue-title"><b style={{color:"#0043ce"}}>Key:</b> <b>{ps.key}</b></p>
             <p style={{marginBottom:"8px"}} className="mb-4 blue-title"><b style={{color:"#0043ce"}}>Organisation:</b> <b>{ps.organisation}</b></p>
