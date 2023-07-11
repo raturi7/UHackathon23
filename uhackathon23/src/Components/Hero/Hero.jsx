@@ -109,13 +109,15 @@ const Hero = () => {
               />
             </h5>
             {/* <button className="btn footer-link mt-5">Get Started</button> */}
+            <div className="d-flex align-items-center justify-content-center gap-4 flex-wrap mt-5">
             <Link
               to="https://uhackathon.devfolio.co/"
               style={{ textDecoration: "none" }}
-              className="btn footer-link mt-5"
+              className="btn footer-link"
             >
               Get Started
             </Link>
+            <a href="https://forms.gle/1xbfir19gK4acfqy7" className="footer-link" style={{textDecoration:"none"}}>Submit Your Abstract</a></div>
           </div>
         </div>
         <div className="container vr-timer d-flex align-items-center justify-content-center flex-column">

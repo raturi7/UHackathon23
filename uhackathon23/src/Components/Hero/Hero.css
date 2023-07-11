@@ -112,7 +112,11 @@
         font-size: 10.5vw;
     }
 }
-
+@media (max-width:440px) {
+    .hero-container{
+        margin-top: 40px;
+    }
+}
 .an-text{
     line-height: 0px;
 }
