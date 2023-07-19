@@ -10,13 +10,13 @@ const Problem = () => {
 
 
   const [ps,setPs]=useState({});
-  const [image,setImage]= useState("c4i4.png");
+  const [image,setImage]= useState("socs.png");
   const modalRef = useRef(null);
  
-  // function printImg(){
-  //   const logo=require(image)
-  //   return logo
-  // }
+useState(()=>{
+  setImage('socs.png')
+})
+
   const [keys,setKeys]=useState([])
   const [values,setValues]=useState([])
 

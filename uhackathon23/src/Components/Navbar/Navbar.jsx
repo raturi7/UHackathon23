@@ -56,7 +56,7 @@ const Navbar = () => {
             <Link className="nav-link" to="/About" style={{ color: color }}>About</Link>
             <Link className="nav-link" to="/Gallery" style={{ color: color }}>Gallery</Link>
             <Link className="nav-link" to="/Contact" style={{ color: color }}>Contact</Link>
-            <Link className="nav-link" to="/problem-statement" style={{ color: color }}>Problem Statement</Link>
+            <Link className="nav-link" to="/problem-statements" style={{ color: color }}>Problem Statements</Link>
             {/* <button  style={{textDecoration:"none"}} className='nav-link join-btn' data-hackathon-slug="uhackathon" >Join Us</button> */}
             <div 
 	className="apply-button" 

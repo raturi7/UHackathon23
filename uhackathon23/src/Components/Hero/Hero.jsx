@@ -13,6 +13,7 @@ import Timeline from "../Timeline/Timeline";
 import Partners from "../hackathon partners/hack_partners";
 import Sponsor1 from "../Sponsor/Sponsor1";
 import Problem from "../../pages/problem statement/Problem";
+import OurCollaborators from "../Our-Colaborators/OurCollaborators";
 const Hero = () => {
 
 
@@ -158,6 +159,7 @@ const Hero = () => {
       <Sponsor1 />
 
       <Partners />
+      <OurCollaborators/>
     </div>
   );
 };
