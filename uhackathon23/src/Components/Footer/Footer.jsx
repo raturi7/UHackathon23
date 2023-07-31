@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 import {
   FaInstagram,
   FaLinkedin,
@@ -59,11 +60,20 @@ const Footer = () => {
             <FaFacebook />
           </motion.a>
         </div>
+        <div className="footer_text2 mb-4">
+          <p className="text-white text-uppercase text-xl mt-4 mb-0">
+            <Link to="https://docs.google.com/document/d/1QlqOQz5DDt7-TC6hYCD9my1kx4Ijci4E/edit?usp=sharing&ouid=102816347459032281062&rtpof=true&sd=true" target="_blank" rel="noreferrer" className="link">
+              Terms and Conditions
+            </Link>
+          </p>
+        </div>
+
         <div className="footer_copyright mb-5">
           <p className="text-white text-uppercase">
             &copy; UHackathon 4.0 | All rights reserved
           </p>
         </div>
+
       </div>
     </footer>
   );

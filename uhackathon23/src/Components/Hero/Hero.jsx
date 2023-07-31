@@ -109,14 +109,23 @@ const Hero = () => {
                 className="h5 an-text flex leading-none"
               />
             </h5>
+            <div>
+              <Link
+                to="https://uhackathon.devfolio.co/"
+                style={{ textDecoration: "none" }}
+                className="btn footer-link mt-5 mx-4"
+              >
+                Get Started
+              </Link>
+              <Link
+                to="https://forms.gle/1xbfir19gK4acfqy7"
+                style={{ textDecoration: "none" }}
+                className="btn footer-link mt-5"
+              >
+                Abstract Submission
+              </Link>
+            </div>
             {/* <button className="btn footer-link mt-5">Get Started</button> */}
-            <Link
-              to="https://uhackathon.devfolio.co/"
-              style={{ textDecoration: "none" }}
-              className="btn footer-link mt-5"
-            >
-              Get Started
-            </Link>
           </div>
         </div>
         <div className="container vr-timer d-flex align-items-center justify-content-center flex-column">
@@ -159,7 +168,7 @@ const Hero = () => {
       <Sponsor1 />
 
       <Partners />
-      <OurCollaborators/>
+      <OurCollaborators />
     </div>
   );
 };
