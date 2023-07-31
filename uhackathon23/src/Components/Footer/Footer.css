@@ -42,4 +42,7 @@ margin-top: 150px;
     outline: 3px solid #FF5A05 !important;
   }
   
-  
+  .link{
+    color: white;
+    text-decoration: none;
+  }
