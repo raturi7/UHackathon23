@@ -76,6 +76,7 @@ const Footer = () => {
         <a href="https://docs.google.com/document/d/1QlqOQz5DDt7-TC6hYCD9my1kx4Ijci4E/edit?usp=sharing&ouid=102816347459032281062&rtpof=true&sd=true"  className="mb-5" style={{color:"#e4e4e4"}}>Terms & Conditions</a>
 
       </div>
+      </div>
     </footer>
   );
 };
