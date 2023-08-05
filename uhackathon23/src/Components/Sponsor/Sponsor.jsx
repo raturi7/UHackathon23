@@ -6,7 +6,7 @@ import Heading from '../Heading/Heading'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import img2 from "./XR Couture.png"
+import img2 from "./XR Coture alt.png"
 
 const imgaes=[img1,img2];
 function sponsorCard(img){

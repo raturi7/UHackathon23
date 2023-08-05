@@ -68,7 +68,7 @@ const Timeline = () => {
             </div>
             <div class="timeline">
               <div class="timeline-content">
-                <div class="timeline-year">31 July 2023</div>
+                <div class="timeline-year">11 Aug. 2023</div>
                 <h3 class="title">Registrations & Abstract Submission Ends</h3>
                 <p class="description">
                   Hurry! The clock is ticking. Make sure you complete your
