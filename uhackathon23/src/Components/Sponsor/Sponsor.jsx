@@ -1,14 +1,16 @@
 import React from 'react'
 import './Sponsor.css'
+
 import img1 from './Images/Cognecto.png'
 
 import Heading from '../Heading/Heading'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import img2 from "./XR Coture alt.png"
+import img2 from "./XR Couture_Black.png"
+import img3 from "./Images/gfg.png"
 
-const imgaes=[img1,img2];
+const imgaes=[img3,img1,img2];
 function sponsorCard(img){
   return <div class="card p-4"><img class="card-img" src={img} alt="" /></div>
 }

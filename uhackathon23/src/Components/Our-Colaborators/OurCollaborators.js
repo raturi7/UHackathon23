@@ -12,6 +12,8 @@ import img10 from "./Images/Divin Pro.png";
 import img11 from "./Images/HiTech Saw.png";
 import img12 from "./Images/Marsh McLennan.png";
 import img13 from "./Images/Soran Kids Foundation.png";
+import img14 from "./Images/Runway.png";
+import img15 from "./Images/TiE Dehradun.png";
 import Heading from "../Heading/Heading";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -21,7 +23,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-const imgaes = [img1, img2, img4,  img7, img8, img9, img10, img11,img12,img13];
+const imgaes = [img1, img2, img4,  img7, img8, img9, img10, img11,img12,img13,img14,img15];
 function sponsorCard(img) {
   return (
     <div class="card p-4">
