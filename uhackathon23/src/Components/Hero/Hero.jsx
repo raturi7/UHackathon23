@@ -111,18 +111,11 @@ const Hero = () => {
             </h5>
             <div>
               <Link
-                to="https://uhackathon.devfolio.co/"
-                style={{ textDecoration: "none" }}
-                className="btn footer-link mt-5 mx-4"
-              >
-                Get Started
-              </Link>
-              <Link
-                to="https://forms.gle/1xbfir19gK4acfqy7"
+                to="/result"
                 style={{ textDecoration: "none" }}
                 className="btn footer-link mt-5"
               >
-                Abstract Submission
+                Preliminary Round Result
               </Link>
             </div>
             {/* <button className="btn footer-link mt-5">Get Started</button> */}

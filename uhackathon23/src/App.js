@@ -11,6 +11,7 @@ import Login from "./pages/Login/Login";
 import Gallery from "./pages/Gallery/Gallery";
 import ScrollOnTop from './pages/SOT/ScrollOnTop';
 import Problem from "./pages/problem statement/Problem"
+import Result from "./Components/Result/Result.jsx";
 
 
 
@@ -48,6 +49,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/gallery" element={<Gallery />} />
           <Route path="/problem-statements" element={<Problem/>} />
+          <Route path="/result" element={<Result/>}/>
           </Routes>
         </div>
 
