@@ -82,15 +82,21 @@ const Contact = () => {
                   </tr>
                   <tr>
                     <td className="hider"></td>
+                    <td>+91 70280 85244</td>
+                    <td>Anandita</td>
+                    <td>Co-Convener</td>
+                  </tr>
+                  <tr>
+                    <td className="hider"></td>
                     <td>+91 81716 70271</td>
                     <td>Parth Nautiyal</td>
-                    <td>Registration Head</td>
+                    <td>General Secretary</td>
                   </tr>
                   <tr>
                     <td className="hider"></td>
                     <td>+91 93223 99818</td>
                     <td>Utkarsh Singh</td>
-                    <td>Assoc. Registration Head</td>
+                    <td>Registration Head</td>
                   </tr>
                   <tr>
                     <td className="hider"></td>
@@ -103,6 +109,12 @@ const Contact = () => {
                     <td>+91 77029 46560</td>
                     <td>Vinay K</td>
                     <td>Lodging & Stay Head</td>
+                  </tr>
+                  <tr>
+                    <td className="hider"></td>
+                    <td>+91 98180 68002</td>
+                    <td>Abhishek Acharya</td>
+                    <td>Hospitality Team Head (Food)</td>
                   </tr>
                 </tbody>
               </table>
@@ -143,7 +155,7 @@ const Contact = () => {
               </div>
             </div>
             <div className=" p-0 contact_address d-flex flex-column align-items-end w-50">
-              <div className="logo d-flex justify-content-end flex-row pb-0 my-4">
+              <div className="logo d-flex justify-content-end flex-row pb-0 mb-4">
                 <img src={ulogo} alt="" className="ulogo" />
               </div>
               <div className="text-right">
