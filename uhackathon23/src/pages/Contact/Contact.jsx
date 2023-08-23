@@ -83,7 +83,7 @@ const Contact = () => {
                   <tr>
                     <td className="hider"></td>
                     <td>+91 70280 85244</td>
-                    <td>Anandita</td>
+                    <td>Anandita Wagh</td>
                     <td>Co-Convener</td>
                   </tr>
                   <tr>
