@@ -110,12 +110,6 @@ const Contact = () => {
                     <td>Vinay K</td>
                     <td>Lodging & Stay Head</td>
                   </tr>
-                  <tr>
-                    <td className="hider"></td>
-                    <td>+91 98180 68002</td>
-                    <td>Abhishek Acharya</td>
-                    <td>Hospitality Team Head (Food)</td>
-                  </tr>
                 </tbody>
               </table>
               {/* <div className="d-flex flex-row align-items-center gap-3 ">
