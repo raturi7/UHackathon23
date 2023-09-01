@@ -1,5 +1,7 @@
 import React from 'react'
 import data from './Result.json'
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 
 function psCard(data, index) {
@@ -7,6 +9,7 @@ function psCard(data, index) {
     
         
     return (
+
       <div className="col-6 card-container" key={data.id}>
         <button
           className="card d-flex flex-row align-items-center justify-content-center p-3 pl-4 gap-2 w-100"
@@ -35,6 +38,8 @@ function psCard(data, index) {
 
 function Result() {
   return (
+    <>
+    <Navbar></Navbar>
     <div className="container problem-statement-card two-margin-top result-card">
     <div className='container heading-container'>
       <h1 className='heading' style={{textAlign:"center"}}>Qualified Teams<i> (Preliminary Round)</i></h1>
@@ -45,6 +50,8 @@ function Result() {
       })}
     </div>
     </div>
+    <Footer/>
+    </>
   )
 }
 

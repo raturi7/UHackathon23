@@ -22,6 +22,8 @@ import img17 from "./IMAGES/img (17).avif";
 import img18 from "./IMAGES/img (18).avif";
 import img19 from "./IMAGES/img (19).avif";
 import img20 from "./IMAGES/img (20).avif";
+import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
 
 const Gallery = () => {
 
@@ -67,6 +69,8 @@ const Gallery = () => {
   };
 
   return (
+    <>
+    <Navbar/>
     <div className="gallery-container pt-5">
       <div
         className="modal fade"
@@ -142,6 +146,8 @@ const Gallery = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

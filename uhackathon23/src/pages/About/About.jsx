@@ -11,11 +11,14 @@ import imgupes3 from "./images/imgupes1 (3).avif"
 import uhack1 from "./images/img.avif"
 import uhack2 from "./images/img(17).avif"
 import uhack3 from "./images/img(3).avif"
+import Navbar from '../../Components/Navbar/Navbar';
+import Footer from '../../Components/Footer/Footer';
 
 const About = () => {
 
   function uhack(){
     return (
+      
       <div className="container-fluid rounded-tr-lg flex-row d-flex align-items-center img-scale justify-content-center p-0 images-container two-margin-top">
         <div
           className="col lg-4 rounded-tl-lg img-scalel
@@ -65,6 +68,9 @@ const About = () => {
   }
   return (
     <>
+    <Navbar/>
+    
+
       <div className="container-fluid  p-0 about-container">
         <div className="container text-white pt-5 two-margin-top">
           <Heading text="UHackathon 4.0 &nbsp; META" position="left" />
@@ -218,6 +224,7 @@ const About = () => {
         </div>
         {dehradun()}
       </div>
+      <Footer />
     </>
   );
 

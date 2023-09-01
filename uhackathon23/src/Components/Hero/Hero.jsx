@@ -14,6 +14,9 @@ import Partners from "../hackathon partners/hack_partners";
 import Sponsor1 from "../Sponsor/Sponsor1";
 import Problem from "../../pages/problem statement/Problem";
 import OurCollaborators from "../Our-Colaborators/OurCollaborators";
+import Timer from "../Timer/Timer";
+import Footer from "../Footer/Footer";
+import Navbar from "../Navbar/Navbar";
 const Hero = () => {
 
 
@@ -71,6 +74,8 @@ const Hero = () => {
   }, []);
 
   return (
+    <>
+    <Navbar/>
     <div className="small-mobile-hero">
       <div
         className=" container d-flex justify-content-center hero-container"
@@ -111,7 +116,7 @@ const Hero = () => {
             </h5>
             <div>
               <Link
-                to="/result"
+                to="result"
                 style={{ textDecoration: "none" }}
                 className="btn footer-link mt-5"
               >
@@ -164,6 +169,8 @@ const Hero = () => {
       <Partners />
       <OurCollaborators />
     </div>
+    <Footer/>
+    </>
   );
 };
 

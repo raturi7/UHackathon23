@@ -1,0 +1,14 @@
+.rimer{
+    background-size: 1000px !important;
+    background-position-y: 100px;
+}
+.rimer-text{
+    font-size: 170px;
+    color: white;
+    z-index: 2;
+    position: absolute;
+    top: 140px;
+}
+.rimer img{
+width: 1000px;
+}

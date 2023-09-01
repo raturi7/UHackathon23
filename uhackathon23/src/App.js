@@ -12,6 +12,7 @@ import Gallery from "./pages/Gallery/Gallery";
 import ScrollOnTop from './pages/SOT/ScrollOnTop';
 import Problem from "./pages/problem statement/Problem"
 import Result from "./Components/Result/Result.jsx";
+import Timer from "./Components/Timer/Timer";
 
 
 
@@ -30,7 +31,6 @@ function App() {
     <Router>
           <ScrollOnTop/>
       <div className="App" style={{ position: "relative", overflow: "hidden" }}>
-        <Navbar />
 
         <div className="ellipse1"></div>
         <div className="ellipse2"></div>
@@ -50,10 +50,10 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
           <Route path="/problem-statements" element={<Problem/>} />
           <Route path="/result" element={<Result/>}/>
+          <Route path="/timer" element={<Timer/>}/>
           </Routes>
         </div>
-
-        <Footer />
+       
         
       </div>
     </Router>

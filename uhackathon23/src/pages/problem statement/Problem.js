@@ -3,6 +3,8 @@ import "./Problem.css";
 import Heading from "../../Components/Heading/Heading";
 import upesLogo from './Images/UPES Icon.png'
 import data from "./statement.json";
+import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
 
 
 const Problem = () => {
@@ -98,6 +100,8 @@ useState(()=>{
 
 
  return (
+  <>
+  <Navbar/>
    <div className="container problem-statement-card two-margin-top">
      <div ref={modalRef} className="modal">
        {/* Modal content */}
@@ -128,6 +132,8 @@ useState(()=>{
        })}
      </div>
    </div>
+   <Footer/>
+   </>
  );
 
 };

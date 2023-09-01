@@ -5,11 +5,15 @@ import img from "./Contact.jpg";
 import phone from "../../Components/Images/phone-call.png";
 import email from "../../Components/Images/email.png";
 import ulogo from "../../Components/Images/UPESLOGO.png";
+import Navbar from "../../Components/Navbar/Navbar";
+import Footer from "../../Components/Footer/Footer";
 const Contact = () => {
 
 
 
   return (
+    <>
+    <Navbar/>
     <div className="  contact flex flex-col two-margin-top small-mobile3">
       <div className="container d-flex justify-content-center align-items-center contact-container-box gap-5 text-white">
         <div className="container form contact-heading">
@@ -183,6 +187,8 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 
