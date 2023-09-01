@@ -120,3 +120,39 @@
 .an-text{
     line-height: 0px;
 }
+
+
+.customOverlay {
+   backdrop-filter: blur(4px);
+  }
+  .customModal {
+    
+    background-color: rgba( 255, 255, 255, 0.15 ) !important;
+    /* box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: white;
+    padding: 50px !important;
+    
+  }
+
+  @media (max-width:600px) {
+    .customModal{
+        scale: 0.9;
+    }
+    .modal-text h1{
+        font-size: 40px !important;
+
+    }
+    .modal-text h2{
+        font-size: 25px !important;
+    }
+  }
+
+  .react-responsive-modal-container{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }

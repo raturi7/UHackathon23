@@ -7,7 +7,7 @@ import OurThemes from "../Our-Themes/OurThemes";
 import WhatIsUhackathon from "../What-is-Uhackarhon/WhatIsUhackathon";
 import History from "../Hackathon-History/History";
 import Main from "./Main Poster.png";
-
+import Confetti from 'react-confetti'
 import { Link } from "react-router-dom";
 import Timeline from "../Timeline/Timeline";
 import Partners from "../hackathon partners/hack_partners";
@@ -17,8 +17,18 @@ import OurCollaborators from "../Our-Colaborators/OurCollaborators";
 import Timer from "../Timer/Timer";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
-const Hero = () => {
 
+import 'react-responsive-modal/styles.css';
+import { Modal } from 'react-responsive-modal';
+const Hero = () => {
+  const [open, setOpen] = useState();
+  useEffect(()=>{
+   setOpen(false)
+  },[])
+ 
+
+  const onOpenModal = () => setOpen(true);
+  const onCloseModal = () => setOpen(false);
 
   const textVariants = {
     hidden: {
@@ -73,9 +83,36 @@ const Hero = () => {
     };
   }, []);
 
+window.addEventListener('load',function(){ onOpenModal(); setRun(true)})
+
+const [run,setRun]=useState(false);
+
   return (
     <>
     <Navbar/>
+    <Confetti
+      width={window.innerWidth}
+      height={window.innerHeight}
+      numberOfPieces={500}
+      //  run={run}
+      opacity={run?1:0}
+    />
+      <Modal open={open} initialFocusRef={null} onClose={function(event){ onCloseModal(); setRun(false)}} center classNames={{
+          overlay: 'customOverlay',
+          modal: 'customModal',
+        }}>
+        <div className="d-flex flex-column align-items-center justify-content-center modal-text">
+          <h1 style={{fontSize:"50px",fontWeight:"600"}}>Congratulations</h1>
+          <h2 style={{fontSize:"45px",fontWeight:"600"}}>Final Results Are Out</h2>
+          <Link
+                to="winner"
+                style={{ textDecoration: "none" }}
+                className="btn footer-link mt-5"
+              >
+                Final Result
+              </Link>
+        </div>
+      </Modal>
     <div className="small-mobile-hero">
       <div
         className=" container d-flex justify-content-center hero-container"
@@ -116,11 +153,11 @@ const Hero = () => {
             </h5>
             <div>
               <Link
-                to="result"
+                to="winner"
                 style={{ textDecoration: "none" }}
                 className="btn footer-link mt-5"
               >
-                Preliminary Round Result
+                Final Result
               </Link>
             </div>
             {/* <button className="btn footer-link mt-5">Get Started</button> */}
@@ -129,8 +166,8 @@ const Hero = () => {
         </div>
         <div className="container vr-timer d-flex align-items-center justify-content-center flex-column">
           <h1 className="timer">
-            {timeLeft.days}:{timeLeft.hours}:{timeLeft.minutes}:
-            {timeLeft.seconds}
+            {"00"}:{"00"}:{"00"}:
+            {"00"}
           </h1>
           <ul className="list-group list-group-horizontal mb-4">
             <li className="list-group-item">DAYS</li>

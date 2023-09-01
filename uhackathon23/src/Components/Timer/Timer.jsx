@@ -3,7 +3,7 @@ import './Timer.css'
 import img from '../Images/VR Glasses 1.png'
 export default function Timer() {
     const calculateTimeLeft = () => {
-        const difference = +new Date("September 2, 2023 10:37") - +new Date();
+        const difference = +new Date("September 2, 2023 11:07") - +new Date();
         let timeLeft = {};
     
         if (difference > 0) {

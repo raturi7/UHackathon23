@@ -13,6 +13,7 @@ import ScrollOnTop from './pages/SOT/ScrollOnTop';
 import Problem from "./pages/problem statement/Problem"
 import Result from "./Components/Result/Result.jsx";
 import Timer from "./Components/Timer/Timer";
+import Winner from "./Components/Winner/Winner";
 
 
 
@@ -51,6 +52,7 @@ function App() {
           <Route path="/problem-statements" element={<Problem/>} />
           <Route path="/result" element={<Result/>}/>
           <Route path="/timer" element={<Timer/>}/>
+          <Route path="/winner" element={<Winner/>}/>
           </Routes>
         </div>
        
