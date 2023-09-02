@@ -103,13 +103,13 @@ const [run,setRun]=useState(false);
         }}>
         <div className="d-flex flex-column align-items-center justify-content-center modal-text">
           <h1 style={{fontSize:"50px",fontWeight:"600"}}>Congratulations</h1>
-          <h2 style={{fontSize:"45px",fontWeight:"600"}}>Final Results Are Out</h2>
+          <h2 style={{fontSize:"45px",fontWeight:"600"}}>Final Results Are Out!!</h2>
           <Link
                 to="winner"
                 style={{ textDecoration: "none" }}
                 className="btn footer-link mt-5"
               >
-                Final Result
+                Final Result (National)
               </Link>
         </div>
       </Modal>
@@ -157,7 +157,7 @@ const [run,setRun]=useState(false);
                 style={{ textDecoration: "none" }}
                 className="btn footer-link mt-5"
               >
-                Final Result
+                Final Result (National)
               </Link>
             </div>
             {/* <button className="btn footer-link mt-5">Get Started</button> */}
